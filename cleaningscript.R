@@ -74,8 +74,48 @@ news_articles %>%
            text_length = sapply(str_split(text, ' '), length)) %>%
     separate(site_url, c('domain', 'tld')) %>%
     mutate(img_domain = str_extract(main_img_url, domain_extract),
-           type = parse_factor(type))
+           type = parse_factor(type)) %>%
+    group_by(domain) %>% 
+    summarise(count = n(), 
+              avg_title_length = mean(title_length),
+              median_title_length = median(title_length),
+              avg_text_length = mean(text_length),
+              stdev_title_length = sd(title_length)) %>%
+    arrange(desc(count)) %>% View
     
+# Harvard datasets
+# https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UEMMHS
+domain_regex <- '(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]'
+gossipcop_fake <- read_csv('data/fnn_harvard/gossipcop_fake.csv') %>% glimpse
+fkgossipcop_domains <- gossipcop_fake %>%
+    select(news_url, title) %>%
+    drop_na(news_url) %>%
+    mutate(domain_name = str_extract(news_url, domain_regex),
+           title_length = sapply(str_split(title, ' '), length)) %>%
+    mutate(domain_name = str_remove(domain_name, 'www\\.')) %>%
+    group_by(domain_name) %>%
+    summarise(count = n(), avg_title_length = mean(title_length)) %>%
+    arrange(desc(count))
+politifact_fake <- read_csv('data/fnn_harvard/politifact_fake.csv') %>% glimpse    
+fkpolitifact_domains <- politifact_fake %>%
+    select(news_url, title) %>%
+    drop_na(news_url) %>%
+    mutate(domain_name = str_extract(news_url, domain_regex),
+           title_length = sapply(str_split(title, ' '), length)) %>%
+    mutate(domain_name = str_remove(domain_name, 'www\\.')) %>%
+    group_by(domain_name) %>%
+    summarise(count = n(), avg_title_length = mean(title_length)) %>%
+    arrange(desc(count))
+fkpolitifact_domains %>% View
+rm(gossipcop_fake, politifact_fake)
 
-fnn_politics_fake <- read_csv('data\\fnn_politics_fake-kaggle.csv') %>% glimpse
-fnn_politics_real <- read_csv('data\\fnn_politics_real-kaggle.csv') %>% glimpse
+# Source: LIAR
+ieee_liar <- read_csv('data/ieee source/fake news detection(LIAR)/liar_train.csv')
+ieee_liar %>% glimpse
+unique(ieee_liar$speaker)
+unique(ieee_liar$`label-liar`)
+ieee_liar %>% 
+    filter(`label-liar` == 'false') %>%
+    group_by(speaker) %>%
+    summarise(count = n()) %>% arrange(desc(count)) %>% View
+

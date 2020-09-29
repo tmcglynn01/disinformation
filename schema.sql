@@ -3,7 +3,6 @@ prompt This script creates necessary objects for the disinformation database.
 prompt Please provide a username to run the script
 prompt
 accept v_username prompt 'Enter your user name: '
-
 savepoint user_entry;
 
 create sequence seq_domain_id
