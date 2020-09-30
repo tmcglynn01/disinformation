@@ -1,0 +1,264 @@
+---
+title: "Disinformation data sources EDA"
+author: "Trevor McGlynn"
+affiliation: "Western Governors University"
+keywords: [disinformation, machine learning]
+abstract: |
+    This is the abstract
+    
+    It consists of two paragraphs
+date: "9/30/2020"
+output: 
+    html_document:
+        fig_height = 4
+        fig_width = 6
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(lubridate)
+```
+```{r helper-objs, echo=FALSE}
+KAGGLE_FAKE_LINK <- 'https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset'
+KAGGLE_BS_LINK <- 'https://www.kaggle.com/mrisdal/fake-news'
+BASE_COLOR <- '#80593D'
+BASE_FILL <- '#9FC29F'
+BASE_DENSITY <- '#3D6480'
+text_split <- function(x) { sapply(str_split(x, ' '), length) }
+parse_these_dates <- function(x) { 
+    pos_date <- parse_date_time(x, orders = c('mdy', 'dmy', 'ymd'))
+    as.Date(pos_date)
+}
+```
+## Kaggle Datasets for Fake News
+The following code blocks perform analysis on various datasets pulling from Kaggle, investigating sets curated and tagged as "misinformation", "disinformation", or "fake news".
+
+### Kaggle 'Fake and real news dataset'
+Source: https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
+```{r Kaggle-fake-data-a, echo=FALSE, warning=FALSE}
+fakeset_a <- read_csv('data/AFake-kaggle.csv', col_types = 'ccfc')
+fakeset_a <- fakeset_a %>%
+    mutate(date = parse_these_dates(date),
+           title_length = text_split(title), 
+           text_length = text_split(text),
+           src = 'fake')
+fk_by_subj <- fakeset_a %>% select(-title, -text) %>% group_by(subject)
+
+# Real plot
+realset_a <- read_csv('data/ATrue-kaggle.csv', col_types = 'ccfc') %>%
+    mutate(date = parse_these_dates(date), 
+           title_length = text_split(title),
+           text_length = text_split(text),
+           src = 'real')
+rl_by_subj <- realset_a %>% select(-title, -text) %>% group_by(subject)
+combined <- union_all(fk_by_subj, rl_by_subj)
+```
+```{r histogram-title-fakenews, echo=FALSE}
+ggplot(combined, aes(x = title_length, y = ..density..)) +
+    geom_histogram(bins = 20, color = BASE_COLOR, 
+                   fill = BASE_FILL, boundary = 0) +
+    geom_density(color = BASE_DENSITY) +
+    facet_wrap(~src) +
+    ggtitle('The difference and distribution of title lengths',
+            subtitle = 'Distribution by veracity') +
+    labs(x = 'Number of words', y = 'Density',
+         caption = paste('Source: ', KAGGLE_FAKE_LINK)) +
+    theme(plot.title = element_text(face = 'bold')) +
+    theme(plot.subtitle = element_text(face = 'bold', color = 'grey35')) +
+    theme(plot.caption = element_text(color = 'grey68'))
+```
+```{r Kaggle-fake-data-a, echo=FALSE}
+# Summary statistics
+fk_by_subj %>%
+    summarise(avg_title_len = round(mean(title_length), digits = 1),
+              med_title_len = median(title_length),
+              sdev_title_len = sd(title_length),
+              avg_text_len = mean(text_length),
+              med_text_len = median(text_length),
+              sdev_text_len = sd(text_length),
+              subject_cnt = n(),
+              med_date = median(date, na.rm = TRUE)) %>%
+    arrange(desc(subject_cnt))
+```
+```{r fake-article-timeseries, echo=FALSE, warning=FALSE}
+dates <- fakeset_a %>% group_by(date) %>% drop_na(date) %>% summarise(cnt = n())
+ggplot(dates, aes(date, cnt)) +
+    geom_line(color = BASE_FILL) +
+    xlab('') +
+    scale_x_date(date_labels = '%b %Y', date_minor_breaks = '1 month',
+                 date_breaks = '3 month') +
+    theme(axis.text.x=element_text(angle=60, hjust=1)) +
+    ggtitle('Fake article publication by date',
+            subtitle = 'Dates from 31 March 2015 to 19 February 2018') +
+    labs(y = 'Articles published',
+         caption = paste('Source: ', KAGGLE_FAKE_LINK)) +
+    theme(plot.title = element_text(face = 'bold')) +
+    theme(plot.subtitle = element_text(face = 'bold', color = 'grey35')) +
+    theme(plot.caption = element_text(color = 'grey68'))
+```
+```{r var-cleanup, echo=FALSE, include=FALSE}
+rm(combined, dates, fakeset_a, fk_by_subj, realset_a, rl_by_subj)
+```
+
+## Analyzing the source of "reopen" domain names
+```{r}
+reopen_domains <- read_csv('data/reopen-krebs.csv')
+reopen_clean <- reopen_clean <- reopen_domains %>% 
+    # clean column names
+    select_all(~str_replace(., ' ', '_')) %>%
+    select_all(tolower) %>%
+    rename(active = `active?`) %>%
+    separate(domain_name, c('domain', 'tld')) %>%
+    mutate(date = parse_date_time(date, c('mdy', '%m-%d%y')),
+           registrant = parse_factor(registrant),
+           timestamp = parse_date_time(timestamp, 'ymd HMS'),
+           state = recode_factor(state,
+                                 'NEV' = 'NV',
+                                 'FLA' = 'FL',
+                                 'WIS' = 'WI',
+                                 'KAN' = 'KS',
+                                 'ALA' = 'AL'),
+           registrar = recode_factor(registrar,
+                                 'Goddady' = 'Godaddy',
+                                 'Godady' = 'Godaddy'),
+           notes_emails = str_extract(notes, '\\S+@\\S+\\.\\S+'),
+           notes_ga = str_extract(notes, 'UA-\\d+-\\d+'),
+           date = as.Date(date)) %>%
+    arrange(date, state, timestamp)
+reopen_clean %>%
+    group_by(registrar) %>% summarise(cnt = n()) %>% arrange(desc(cnt))
+reopen_clean %>%
+    select(date, domain, registrar, notes_ga, ip_address) %>% drop_na(notes_ga) 
+## Any patterns here, potentially? Good to have GA codes
+## Go daddy servers 184.168.x.x?
+reopen_clean %>% filter(registrar != 'Godaddy')
+## Godaddy occupies the lion's share of fraudlent covid domain. What about
+## the smaller players?
+reopen_clean %>%
+    ggplot(aes(date)) +
+    geom_line(color = BASE_FILL, stat = 'count') +
+    scale_x_date(date_labels = '%B %d', date_breaks = '1 day') +
+    theme(axis.text.x=element_text(angle=60, hjust=1)) +
+    geom_vline(xintercept = as.Date('2020-04-08'), color = 'orange', size=.5) +
+    annotate(geom="text", x=as.Date('2020-04-05'), y=6, 
+             label='Trump initial push to "reopen"')
+rm(reopen_clean, reopen_domains)
+```
+## Analysis: BS Detector dataset
+Contains text and metadata scraped from 244 websites tagged as "bullshit" by the BS Detector Chrome Extension by Daniel Sieradski. 
+
+```{r}
+bs_detector <- read_csv('data/fake-kaggle.csv', 
+                        col_types = 'cdf?ccfccfdcdcdddddf')
+drop_columns <- c('uuid', 'ord_in_thread', 'crawled')
+domain_extract <- '\\w+\\.\\w{2,}(?=/)'
+bs_clean <- bs_detector %>% 
+    dplyr::select(-!!drop_columns) %>%
+    separate(site_url, c('domain_name', 'tld')) %>%
+    dplyr::mutate(domain_name = parse_factor(domain_name), 
+           tld = parse_factor(tld),
+           main_img_domain = str_extract(main_img_url, domain_extract),
+           title_length = text_split(title), text_length = text_split(text),
+           published = as.Date(published)) %>%
+    dplyr::arrange(published, country, language)
+bs_domains <- bs_clean %>%
+    select(domain_name, tld, domain_rank, spam_score) %>%
+    mutate(domain_name = paste(domain_name, '.', tld, sep = '')) %>%
+    group_by(domain_name) %>%
+    summarise(avg_rank = mean(domain_rank), 
+              avg_spam = round(mean(spam_score), 2))
+```
+
+
+
+```{r bs_detector-timeseries, echo=FALSE, warning=FALSE}
+dates <- bs_clean %>% group_by(published) %>% summarise(count = n())
+ggplot(dates, aes(published, count)) +
+    geom_line(color = BASE_FILL) +
+    scale_x_date(date_labels = '%b %d', date_minor_breaks = '1 day',
+                 date_breaks = '3 day') +
+    theme(axis.text.x=element_text(angle=60, hjust=1)) +
+    ggtitle('Fake article publication by date',
+            subtitle = 'Dates from 25 October 2016 to 25 November 2016') +
+    labs(x = '', y = 'Articles published',
+         caption = paste('Source: ', KAGGLE_BS_LINK)) +
+    theme(plot.title = element_text(face = 'bold')) +
+    theme(plot.subtitle = element_text(face = 'bold', color = 'grey35')) +
+    theme(plot.caption = element_text(color = 'grey68')) +
+    geom_vline(xintercept = as.Date('2016-11-08'), color = 'orange', size=.5) +
+    annotate(geom="text", x=as.Date('2016-11-05'), y=1000, 
+             label='Election Day')
+```
+
+
+
+
+```{r}
+news_articles <- read_csv('data\\news_articles-kaggle.csv',
+                          col_types = 'fTccfccffccl') %>% glimpse
+news_articles %>%
+    mutate(title_length = sapply(str_split(title, ' '), length),
+           text_length = sapply(str_split(text, ' '), length)) %>%
+    separate(site_url, c('domain', 'tld')) %>%
+    mutate(img_domain = str_extract(main_img_url, domain_extract),
+           type = parse_factor(type)) %>%
+    group_by(domain) %>% 
+    summarise(count = n(), 
+              avg_title_length = mean(title_length),
+              median_title_length = median(title_length),
+              avg_text_length = mean(text_length),
+              stdev_title_length = sd(title_length)) %>%
+    arrange(desc(count)) %>% View
+```
+
+```{r}
+# Harvard datasets
+# https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UEMMHS
+domain_regex <- '(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]'
+gossipcop_fake <- read_csv('data/fnn_harvard/gossipcop_fake.csv') %>% glimpse
+fkgossipcop_domains <- gossipcop_fake %>%
+    select(news_url, title) %>%
+    drop_na(news_url) %>%
+    mutate(domain_name = str_extract(news_url, domain_regex),
+           title_length = sapply(str_split(title, ' '), length)) %>%
+    mutate(domain_name = str_remove(domain_name, 'www\\.')) %>%
+    group_by(domain_name) %>%
+    summarise(count = n(), avg_title_length = mean(title_length)) %>%
+    arrange(desc(count))
+politifact_fake <- read_csv('data/fnn_harvard/politifact_fake.csv') %>% glimpse    
+fkpolitifact_domains <- politifact_fake %>%
+    select(news_url, title) %>%
+    drop_na(news_url) %>%
+    mutate(domain_name = str_extract(news_url, domain_regex),
+           title_length = sapply(str_split(title, ' '), length)) %>%
+    mutate(domain_name = str_remove(domain_name, 'www\\.')) %>%
+    group_by(domain_name) %>%
+    summarise(count = n(), avg_title_length = mean(title_length)) %>%
+    arrange(desc(count))
+fkpolitifact_domains %>% View
+rm(gossipcop_fake, politifact_fake)
+```
+
+```{r}
+# Source: LIAR
+ieee_liar <- read_csv('data/ieee source/fake news detection(LIAR)/liar_train.csv')
+ieee_liar %>% glimpse
+unique(ieee_liar$speaker)
+unique(ieee_liar$`label-liar`)
+ieee_liar %>% 
+    filter(`label-liar` == 'false') %>%
+    group_by(speaker) %>%
+    summarise(count = n()) %>% arrange(desc(count)) %>% View
+```
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
