@@ -18,6 +18,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(lubridate)
+library(wordcloud2)
+library(stopwords)
+library(viridis) # colors
 ```
 ```{r helper-objs, echo=FALSE}
 KAGGLE_FAKE_LINK <- 'https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset'
@@ -29,6 +32,10 @@ text_split <- function(x) { sapply(str_split(x, ' '), length) }
 parse_these_dates <- function(x) { 
     pos_date <- parse_date_time(x, orders = c('mdy', 'dmy', 'ymd'))
     as.Date(pos_date)
+}
+getmode <- function(v) {
+   uniqv <- unique(v)
+   uniqv[which.max(tabulate(match(v, uniqv)))]
 }
 ```
 ## Kaggle Datasets for Fake News
@@ -68,7 +75,7 @@ ggplot(combined, aes(x = title_length, y = ..density..)) +
     theme(plot.subtitle = element_text(face = 'bold', color = 'grey35')) +
     theme(plot.caption = element_text(color = 'grey68'))
 ```
-```{r Kaggle-fake-data-a, echo=FALSE}
+```{r Kaggle-fake-by-subject, echo=FALSE}
 # Summary statistics
 fk_by_subj %>%
     summarise(avg_title_len = round(mean(title_length), digits = 1),
@@ -145,71 +152,94 @@ reopen_clean %>%
              label='Trump initial push to "reopen"')
 rm(reopen_clean, reopen_domains)
 ```
+
 ## Analysis: BS Detector dataset
 Contains text and metadata scraped from 244 websites tagged as "bullshit" by the BS Detector Chrome Extension by Daniel Sieradski. 
 
-```{r}
+```{r bs-detector, echo=FALSE}
 bs_detector <- read_csv('data/fake-kaggle.csv', 
-                        col_types = 'cdf?ccfccfdcdcdddddf')
+                        col_types = 'cdf?ccfcffdcdcdddddf')
 drop_columns <- c('uuid', 'ord_in_thread', 'crawled')
 domain_extract <- '\\w+\\.\\w{2,}(?=/)'
 bs_clean <- bs_detector %>% 
-    dplyr::select(-!!drop_columns) %>%
-    separate(site_url, c('domain_name', 'tld')) %>%
-    dplyr::mutate(domain_name = parse_factor(domain_name), 
-           tld = parse_factor(tld),
-           main_img_domain = str_extract(main_img_url, domain_extract),
-           title_length = text_split(title), text_length = text_split(text),
+    select(-!!drop_columns, label = type) %>%
+    mutate(main_img_domain = str_extract(main_img_url, domain_extract),
+           title_length = text_split(title), 
+           text_length = text_split(text),
+           img_domain = str_extract(main_img_domain, domain_extract),
            published = as.Date(published)) %>%
-    dplyr::arrange(published, country, language)
-bs_domains <- bs_clean %>%
-    select(domain_name, tld, domain_rank, spam_score) %>%
-    mutate(domain_name = paste(domain_name, '.', tld, sep = '')) %>%
-    group_by(domain_name) %>%
-    summarise(avg_rank = mean(domain_rank), 
-              avg_spam = round(mean(spam_score), 2))
+    drop_na(published) %>%
+    arrange(published, country, language)
+
+bs_summ <- bs_clean %>% 
+    group_by(site_url) %>% 
+    summarise(count = n(),
+              avg_title_length = mean(title_length) %>% round(2),
+              avg_text_length = mean(text_length) %>% round(2),
+              stdev_title_length = sd(title_length) %>% round(2),
+              avg_spam = mean(spam_score) %>% round(2),
+              avg_replies = mean(replies_count) %>% round(3),
+              avg_participants = mean(participants_count) %>% round(3),
+              avg_likes = mean(likes) %>% round(3),
+              avg_comments = mean(comments) %>% round(3),
+              shares = mean(shares) %>% round(3),
+              freq_type = getmode(label),
+              freq_lang = getmode(language)) 
+```
+```{r}
+close_likes_shares <- bs_clean %>% 
+    filter(shares > 0) %>% 
+    filter(near(shares, likes, tol = likes * 0.2))
+
+char_filter <- c('', '|')
+close_likes_shares %>% 
+    filter(language == 'english', site_url != 'theonion.com') %>% 
+    select(title) %>% 
+    mutate(title = tolower(title)) %>% 
+    mutate(title = str_remove_all(title, '[[:digit:]]|[[:punct:]]')) %>% 
+    mutate(tokens = str_split(title, '\\s+')) %>% 
+    unnest() %>% count(tokens) %>% 
+    filter(!tokens %in% stopwords(), !tokens %in% char_filter, n>=4) %>% 
+    arrange(desc(n)) %>% 
+    wordcloud2(fontFamily = 'Helvetica', color = inferno(10))
+
+
 ```
 
-
-
-```{r bs_detector-timeseries, echo=FALSE, warning=FALSE}
-dates <- bs_clean %>% group_by(published) %>% summarise(count = n())
-ggplot(dates, aes(published, count)) +
-    geom_line(color = BASE_FILL) +
-    scale_x_date(date_labels = '%b %d', date_minor_breaks = '1 day',
-                 date_breaks = '3 day') +
-    theme(axis.text.x=element_text(angle=60, hjust=1)) +
-    ggtitle('Fake article publication by date',
-            subtitle = 'Dates from 25 October 2016 to 25 November 2016') +
-    labs(x = '', y = 'Articles published',
-         caption = paste('Source: ', KAGGLE_BS_LINK)) +
+```{r histogram-published-bsdetector, echo=FALSE}
+ggplot(bs_clean, aes(x = published, y = ..density..)) +
+    geom_histogram(bins = 30, color = BASE_COLOR, 
+                   fill = BASE_FILL, boundary = 0) +
+    geom_density(color = BASE_DENSITY) +
+    ggtitle('Density of fake news publication',
+            subtitle = 'Dates from 25 October to 25 November, 2016') +
+    labs(x = '', y = 'Density', caption = paste('Source: ', KAGGLE_FAKE_LINK)) +
     theme(plot.title = element_text(face = 'bold')) +
     theme(plot.subtitle = element_text(face = 'bold', color = 'grey35')) +
     theme(plot.caption = element_text(color = 'grey68')) +
     geom_vline(xintercept = as.Date('2016-11-08'), color = 'orange', size=.5) +
-    annotate(geom="text", x=as.Date('2016-11-05'), y=1000, 
-             label='Election Day')
+    annotate(geom="text", x=as.Date('2016-11-05'), y=0.12, label='Election Day')
+```
+```{r var-cleanup-bs}
+rm(bs_clean, bs_detector,dates)
 ```
 
-
-
-
+### Kaggle 'Source base Fake News Classifiction'
+Source: https://www.kaggle.com/ruchi798/source-based-news-classification
 ```{r}
 news_articles <- read_csv('data\\news_articles-kaggle.csv',
-                          col_types = 'fTccfccffccl') %>% glimpse
-news_articles %>%
-    mutate(title_length = sapply(str_split(title, ' '), length),
-           text_length = sapply(str_split(text, ' '), length)) %>%
-    separate(site_url, c('domain', 'tld')) %>%
-    mutate(img_domain = str_extract(main_img_url, domain_extract),
-           type = parse_factor(type)) %>%
-    group_by(domain) %>% 
+                          col_types = 'fTccffcffccl') %>% glimpse
+domains_list <- union(bs_domains$domain_name, news_articles$site_url)
+news_articles_clean <- news_articles %>%
+    drop_na(published) %>%
+    group_by(site_url) 
     summarise(count = n(), 
               avg_title_length = mean(title_length),
               median_title_length = median(title_length),
               avg_text_length = mean(text_length),
               stdev_title_length = sd(title_length)) %>%
-    arrange(desc(count)) %>% View
+    arrange(desc(count))
+
 ```
 
 ```{r}
