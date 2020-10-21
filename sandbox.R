@@ -5,6 +5,7 @@ library(forcats)
 library(ggplot2)
 library(tldextract)
 library(rvest)
+library(readr)
 
 PATH <- 'data/input/'
 # Kaggle datasets
@@ -143,4 +144,22 @@ readr::write_csv(top_websites %>% select(2), 'data/output/top_websites.csv')
 rm(top_20000, sample_40000)  
 
 domains <- readr::read_csv('data/output/domains_whois.csv')
-domains %>% head(20) %>% View
+domains <- domains %>% readr::type_convert(col_types = 'fffTTTcccfcfcffcf')
+domains$domain_name <- str_to_lower(domains$domain_name)
+domains %>% distinct(domain_name)
+domains$domain_name[duplicated(domains$domain_name)]
+domains <- domains %>% 
+  distinct(domain_name, .keep_all = TRUE) %>% 
+  filter(is.na(domain_name) == FALSE)
+
+ggplot(domains %>% 
+         group_by(registrar) %>%
+         summarise(count = n()) %>% 
+         top_n(25) %>% 
+         arrange(count %>% desc) %>% 
+         filter(registrar != 'GoDaddy.com, LLC'),
+       aes(reorder(registrar, count, ), count)) +
+  geom_bar(stat = 'identity') +
+  coord_flip()
+
+  
