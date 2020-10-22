@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+Queries whois information for a given URL
 """
 import whois
 import os
 from csv import DictWriter, reader
+from csv import writer as writr
 from collections import deque
 
 os.chdir('/home/trevor/disinformation/data/output')
@@ -14,7 +13,6 @@ FIELDNAMES = ['domain_name', 'registrar', 'whois_server', 'updated_date',
               'creation_date', 'expiration_date', 'name_servers', 'status',
               'emails', 'dnssec', 'name', 'org', 'address', 'city', 'state', 
               'zipcode', 'country']
-SKIPS = deque()
 
 
 def parse_rows(target, writer):
@@ -35,7 +33,6 @@ def parse_rows(target, writer):
             print('Success! ', end='')
         except Exception:
             print('No match for {}. Adding to skips.'.format(site))
-            SKIPS.append(site)
             pass
         writer.writerow(w)
   
@@ -51,7 +48,6 @@ def read_write(inp, outp):
         parse_rows(target, writer)
         
 def main():
-    read_write('fake_domains.csv', 'domains_whois.csv')
-    read_write('top_websites.csv', 'top_domains_whois.csv')
-    
+    read_write('fake_domains.csv', 'fake_domains_whois.csv')
+    #read_write('top_websites.csv', 'top_domains_whois.csv')
 main()
