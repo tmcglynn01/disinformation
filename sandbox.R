@@ -1,29 +1,13 @@
 # Script sandbox
-library(dplyr)
-library(stringr)
-library(forcats)
-library(ggplot2)
-library(tldextract)
 library(rvest)
-library(readr)
+library(tidyverse)
+library(get)
 
 PATH <- 'data/input/'
-# Kaggle datasets
-true <- paste(PATH, 'ATrue-kaggle.csv', sep = '') 
-false <- paste(PATH, 'AFake-kaggle.csv', sep = '') 
-readr::read_csv(true) %>% glimpse()
-readr::read_csv(false) %>% glimpse()
-file.remove(c(true, false))
-rm(true, false)
-## Title, text, subject, date... maybe not that newsworthy
-
-
-fake <- paste(PATH, 'fake-kaggle.csv', sep = '') %>% readr::read_csv
-fake %>% glimpse
-drop_columns <- c('uuid', 'ord_in_thread', 'crawled')
-text_split <- function(x) { sapply(str_split(x, ' '), length) }
 `%ni%` <- Negate(`%in%`)
-STRIP <- '[[:digit:]]|[[:punct:]]'
+
+## FUNCS
+text_split <- function(x) { sapply(str_split(x, ' '), length) }
 token <- function(df) {
   df %>% 
     mutate(title = tolower(title) %>% str_remove_all(STRIP)) %>% 
@@ -31,6 +15,12 @@ token <- function(df) {
     mutate(text = tolower(text) %>% str_remove_all(STRIP)) %>% 
     mutate(text_tokens = str_split(text, '\\s+'))
 }
+
+## CONST
+STRIP <- '[[:digit:]]|[[:punct:]]' 
+
+fake <- read_csv('data/input/fake-kaggle.csv')
+drop_columns <- c('uuid', 'ord_in_thread', 'crawled')
 fake <- fake %>% 
   select(-!!drop_columns) %>% 
   type_convert(col_types = 'f?ccfffdfdfdddddf') %>% 
@@ -39,22 +29,13 @@ fake <- fake %>%
   mutate(title_length = lapply(title_tokens, length) %>% unlist) %>% 
   group_by(site_url) %>% 
   arrange(site_url, published %>% desc)
-unique(fake$site_url) %>% length
-# 244 unique domains
-range(fake$published)
-# Published over a 1 month period during 2016 election
-ggplot(fake, aes(published)) +
-  geom_histogram() +
-  scale_x_datetime(date_breaks = '3 days')
-summary(fake$author)
-
 fake_domains <- fake %>% select(site_url) %>% unique
 file.copy('data/input/fake-kaggle.csv', 'data/input/analysis/fake-kaggle.csv')
 file.remove('data/input/fake-kaggle.csv')
 
 ## FNN Politics Fake
 fake <- paste(PATH, 'fnn_politics_fake-kaggle.csv', sep = '')
-fake <- readr::read_csv(fake) %>% glimpse
+fake <- read_csv(fake) %>% glimpse
 url_match <- '^(?:https?:\\/\\/)?(?:www\\.)?([^\\/\\r\\n]+)(\\/[^\\r\\n]*)?'
 web_archive_rm <- '^https:\\/\\/web.archive.org\\/.*(?=http)'
 fake <- fake %>% 
@@ -71,13 +52,11 @@ dir.create('data/input/analysis')
 file.copy('data/input/fnn_politics_fake-kaggle.csv', 'data/input/analysis/fnn_politics_fake-kaggle.csv')
 file.remove(c('data/input/fnn_politics_fake-kaggle.csv', 'data/input/fnn_politics_real-kaggle.csv'))
 
-rm(fake_news,df, drop_columns, false, link, STRIP, tld, true) #cleanup
+rm(drop_columns) #cleanup
 
-fake <- readr::read_csv('data/input/news_articles-kaggle.csv')
-target <- 'data/input/news_articles-kaggle.csv'
-fake %>% glimpse
-file.copy(target, 'data/input/analysis/kaggle-best.csv')
-file.remove(target)
+fake <- read_csv('data/input/kaggle-best.csv')
+file.copy('data/input/kaggle-best.csv', 'data/input/analysis/kaggle-best.csv')
+file.remove('data/input/kaggle-best.csv')
 fake_domains <- fake %>% select(site_url) %>% union(fake_domains)
 
 ## Scrape from NYT report on pay to play media
@@ -93,73 +72,102 @@ fake_news <- fake_news %>%
 fake_domains <- union(fake_domains, fake_news)
 
 target <- 'data/input/reopen-krebs.csv'
-fake <- readr::read_csv(target)
+fake <- read_csv(target)
 fake %>% glimpse()
 file.copy(target, 'data/input/analysis/reopen-krebs.csv')
 file.remove(target)
 fake$`DOMAIN NAME`
 fake_domains <- union(fake_domains, fake %>% select(site_url = 1))
+fake_domains <- fake_domains %>% select(domain_name = site_url)
 
-target <- 'data/input/poynter_covid_claims_data.csv'
-readr::read_csv(target)%>% glimpse()
-file.remove(target)
-file.remove('data/input/russian_ads.json')
+## Add in dailydot scrape
+fake <- read_csv('data/output/dailydot.csv',col_names = 'domain_name')
+fake_domains <- fake %>% union(fake_domains)
+## Add in table scrape
+fake <- read_csv('data/output/table_scrape.csv') %>% select(domain_name = 1)
+fake_domains <- fake %>% union(fake_domains)
+fake_domains <- fake_domains %>% distinct(domain_name, .keep_all = TRUE)
 
-target <- 'data/input/us_house_psci/scottcame-us-house-psci-social-media-ads/data/facebookads.csv'
-readr::read_csv(target) %>% glimpse()
-file.copy(target, 'data/input/analysis/')
-unlink('data/input/us_house_psci/', recursive = TRUE, force = TRUE)
+## Take file and scrape whois data
+write_csv(fake_domains, 'data/output/fake_domains.csv')
+rm(fake, fake_news) # cleanup
 
-target <- 'data/input/ieee source/fake news detection(FakeNewsNet)/fnn_dev.csv'
-readr::read_csv(target) %>% filter(label_fnn == 'fake') %>% glimpse() %>%
-  select(sources)
-## Seems like this focuses on misinformation as opposed to disinformation?
-target <- 'data/input/ieee source/fake news detection(LIAR)/liar_dev.csv'
-readr::read_csv(target) %>% glimpse()
-## IBID
-unlink('data/input/ieee source/', recursive = TRUE, force = TRUE)
+##
+# top_websites <- read_csv('data/input/top-1m.csv', 
+#                          col_names = c('rank', 'site_url'),
+#                          col_types = 'ic')
+# top_20000 <- top_websites %>% slice_head(n = 20000)
+# sample_40000 <- top_websites %>% 
+#   slice_min(rank, n = 100000) %>% 
+#   slice_tail(n = 80000) %>% 
+#   slice_sample(n = 40000)
+# top_websites <- union(top_20000, sample_40000)
+# #write_csv(top_websites %>% select(2), 'data/output/top_websites.csv')
+# rm(top_20000, sample_40000)  
 
-target <- 'data/input/fnn_harvard/politifact_fake.csv'
-readr::read_csv(target) %>% glimpse
-## Already done elsewhere
-unlink('data/input/fnn_harvard/', recursive = TRUE, force = TRUE)
-
-target <- 'data/input/dataworld/d1gi-ten-gop-earned-media/data/ten_gop.csv'
-readr::read_csv(target) %>% select(source_url)
-# Move for analysis
-file.copy(target, 'data/input/analysis/')
-
-readr::write_csv(fake_domains, 'data/output/fake_domains.csv')
-
-target <- 'data/input/top-1m.csv'
-top_websites <- readr::read_csv(target, col_names = c('rank', 'site_url'),
-                                col_types = 'ic')
-top_20000 <- top_websites %>% slice_head(n = 20000)
-sample_40000 <- top_websites %>% 
-  slice_min(rank, n = 100000) %>% 
-  slice_tail(n = 80000) %>% 
-  slice_sample(n = 40000)
-top_websites <- union(top_20000, sample_40000)
-readr::write_csv(top_websites %>% select(2), 'data/output/top_websites.csv')
-rm(top_20000, sample_40000)  
-
-domains <- readr::read_csv('data/output/domains_whois.csv')
-domains <- domains %>% readr::type_convert(col_types = 'fffTTTcccfcfcffcf')
-domains$domain_name <- str_to_lower(domains$domain_name)
-domains %>% distinct(domain_name)
-domains$domain_name[duplicated(domains$domain_name)]
-domains <- domains %>% 
+## Add the top domains whois df
+top_domains_whois <- read_csv('data/output/top_domains_whois.csv') 
+top_domains_whois <- top_domains_whois %>% 
+  type_convert(col_types = 'fffTTTcccfcfcffcf') %>% 
   distinct(domain_name, .keep_all = TRUE) %>% 
-  filter(is.na(domain_name) == FALSE)
+  filter(is.na(domain_name) == FALSE) %>% 
+  mutate(trust = as.factor('initial trust'),
+         domain_name = str_to_lower(domain_name))
 
-ggplot(domains %>% 
-         group_by(registrar) %>%
-         summarise(count = n()) %>% 
-         top_n(25) %>% 
-         arrange(count %>% desc) %>% 
-         filter(registrar != 'GoDaddy.com, LLC'),
-       aes(reorder(registrar, count, ), count)) +
-  geom_bar(stat = 'identity') +
-  coord_flip()
+## Add the fake domains whois df
+fake_domains_whois <- read_csv('data/output/fake_domains_whois.csv') 
+fake_domains_whois <- fake_domains_whois %>% 
+  type_convert(col_types = 'fffTTTcccfcfcffcf') %>% 
+  distinct(domain_name, .keep_all = TRUE) %>% 
+  filter(is.na(domain_name) == FALSE) %>%
+  mutate(domain_name = str_to_lower(domain_name))
 
+## Check which domains show in both lists, manually adjust
+both <- intersect(top_domains_whois$domain_name, fake_domains_whois$domain_name)
+selection <- c(0,0,0,0,0,0,0,0,0,0,
+               0,0,1,0,0,1,1,0,0,0,
+               0,0,0,0,1,1,0,1,0,0,
+               0,0,0,1,1,0,0,1,0,0,
+               1,0,1,0,0,0,0,0,0,1,
+               1,0,0,0,0,1,0,0,0,0,
+               1,0,1,1,0,0,0,0,1,0,
+               1,0,1,0,0,1,0,0,1,1,
+               1,0,0,0,1)
+fake <- both[as.logical(selection)]
+real <- both[!as.logical(selection)]
+# Filter out of the top ones...
+top_domains_whois <- top_domains_whois %>% filter(domain_name %ni% fake)
+# And add to & distinct in fake_domains
+fake_domains_whois <- fake_domains_whois %>% 
+  filter(domain_name %ni% real) %>% 
+  distinct(domain_name, .keep_all = TRUE) %>% 
+  mutate(trust = 'fake')
+fake_domains_whois %>% View
+top_domains_whois %>% View
+# Combine datasets and add site ranking
+alexa <- read_csv('data/input/top-1m.csv', 
+                  col_names = c('rank', 'domain_name'),
+                  col_types = 'ic')
+all_web_whois <- union(fake_domains_whois, top_domains_whois)
+all_web_whois <- right_join(alexa, all_web_whois, by = 'domain_name')
+rm(alexa, fake_domains_whois, top_domains_whois, fake_domains, top_websites)
+all_web_whois %>% View
+
+# Let's audit the data with some known disinformation sites
+search_domain <- function(df, dom){
+  df %>% 
+    filter(.data$domain_name == dom) %>% 
+    select(.data$rank, .data$domain_name, .data$trust)
+}
+search_domain(all_web_whois, '8kun.top')
+# Showing initial trust (fail)
+search_domain(all_web_whois, 'breitbart.com')
+# Showing initial trust (fail)
+search_domain(all_web_whois, 'google.com')
+search_domain(all_web_whois, '100percentfedup.com')
+# Looks OK so far, though will need some correction
+colnames(all_web_whois)
+
+all_web_whois %>% 
+  select(-c(9, 10, 12, 14)) %>% 
   
