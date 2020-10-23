@@ -1,5 +1,5 @@
-\research
-\data
-\.Rproj.user
-\documents
+research/
+data/input/
 .Rproj.user
+/.RData
+/.Rhistory
