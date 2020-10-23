@@ -12,6 +12,11 @@ Most problematic—during the time in which this paper was authored—are influe
   
 So far, there's been a bunch of attempts to solve the problem of disinformation be looking a stance detection, geometric deep learning, and a whole host of others.
 
+## What is disinformation?
+> Disinformation is defined as false information which is intended to mislead, especially propaganda issued by the media or government. Specifically, it is content meant to misinform on issues of public health, election integrity, scientific consensus, or any coordinated political propaganda effort where disinformation is not created “in good faith” (as defined by accepted rules of war).
+
+This definition ends matters of subjectivity. It accepts information which has faced scientific scrutiny and it appeals to democratic principles, while addressing influence operations without clear attribution from the source or a formal declaration of war. The last part is probably the most important to note.
+
 ## Goal
 **This project attempts to detect the likelihood of a website's participation in known influence operations by information attached to its domain name only**. Training data is comprised of the following
 - A list of [fake local news](https://www.nytimes.com/2020/10/18/technology/timpone-local-news-metric-media.html) websites operated by Metric Media
@@ -34,6 +39,15 @@ So far, there's been a bunch of attempts to solve the problem of disinformation 
 ```
 
 Yes, you could make an argument for *some* of these. **Categorization was based on editorialization of common narratives pushed in disinformation operations**. No, I don't care if you feel I'm biased against conservatives. A "news website" consisting only of stories on Hunter Biden and indistinguishable from a Tabloid for Men<sup>TM</sup> is **not a news website**. And if your stories are repeatedly connected with known IO narratives then the site loses the benefit of the doubt.
+
+## Solution
+The purpose of this project is to explore the implementation of a supervised binary classification algorithm to find whether a given URL could be part of a disinformation campaign. This is a partial solution to the problem because it really only goes part of the way. It could be further implemented for a more complete solution, such as a publicly available reporting application, trust scores from visitors, *etc.*. All of this could be used to detect, track, and deter campaigns by making its results public, its data sources, and determinations transparent, and by supplying a ledger of actions taken by domain registrars in deterrence of propaganda online. 
+
+This ledger *could* also better inform the public about the extent of the problem.
+
+This project focuses purely on the implementation of an ML algorithm which uses OSINT about domain names in its determinations. Included within the scope of this is a curated data set composed of domain names from Alexa’s most trafficked websites, similar datasets with confirmed sources of disinformation, and other sources tracking the issue on the web. It will try tokenizing a given URL using NLP and decide whether text aligns with those used by confirmed influence operations. It will then output a decision on whether the given URL could be suspicious.
+
+While outside the scope of this solution, the algorithm could be implemented as a part of a web interface which allows users to send suspected sources of disinformation. More to come.
 
 ## References
 - [0] U.S. Department of State, 2020
