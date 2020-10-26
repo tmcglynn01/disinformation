@@ -1,7 +1,7 @@
 # Script sandbox
 library(rvest)
 library(tidyverse)
-library(get)
+library(tldextract)
 
 PATH <- 'data/input/'
 `%ni%` <- Negate(`%in%`)
@@ -168,6 +168,18 @@ search_domain(all_web_whois, '100percentfedup.com')
 # Looks OK so far, though will need some correction
 colnames(all_web_whois)
 
-all_web_whois %>% 
-  select(-c(9, 10, 12, 14)) %>% 
-  
+all_web_whois <- all_web_whois %>% select(-c(9, 10, 12, 14)) 
+ga_query_doms <- all_web_whois %>% 
+  filter(trust == 'fake')
+write_csv(ga_query_doms, 'data/output/ga_query_doms.csv')
+# Scrape ga codes
+url <-  'https://100percentfedup.com/'
+
+all_web_whois <- all_web_whois %>%
+  separate(domain_name, into = c('domain', 'tld'), 
+           sep = '[[:punct:]]', extra = 'merge')
+write_csv(all_web_whois, 'domain_split_file.csv')
+
+finaldf <- read_csv('final_df.csv')
+mined_ga <- read_csv('mined_gacodes.csv') %>% drop_na(ga_code)
+rm(all_web_whois, ga_query_doms)
