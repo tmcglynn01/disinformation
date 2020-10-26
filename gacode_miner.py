@@ -9,7 +9,7 @@ GA CODE MINER
 
 Mines input raw html header data and mines Google Analytics codes
 """
-import csv, re
+import csv, re, sys
 from os import chdir
 
 
@@ -18,40 +18,49 @@ input_file = 'domain_htmlhead.csv'
 output_file = 'mined_gacodes.csv'
 reader_fn = ['domain_name', 'header_data']
 writer_fn = ['domain_name', 'ga_code']
-gacode_re = re.compile('UA-\d+-\d+')
+gacode_re = re.compile('(UA-\d+-\d+)')
 
-def create_reader_writer():
+csv.field_size_limit(sys.maxsize)
+
+def create_reader_writer(inp, out):
     reader = csv.DictReader(inp, fieldnames=reader_fn)
     writer = csv.DictWriter(out, fieldnames=writer_fn)
     return reader, writer
 
-def evaluate_scripts(reader_obj):
+def evaluate_scripts(text):
     results = []
-    text = reader_obj.split('\n')
-    for e, line in enumrate(text):
+    for e, line in enumerate(text):
         if line.startswith('<script>'):
             start, end = e, None
             cur = start
             while end is None:
                 cur += 1
-                if test[cur].startswith('</script>'):
-                    end = cur
-                results.append((start, end))
+                try:
+                    if text[cur].startswith('</script>'):
+                        end = cur
+                    results.append((start, end))
+                except IndexError:
+                    break
     return results
         
-def evaluate_results(results):
+def evaluate_results(text, results):
     for tup in results:
-	start, end = tup[0], tup[1]
-	for line in test[start:end]:
-		m = re.search(gacode_re, y)
-		if m:
-			return m   
+        start, end = tup
+        for line in text[start:end]:
+            m = re.search(gacode_re, line)
+            if m is not None:
+                return m.group()
 
 def main():             
     with open(input_file, 'r+') as inp, open(output_file, 'w+') as out:
-        reader, writer = create_reader_writer() 
+        reader, writer = create_reader_writer(inp, out) 
         writer.writeheader()
         for row in reader:
-            matches = evaluate_scripts(row)
-            ga_code = evaluate_results(matches)
-            writer.writerow(row['domain_name'], ga_code)
+            domain = row['domain_name']
+            print('Checking...{}'.format(domain))
+            header = row['header_data'].split('\n')
+            matches = evaluate_scripts(header)
+            ga_code = evaluate_results(header, matches)
+            writer.writerow({'domain_name': domain, 'ga_code': ga_code})
+
+main()
