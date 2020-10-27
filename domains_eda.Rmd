@@ -1,0 +1,138 @@
+---
+title: "Analysis of domain data for suspected sources of disinformation"
+author: "Trevor J. McGlynn"
+date: "`r Sys.Date()`"
+output: # Specifying multiple outputs appears to favour the first
+  html_notebook: # This determines the RStuido preview format
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    toc_float: yes
+link-citations: yes # make citations hyperlinks
+linkcolor: blue
+---
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+# Introduction
+The following EDA investigates sources of disinfomation on the web. It uses a collection of sites gathered from a variety of sources which classify disinformation on the web. Appoximately ` of the entries labeled "fake" were acquired through scraping a NY Times dataset on fake local news sites. The datasets used in this EDA were curated from the collection of these domains, the top 20000 websites as determined by Alexa's web traffic rankings, with the remainder a selection of about another 20000 websites, which were chosen at random from websites ranked between 20000 and 80000.
+
+```{r echo=FALSE}
+library(tidyverse)
+library(tidytext)
+df <- read_csv('final_df.csv')
+# Clean domain splits
+df <- df %>%
+  select(-zipcode) %>% 
+  mutate(dom_split = mapply(str_remove_all, dom_split, '[[:punct:]]')) %>%
+  mutate(dom_split = mapply(str_split, dom_split, ' ')) %>% 
+  # Verify col_types
+  type_convert(col_types = 'icfffTTTcffffffc')
+gadf <- read_csv('data/output/mined_gacodes.csv') %>% glimpse
+```
+
+# Analysis
+## Univariate analysis
+### Trust
+```{r}
+summary(df$trust)
+```
+### Countries
+```{r}
+df %>% 
+  filter(trust == 'fake', country != 'REDACTED FOR PRIVACY') %>%
+  # Summarize by country and take the top 5
+  group_by(country) %>% drop_na(country) %>%
+  summarise(count = n()) %>% arrange(count %>% desc) %>% slice(1:5) %>% 
+  # Plot by identity, country and count
+  ggplot(., aes(reorder(country, count), count)) + 
+  geom_bar(stat = 'identity') + coord_flip() +
+  labs(title = 'Fake domain registrations by country', x = 'Country code')
+```
+### TLDs
+```{r}
+df %>% 
+  filter(trust == 'fake') %>%
+  group_by(tld) %>%
+  summarise(count = n()) %>% arrange(count %>% desc) %>% slice(2:20) %>% 
+  # Plot by identity, country and count
+  ggplot(., aes(reorder(tld, -count), count)) + 
+  geom_bar(stat = 'identity') +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(title = 'Fake domain registrations by TLD', x = 'TLD')
+```
+.gov tlds shouldn't be in there
+### Registrars
+```{r}
+df %>% 
+  filter(trust == 'fake') %>% 
+  select(registrar) %>% group_by(registrar) %>% summarise(count = n()) %>% 
+  arrange(count %>% desc) %>% slice(1:10) %>% 
+  # Plot by identity, country and count
+  ggplot(., aes(reorder(registrar, -count), count)) + 
+  geom_bar(stat = 'identity') +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(title = 'Fake domain registrations by registrar', x = 'Country code')
+  
+```
+### DNSSec
+```{r}
+summary(df$dnssec) # needs to be refactored
+df$dnssec <- fct_collapse(
+  df$dnssec, 
+  unsigned = c('unsigned', 'Unsigned', 'unsigned delegation', 
+               'Unsigned delegation, no records', 'no', 
+               'Unsigned delegation, no records'), 
+  signed = c('signedDelegation', 'signed delegation', 'Signed', 'signed',
+             'yes', 'Signed delegation'),
+  inactive = 'Inactive')
+ggplot(filter(df, trust == 'fake'), mapping = aes(dnssec)) + geom_bar()
+```
+### Google Analytics
+```{r}
+gadf %>% 
+  drop_na(ga_code) %>% 
+  separate(ga_code, into = c('code', 'org', 'ext'), sep = '-') %>% 
+  group_by(org) %>% 
+  summarise(cluster = toString(domain_name),
+            #ga_code = paste(code, org, ext, sep = '-'),
+            count = n()) %>% 
+  arrange(count %>% desc) %>% 
+  filter(count > 1)
+```
+Wow, that is pretty friggin' cool
+
+### Words used in domain name
+```{r}
+select(df, dom_split) %>% sample_n(20) %>% View
+df %>% 
+  filter(map_lgl(dom_split, ~ any(c("covid") %in% .x))) %>% 
+  select(1:4, trust, dom_split) %>% View
+
+df %>% 
+  mutate(covid = map(domain, str_detect, 'covid'),
+         covid = map_lgl(covid, any)) %>% 
+  filter(covid == TRUE) %>% View
+# Covid not recognized but also not detected in many domains
+
+word_analysis <- tibble(text = flatten_chr(df$dom_split))
+word_analysis <- word_analysis %>% 
+  unnest_tokens(word, text) %>% 
+  count(word, sort = TRUE)
+word_analysis %>% 
+  anti_join(get_stopwords()) %>% 
+  filter(str_length(word) > 1) %>% 
+  arrange(desc(n)) %>% slice(1:20) %>% 
+  ggplot(., mapping = aes(reorder(word, -n), n)) +
+  geom_bar(stat = 'identity') +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(title = 'Fake domain registrations by registrar', x = 'Country code')
+```
+
+
+## Bivariate analysis
+## Multivariate analysis
+
+# Conclusion
+
+

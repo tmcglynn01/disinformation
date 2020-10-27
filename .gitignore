@@ -1,6 +1,9 @@
 research/
 data/input/
 .Rproj.user
-/.RData
-/.Rhistory
+.Rhistory
+.RData
 segment
+disinformation.Rproj
+eda_notebook.Rmd
+domains_eda.nb.html
