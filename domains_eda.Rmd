@@ -8,19 +8,19 @@ output: # Specifying multiple outputs appears to favour the first
     number_sections: yes
     toc: yes
     toc_float: yes
+    code_folding: TRUE
 link-citations: yes # make citations hyperlinks
 linkcolor: blue
 ---
-
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
 
 # Introduction
-The following EDA investigates sources of disinfomation on the web. It uses a collection of sites gathered from a variety of sources which classify disinformation on the web. Appoximately ` of the entries labeled "fake" were acquired through scraping a NY Times dataset on fake local news sites. The datasets used in this EDA were curated from the collection of these domains, the top 20000 websites as determined by Alexa's web traffic rankings, with the remainder a selection of about another 20000 websites, which were chosen at random from websites ranked between 20000 and 80000.
+The following EDA investigates sources of disinfomation on the web. It uses a collection of sites gathered from a variety of sources which classify disinformation on the web. Approximately ` of the entries labeled "fake" were acquired through scraping a NY Times dataset on fake local news sites. The datasets used in this EDA were curated from the collection of these domains, the top 20000 websites as determined by Alexa's web traffic rankings, with the remainder a selection of about another 20000 websites, which were chosen at random from websites ranked between 20000 and 80000.
 
-```{r echo=FALSE}
+```{r setup, echo=FALSE, collapse=TRUE, message=FALSE}
 library(tidyverse)
 library(tidytext)
-df <- read_csv('final_df.csv')
+df <- read_csv('data/output/final_df.csv')
 # Clean domain splits
 df <- df %>%
   select(-zipcode) %>% 
@@ -28,56 +28,9 @@ df <- df %>%
   mutate(dom_split = mapply(str_split, dom_split, ' ')) %>% 
   # Verify col_types
   type_convert(col_types = 'icfffTTTcffffffc')
-gadf <- read_csv('data/output/mined_gacodes.csv') %>% glimpse
-```
+gadf <- read_csv('data/output/mined_gacodes.csv')
 
-# Analysis
-## Univariate analysis
-### Trust
-```{r}
-summary(df$trust)
-```
-### Countries
-```{r}
-df %>% 
-  filter(trust == 'fake', country != 'REDACTED FOR PRIVACY') %>%
-  # Summarize by country and take the top 5
-  group_by(country) %>% drop_na(country) %>%
-  summarise(count = n()) %>% arrange(count %>% desc) %>% slice(1:5) %>% 
-  # Plot by identity, country and count
-  ggplot(., aes(reorder(country, count), count)) + 
-  geom_bar(stat = 'identity') + coord_flip() +
-  labs(title = 'Fake domain registrations by country', x = 'Country code')
-```
-### TLDs
-```{r}
-df %>% 
-  filter(trust == 'fake') %>%
-  group_by(tld) %>%
-  summarise(count = n()) %>% arrange(count %>% desc) %>% slice(2:20) %>% 
-  # Plot by identity, country and count
-  ggplot(., aes(reorder(tld, -count), count)) + 
-  geom_bar(stat = 'identity') +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
-  labs(title = 'Fake domain registrations by TLD', x = 'TLD')
-```
-.gov tlds shouldn't be in there
-### Registrars
-```{r}
-df %>% 
-  filter(trust == 'fake') %>% 
-  select(registrar) %>% group_by(registrar) %>% summarise(count = n()) %>% 
-  arrange(count %>% desc) %>% slice(1:10) %>% 
-  # Plot by identity, country and count
-  ggplot(., aes(reorder(registrar, -count), count)) + 
-  geom_bar(stat = 'identity') +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
-  labs(title = 'Fake domain registrations by registrar', x = 'Country code')
-  
-```
-### DNSSec
-```{r}
-summary(df$dnssec) # needs to be refactored
+# Refactor DNSsec
 df$dnssec <- fct_collapse(
   df$dnssec, 
   unsigned = c('unsigned', 'Unsigned', 'unsigned delegation', 
@@ -86,49 +39,130 @@ df$dnssec <- fct_collapse(
   signed = c('signedDelegation', 'signed delegation', 'Signed', 'signed',
              'yes', 'Signed delegation'),
   inactive = 'Inactive')
-ggplot(filter(df, trust == 'fake'), mapping = aes(dnssec)) + geom_bar()
+
+# .gov TLDs shouldn't be fake
+df <- df %>% mutate(trust = replace(trust, which(tld == 'gov'), 'initial trust'))
+
+# Normalize registrars
+df <- df %>% 
+  mutate(registrar = mapply(str_remove_all, 
+                            as.character(registrar), '[[:punct:]]')) %>% 
+  mutate(registrar = mapply(str_to_lower, as.character(registrar))) %>% 
+  mutate(registrar = as.factor(registrar))
+# fox5dc.com shouldn't be here
+df <- df %>% mutate(trust = replace(trust, which(domain == 'fox5dc'), 'initial trust'))
 ```
-### Google Analytics
-```{r}
-gadf %>% 
+
+# Analysis
+The data are analyzed in the following fashion:
+* The univariate analysis looks at initial trust scores, countries represented in domains categorized as fake, top-level domains used by fake sites, their registrars, connected groups of domains (using Google Analytics codes), and an analysis of words used in the domain names
+* The bivariate analysis looks at
+* Finally,the multivariate analysis looks at
+
+## Univariate analysis
+The following plots consider single-variable investigations into the data collected. Most of the data points investigated deal exclusively with domains that have an initial `trust score` of "fake" as the classification of these types of domains are exactly what the learned function will need to categorize. DNSSec was also analyzed, mostly for identification of false positives, and while a write up is not included, the plot can still be seen.
+### Plots
+```{r univariate-plots, message=FALSE}
+fk <- filter(df, trust == 'fake')
+# Initial trust
+(summ_trust <- df %>% 
+  group_by(trust) %>% 
+  summarise(Count = n(), Proportion = Count / nrow(df)) %>% 
+  rename(`Trust rating` = 1))
+
+# Stats about countries
+fk %>% 
+  drop_na(country) %>% 
+  filter(country != 'REDACTED FOR PRIVACY') %>%
+  mutate(country = fct_lump_n(country, n = 5)) %>% 
+  count(country) %>% 
+  rename(Country = country, Count = n) %>% 
+  ggplot(., aes(reorder(Country, -Count), Count)) + 
+  geom_bar(stat = 'identity') +
+  theme(axis.title.x = element_blank(), axis.title.y = element_blank()) +
+  labs(title = 'Fake domain registrations by country')
+
+#Stats about TLDs used
+summ_tld <- fk %>% 
+    group_by(tld) %>% 
+    summarise(count = n()) %>% arrange(count %>% desc)
+summ_tld %>% 
+  filter(tld != 'com') %>% 
+  slice(1:20) %>% 
+  # Plot by identity, country and count
+  ggplot(., aes(reorder(tld, -count), count)) + 
+  geom_bar(stat = 'identity') +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  labs(title = 'Fake domain registrations by TLD', 
+       subtitle = 'Excludes .com TLDs', x = 'Top-level domain')
+
+# Stats about registrars used
+summ_reg <- df %>% 
+  filter(trust != 'fake') %>% 
+  count(registrar) %>%
+  mutate(prop = n/(nrow(filter(df, trust != 'fake')))) %>% 
+  arrange(desc(n))
+(summ_fkreg <- fk %>% 
+    group_by(registrar) %>% 
+    summarise(Count = n(), Proportion = Count / nrow(fk)) %>% 
+    rename(Registrar = 1) %>% 
+    arrange(desc(Count)) %>% slice(1:20))
+
+# Stats about DNSSec usage, looking at potential false positives
+fk %>% 
+  drop_na(dnssec) %>% 
+  filter(dnssec == 'signed') %>% 
+  mutate(`Domain name` = paste(domain, tld, sep = '.')) %>% 
+  select(Rank = rank, `DNSSec status` = dnssec, `Domain name`)
+
+# Groupings of Google Analytics codes
+(summ_ga <- gadf %>% 
   drop_na(ga_code) %>% 
-  separate(ga_code, into = c('code', 'org', 'ext'), sep = '-') %>% 
-  group_by(org) %>% 
-  summarise(cluster = toString(domain_name),
+  separate(ga_code, into = c('code', 'Organization', 'ext'), sep = '-') %>% 
+  group_by(Organization) %>% 
+  summarise(`Domain cluster` = toString(domain_name),
             #ga_code = paste(code, org, ext, sep = '-'),
-            count = n()) %>% 
-  arrange(count %>% desc) %>% 
-  filter(count > 1)
-```
-Wow, that is pretty friggin' cool
+            Count = n()) %>% 
+  filter(Count > 1) %>% arrange(desc(Count)))
 
-### Words used in domain name
-```{r}
-select(df, dom_split) %>% sample_n(20) %>% View
-df %>% 
-  filter(map_lgl(dom_split, ~ any(c("covid") %in% .x))) %>% 
-  select(1:4, trust, dom_split) %>% View
-
-df %>% 
-  mutate(covid = map(domain, str_detect, 'covid'),
-         covid = map_lgl(covid, any)) %>% 
-  filter(covid == TRUE) %>% View
-# Covid not recognized but also not detected in many domains
-
+# Analysis of words used in domain names
 word_analysis <- tibble(text = flatten_chr(df$dom_split))
 word_analysis <- word_analysis %>% 
   unnest_tokens(word, text) %>% 
   count(word, sort = TRUE)
-word_analysis %>% 
-  anti_join(get_stopwords()) %>% 
+summ_word <- word_analysis %>% 
+  anti_join(get_stopwords()) %>%                          # Remove stop words
   filter(str_length(word) > 1) %>% 
-  arrange(desc(n)) %>% slice(1:20) %>% 
+  arrange(desc(n))
+summ_word %>% 
+  slice(1:20) %>% 
   ggplot(., mapping = aes(reorder(word, -n), n)) +
   geom_bar(stat = 'identity') +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
-  labs(title = 'Fake domain registrations by registrar', x = 'Country code')
+  theme(axis.text.x = element_text(angle = 60, hjust = 1),
+        axis.title.x = element_blank(), axis.title.y = element_blank()) +
+  labs(title = 'Top 20 Words used in fake domains')
 ```
+### Trust
+Out of the sample of domains that were collected, `r summ_trust[[1,2]]` were classified "initial trust", while `r summ_trust[[2,2]]` were classified as "fake" (or `r (summ_trust[[2,3]] %>% round(4))*100`% of the sample). Limitations on collection have more to do with internet connectivity in northeastern Vermont than limitations set by the project. Ideally, more data will be added as the project continues
 
+### Countries
+Overwhelmingly, registration records point to the United States for being the country with the most registrations of disinformation. There are a few factors to consider with this in mind:
+* A large portion of the fake domains are shell local news websites which focus on US metropolitan markets. The organization responsible for these shell publications--Metric Media--is based in the United States.
+* It is very plausible (and easy) for those registering the sites to say that they are a US-based operation, and it does not seem like the United States (or its registrars) really seem to care, or do anything about influence operations.
+* The United States is a frequent target for influence operations, partly because country leadership does not care or does not recognize the issue, and partly because influencing Americans is both very beneficial to stakeholder nations and very easy for them to do.
+* Some countries, such as Russia, prefer targeting social media, especially influential users, to drive their narratives.
+
+### TLDs
+Top-level domains were overwhelmingly by `.com` domains, making up `r (summ_tld[[1,2]]/nrow(summ_tld)) %>% round(2)`% of the sample. This is not surprising considering most domain names are registered in the US with `.com` TLDs. Worth considering, however, are the more deceptive styled domains which end `com.co` and `news.com`--these may be helpful in performing domain name analyses.
+
+### Registrars
+Most legitimate domains seems to use a widespread of registrars for their needs. Domains pushing influence operations, however, overwhelmingly use GoDaddy.com. The difference is pretty telling: for domains labeled "initial trust", `r round(summ_reg[[1,3]]*100, 2)`% were registered with GoDaddy; for domains labeled "fake", `r round(summ_fkreg[[1,3]])*100, 2`% were registered with GoDaddy. There may be a correlation with the popularity of a domain provider and its trustworthiness.
+
+### Google Analytics
+Using the data frame above, one can see the collections of sites grouped together by their organization's GA identifier. A cursory glance of the domain clusters reveals groupings which more of less exist as topical containers for their targeted state of industry. Many of these, it appears, come from the data set of fake local news companies. Apparently when this was setup by metric media, it seems like they had a goal of up to 50 shell sites for each of the fifty states. All of these are tied to the same organization, with a unit ID for the locations or industries targeted in the operation. This analysis identified `r nrow(summ_ga)` clusters of influence operations accounting for `r round(sum(summ_ga$Count)/nrow(fk),4)*100`% of all fake domains captured.
+
+### Words used in domain name
+Perhaps the most interesting (and revealing) plot is the tokenization of words which make up the domain. The science behind this algorithm is not perfect and was a general purpose adaptation for this analysis. We will be testing some hypotheses about the words used in fake domains--the belief is that properly handling these data manipulations sheds revealing information on the nature of the operation. It is not hard to consider this one of the most revealing signs of an influence operation. The data frame proves this: these sites qualify themselves as "news" `c('news', 'times', 'daily', 'business', ...)`, use very simple English words, and appeal to geography familiar to Americans `c('china', 'american', ...)` in a way that might make the site appear more professional or local on social media.
 
 ## Bivariate analysis
 ## Multivariate analysis
