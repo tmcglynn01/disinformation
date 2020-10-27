@@ -180,6 +180,9 @@ all_web_whois <- all_web_whois %>%
            sep = '[[:punct:]]', extra = 'merge')
 write_csv(all_web_whois, 'domain_split_file.csv')
 
-finaldf <- read_csv('final_df.csv')
+
 mined_ga <- read_csv('mined_gacodes.csv') %>% drop_na(ga_code)
+mined_ga %>% summarise(count = sum(is.na(ga_code))) #Tidy
 rm(all_web_whois, ga_query_doms)
+
+
