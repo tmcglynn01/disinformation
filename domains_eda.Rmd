@@ -8,7 +8,6 @@ output: # Specifying multiple outputs appears to favour the first
     number_sections: yes
     toc: yes
     toc_float: yes
-<<<<<<< HEAD
     code_folding: TRUE
 link-citations: yes # make citations hyperlinks
 linkcolor: blue
@@ -22,21 +21,6 @@ The following EDA investigates sources of disinfomation on the web. It uses a co
 library(tidyverse)
 library(tidytext)
 df <- read_csv('data/output/final_df.csv')
-=======
-link-citations: yes # make citations hyperlinks
-linkcolor: blue
----
-
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
-# Introduction
-The following EDA investigates sources of disinfomation on the web. It uses a collection of sites gathered from a variety of sources which classify disinformation on the web. Appoximately ` of the entries labeled "fake" were acquired through scraping a NY Times dataset on fake local news sites. The datasets used in this EDA were curated from the collection of these domains, the top 20000 websites as determined by Alexa's web traffic rankings, with the remainder a selection of about another 20000 websites, which were chosen at random from websites ranked between 20000 and 80000.
-
-```{r echo=FALSE}
-library(tidyverse)
-library(tidytext)
-df <- read_csv('final_df.csv')
->>>>>>> 98b6b8e7ada201a86361677aef1376e325eb9309
 # Clean domain splits
 df <- df %>%
   select(-zipcode) %>% 
@@ -44,62 +28,9 @@ df <- df %>%
   mutate(dom_split = mapply(str_split, dom_split, ' ')) %>% 
   # Verify col_types
   type_convert(col_types = 'icfffTTTcffffffc')
-<<<<<<< HEAD
 gadf <- read_csv('data/output/mined_gacodes.csv')
 
 # Refactor DNSsec
-=======
-gadf <- read_csv('data/output/mined_gacodes.csv') %>% glimpse
-```
-
-# Analysis
-## Univariate analysis
-### Trust
-```{r}
-summary(df$trust)
-```
-### Countries
-```{r}
-df %>% 
-  filter(trust == 'fake', country != 'REDACTED FOR PRIVACY') %>%
-  # Summarize by country and take the top 5
-  group_by(country) %>% drop_na(country) %>%
-  summarise(count = n()) %>% arrange(count %>% desc) %>% slice(1:5) %>% 
-  # Plot by identity, country and count
-  ggplot(., aes(reorder(country, count), count)) + 
-  geom_bar(stat = 'identity') + coord_flip() +
-  labs(title = 'Fake domain registrations by country', x = 'Country code')
-```
-### TLDs
-```{r}
-df %>% 
-  filter(trust == 'fake') %>%
-  group_by(tld) %>%
-  summarise(count = n()) %>% arrange(count %>% desc) %>% slice(2:20) %>% 
-  # Plot by identity, country and count
-  ggplot(., aes(reorder(tld, -count), count)) + 
-  geom_bar(stat = 'identity') +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
-  labs(title = 'Fake domain registrations by TLD', x = 'TLD')
-```
-.gov tlds shouldn't be in there
-### Registrars
-```{r}
-df %>% 
-  filter(trust == 'fake') %>% 
-  select(registrar) %>% group_by(registrar) %>% summarise(count = n()) %>% 
-  arrange(count %>% desc) %>% slice(1:10) %>% 
-  # Plot by identity, country and count
-  ggplot(., aes(reorder(registrar, -count), count)) + 
-  geom_bar(stat = 'identity') +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
-  labs(title = 'Fake domain registrations by registrar', x = 'Country code')
-  
-```
-### DNSSec
-```{r}
-summary(df$dnssec) # needs to be refactored
->>>>>>> 98b6b8e7ada201a86361677aef1376e325eb9309
 df$dnssec <- fct_collapse(
   df$dnssec, 
   unsigned = c('unsigned', 'Unsigned', 'unsigned delegation', 
@@ -108,7 +39,6 @@ df$dnssec <- fct_collapse(
   signed = c('signedDelegation', 'signed delegation', 'Signed', 'signed',
              'yes', 'Signed delegation'),
   inactive = 'Inactive')
-<<<<<<< HEAD
 
 # .gov TLDs shouldn't be fake
 df <- df %>% mutate(trust = replace(trust, which(tld == 'gov'), 'initial trust'))
@@ -196,42 +126,10 @@ fk %>%
   filter(Count > 1) %>% arrange(desc(Count)))
 
 # Analysis of words used in domain names
-=======
-ggplot(filter(df, trust == 'fake'), mapping = aes(dnssec)) + geom_bar()
-```
-### Google Analytics
-```{r}
-gadf %>% 
-  drop_na(ga_code) %>% 
-  separate(ga_code, into = c('code', 'org', 'ext'), sep = '-') %>% 
-  group_by(org) %>% 
-  summarise(cluster = toString(domain_name),
-            #ga_code = paste(code, org, ext, sep = '-'),
-            count = n()) %>% 
-  arrange(count %>% desc) %>% 
-  filter(count > 1)
-```
-Wow, that is pretty friggin' cool
-
-### Words used in domain name
-```{r}
-select(df, dom_split) %>% sample_n(20) %>% View
-df %>% 
-  filter(map_lgl(dom_split, ~ any(c("covid") %in% .x))) %>% 
-  select(1:4, trust, dom_split) %>% View
-
-df %>% 
-  mutate(covid = map(domain, str_detect, 'covid'),
-         covid = map_lgl(covid, any)) %>% 
-  filter(covid == TRUE) %>% View
-# Covid not recognized but also not detected in many domains
-
->>>>>>> 98b6b8e7ada201a86361677aef1376e325eb9309
 word_analysis <- tibble(text = flatten_chr(df$dom_split))
 word_analysis <- word_analysis %>% 
   unnest_tokens(word, text) %>% 
   count(word, sort = TRUE)
-<<<<<<< HEAD
 summ_word <- word_analysis %>% 
   anti_join(get_stopwords()) %>%                          # Remove stop words
   filter(str_length(word) > 1) %>% 
@@ -265,18 +163,6 @@ Using the data frame above, one can see the collections of sites grouped togethe
 
 ### Words used in domain name
 Perhaps the most interesting (and revealing) plot is the tokenization of words which make up the domain. The science behind this algorithm is not perfect and was a general purpose adaptation for this analysis. We will be testing some hypotheses about the words used in fake domains--the belief is that properly handling these data manipulations sheds revealing information on the nature of the operation. It is not hard to consider this one of the most revealing signs of an influence operation. The data frame proves this: these sites qualify themselves as "news" `c('news', 'times', 'daily', 'business', ...)`, use very simple English words, and appeal to geography familiar to Americans `c('china', 'american', ...)` in a way that might make the site appear more professional or local on social media.
-=======
-word_analysis %>% 
-  anti_join(get_stopwords()) %>% 
-  filter(str_length(word) > 1) %>% 
-  arrange(desc(n)) %>% slice(1:20) %>% 
-  ggplot(., mapping = aes(reorder(word, -n), n)) +
-  geom_bar(stat = 'identity') +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
-  labs(title = 'Fake domain registrations by registrar', x = 'Country code')
-```
-
->>>>>>> 98b6b8e7ada201a86361677aef1376e325eb9309
 
 ## Bivariate analysis
 ## Multivariate analysis
