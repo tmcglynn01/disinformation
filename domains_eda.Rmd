@@ -8,18 +8,18 @@ output: # Specifying multiple outputs appears to favour the first
     number_sections: yes
     toc: yes
     toc_float: yes
-    code_folding: TRUE
 link-citations: yes # make citations hyperlinks
 linkcolor: blue
 ---
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
 # Introduction
 The following EDA investigates sources of disinfomation on the web. It uses a collection of sites gathered from a variety of sources which classify disinformation on the web. Approximately ` of the entries labeled "fake" were acquired through scraping a NY Times dataset on fake local news sites. The datasets used in this EDA were curated from the collection of these domains, the top 20000 websites as determined by Alexa's web traffic rankings, with the remainder a selection of about another 20000 websites, which were chosen at random from websites ranked between 20000 and 80000.
 
 ```{r setup, echo=FALSE, collapse=TRUE, message=FALSE}
 library(tidyverse)
 library(tidytext)
+library(lubridate)
+library(hrbrthemes)
+library(viridis)
 df <- read_csv('data/output/final_df.csv')
 # Clean domain splits
 df <- df %>%
@@ -51,6 +51,26 @@ df <- df %>%
   mutate(registrar = as.factor(registrar))
 # fox5dc.com shouldn't be here
 df <- df %>% mutate(trust = replace(trust, which(domain == 'fox5dc'), 'initial trust'))
+# Add some more quantitative features
+df <- df %>% 
+  mutate(domain_length = mapply(str_length, domain)) %>%
+  mutate(keyword_length = mapply(length, dom_split)) %>%
+  # Convert name servers to lists
+  mutate(name_servers = mapply(str_remove_all, name_servers, '[[:punct:]]')) %>%
+  mutate(name_servers = mapply(str_split, name_servers, ' ')) %>% 
+  mutate(num_nameservers = mapply(length, name_servers)) %>% 
+  # Add metrics on time objects
+  mutate(dom_age_days = as.double(difftime(now('UTC'),
+                                           creation_date, 
+                                           units = 'days'))) %>% 
+  mutate(dom_last_update = as.double(difftime(now('UTC'),
+                                              updated_date,
+                                              units = 'days'))) %>% 
+  mutate(days_to_exp = as.double(difftime(expiration_date, 
+                                          now('UTC'), 
+                                          units = 'days'))) %>% 
+  mutate(update_to_exp = days_to_exp - dom_last_update)
+fk <- filter(df, trust == 'fake')
 ```
 
 # Analysis
@@ -63,7 +83,6 @@ The data are analyzed in the following fashion:
 The following plots consider single-variable investigations into the data collected. Most of the data points investigated deal exclusively with domains that have an initial `trust score` of "fake" as the classification of these types of domains are exactly what the learned function will need to categorize. DNSSec was also analyzed, mostly for identification of false positives, and while a write up is not included, the plot can still be seen.
 ### Plots
 ```{r univariate-plots, message=FALSE}
-fk <- filter(df, trust == 'fake')
 # Initial trust
 (summ_trust <- df %>% 
   group_by(trust) %>% 
@@ -138,12 +157,14 @@ summ_word %>%
   slice(1:20) %>% 
   ggplot(., mapping = aes(reorder(word, -n), n)) +
   geom_bar(stat = 'identity') +
+  theme_ipsum() +
   theme(axis.text.x = element_text(angle = 60, hjust = 1),
         axis.title.x = element_blank(), axis.title.y = element_blank()) +
   labs(title = 'Top 20 Words used in fake domains')
+rm(word_analysis)
 ```
 ### Trust
-Out of the sample of domains that were collected, `r summ_trust[[1,2]]` were classified "initial trust", while `r summ_trust[[2,2]]` were classified as "fake" (or `r (summ_trust[[2,3]] %>% round(4))*100`% of the sample). Limitations on collection have more to do with internet connectivity in northeastern Vermont than limitations set by the project. Ideally, more data will be added as the project continues
+Out of the sample of domains that were collected, `r as.character(summ_trust[1,2])` were classified "initial trust", while `r as.character(summ_trust[2,2])` were classified as "fake" (or `r as.character(round(summ_trust[[2,3]]*100,2))`% of the sample). Limitations on collection have more to do with internet connectivity in northeastern Vermont than limitations set by the project. Ideally, more data will be added as the project continues
 
 ### Countries
 Overwhelmingly, registration records point to the United States for being the country with the most registrations of disinformation. There are a few factors to consider with this in mind:
@@ -156,7 +177,7 @@ Overwhelmingly, registration records point to the United States for being the co
 Top-level domains were overwhelmingly by `.com` domains, making up `r (summ_tld[[1,2]]/nrow(summ_tld)) %>% round(2)`% of the sample. This is not surprising considering most domain names are registered in the US with `.com` TLDs. Worth considering, however, are the more deceptive styled domains which end `com.co` and `news.com`--these may be helpful in performing domain name analyses.
 
 ### Registrars
-Most legitimate domains seems to use a widespread of registrars for their needs. Domains pushing influence operations, however, overwhelmingly use GoDaddy.com. The difference is pretty telling: for domains labeled "initial trust", `r round(summ_reg[[1,3]]*100, 2)`% were registered with GoDaddy; for domains labeled "fake", `r round(summ_fkreg[[1,3]])*100, 2`% were registered with GoDaddy. There may be a correlation with the popularity of a domain provider and its trustworthiness.
+Most legitimate domains seems to use a widespread of registrars for their needs. Domains pushing influence operations, however, overwhelmingly use GoDaddy.com. The difference is pretty telling: for domains labeled "initial trust", `r as.character(round(summ_reg[[1,3]]*100, 2))`% were registered with GoDaddy; for domains labeled "fake", `r as.character(round(summ_fkreg[[1,3]],4)*100)`% were registered with GoDaddy. There may be a correlation with the popularity of a domain provider and its trustworthiness.
 
 ### Google Analytics
 Using the data frame above, one can see the collections of sites grouped together by their organization's GA identifier. A cursory glance of the domain clusters reveals groupings which more of less exist as topical containers for their targeted state of industry. Many of these, it appears, come from the data set of fake local news companies. Apparently when this was setup by metric media, it seems like they had a goal of up to 50 shell sites for each of the fifty states. All of these are tied to the same organization, with a unit ID for the locations or industries targeted in the operation. This analysis identified `r nrow(summ_ga)` clusters of influence operations accounting for `r round(sum(summ_ga$Count)/nrow(fk),4)*100`% of all fake domains captured.
@@ -165,8 +186,49 @@ Using the data frame above, one can see the collections of sites grouped togethe
 Perhaps the most interesting (and revealing) plot is the tokenization of words which make up the domain. The science behind this algorithm is not perfect and was a general purpose adaptation for this analysis. We will be testing some hypotheses about the words used in fake domains--the belief is that properly handling these data manipulations sheds revealing information on the nature of the operation. It is not hard to consider this one of the most revealing signs of an influence operation. The data frame proves this: these sites qualify themselves as "news" `c('news', 'times', 'daily', 'business', ...)`, use very simple English words, and appeal to geography familiar to Americans `c('china', 'american', ...)` in a way that might make the site appear more professional or local on social media.
 
 ## Bivariate analysis
+### Bivariate plots
+```{r bivariate-plots, warning=FALSE}
+density_plot <- function(df, col) {
+  col_name <- enquo(col)
+  df %>% 
+    ggplot(aes(x = !!col_name, group = trust, fill = trust)) +
+    geom_density(adjust = 1.5, alpha = 0.4)
+}
+
+# Registration time density by trust
+density_plot(df, creation_date) +
+  scale_x_datetime(minor_breaks = '2 years') +
+  labs(title = 'Density of domain registations over time', y = 'Density') +
+  theme_ipsum() + theme(axis.title.x = element_blank())
+
+# Update to expiration density by trust
+density_plot(df, update_to_exp) +
+  theme_ipsum() + theme(axis.title.x = element_blank()) +
+  scale_x_continuous(limits = c(0, 1000)) +
+  scale_y_sqrt() +
+  labs(title = 'Density of time to expiration by trust', y = 'Density') +
+  theme_ipsum()
+
+# Site age and ranking, by trust
+df %>% 
+  ggplot(., aes(x = dom_age_days, y = rank, color = trust)) + 
+  geom_point() + theme_ipsum()
+  
+### Barplot - num nameservers by trust
+
+```
+
+### Registation time density by trust
+### Update to expiration density by trust
+### Site age and ranking, by trust
+### Barplot - num nameservers by trust
+### Domain length by age
+### Domain name top 20 words by trust, lollipop
 ## Multivariate analysis
 
 # Conclusion
 
+```{r}
+
+```
 
