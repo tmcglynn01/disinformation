@@ -1,5 +1,6 @@
 research/
 data/input/
+datasheet/ieeeconf.cls
 .Rproj.user
 .Rhistory
 .RData

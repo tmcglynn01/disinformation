@@ -1,0 +1,224 @@
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out
+                                                          % if you need a4paper
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4
+                                                          % paper
+
+\IEEEoverridecommandlockouts                              % This command is only
+                                                          % needed if you want to
+                                                          % use the \thanks command
+\overrideIEEEmargins
+
+\usepackage{graphicx}
+\usepackage{lipsum}  
+\usepackage{xcolor}
+
+\graphicspath{ {images/} }
+
+\title{\LARGE \bf
+Datasheet Template
+}
+
+\begin{document}
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Motivation For Datasheet Creation}
+
+\textcolor{blue}{\subsection{Why was the dataset created? (e.g., was there a specific task in mind? was there a specific gap that needed to
+be filled?)}}
+
+The data set was created to investigate and model the relationship between publicly-available data points tied to a domain name, and its relation to possible influence operations. The data were created with to incorporate them into a supervised classification problem dealing directly with this issue.
+
+\textcolor{blue}{\subsection{Has the dataset been used already? If so, where are the results so others can compare
+(e.g., links to published papers)?}}
+
+No.
+
+\textcolor{blue}{\subsection{What (other) tasks could the dataset be used for?}}
+
+The dataset could be used to investigate registration patterns of known disinformation campaigns, to povide keyword analysis and modeling of domain names by their trust category, or as a starting point for any OSINT gathering of data tied to given domain name.
+
+\textcolor{blue}{\subsection{Who funded the creation dataset?}}
+
+Dataset creation received no funding.
+
+\textcolor{blue}{\subsection{Any other comment?}}
+
+No.
+
+\section{Datasheet Composition}
+
+\textcolor{blue}{\subsection{What are the instances?(that is, examples; e.g., documents, images, people, countries) Are there multiple types
+of instances? (e.g., movies, users, ratings; people, interactions between them; nodes, edges)}}
+
+The dataset is composed of the following instances:
+\begin{itemize}
+\item Domain names
+\item WHOIS data
+\item HTML header data
+\item Trust categories
+\end{itemize}
+
+\textcolor{blue}{\subsection{Is any information missing from individual instances? If so, please
+provide a description, explaining why this information is missing (e.g., because it was unavailable). This does not include intentionally removed
+information, but might include, e.g., redacted text.}}
+
+Not all WHOIS information is provided the same way, depending on the server reporting it. This is less true for the more consistent metrics reported (domain name, name servers, registration and update information), and more true for address and organization information. Thus, the latter has been coerced or dropped during data collection. Nothing in the dataset has been redacted.
+
+\textcolor{blue}{\subsection{Are relationships between individual instances made explicit (e.g.,
+users’ movie ratings, social network links)? If so, please describe
+how these relationships are made explicit.}}
+Yes; data for each tuple are related to their domain name. All data are related by their domain name which acts as its primary key. 
+
+\textcolor{blue}{\subsection{Does the dataset contain all possible instances or is it a sample (not
+necessarily random) of instances from a larger set? If the dataset is
+a sample, then what is the larger set? Is the sample representative of the
+larger set (e.g., geographic coverage)? If so, please describe how this
+representativeness was validated/verified. If it is not representative of the
+larger set, please describe why not (e.g., to cover a more diverse range of
+instances, because instances were withheld or unavailable).}}
+The data is a sample of a larger set.
+
+\textcolor{blue}{\subsection{Are there recommended data splits (e.g., training, development/validation, testing)?}}
+
+The recommended splits are: 60\% training, 20\% development, 20\% testing.
+
+\textcolor{blue}{\subsection{Are there any errors, sources of noise, or redundancies in the
+dataset? If so, please provide a description.}}
+The errors in the data set have to do with sampling of websites labeled initial trust which, during the querying process, ran into multiple issues with internet connectivity. If you plan to use or maintain this data set, the author recommends re-sampling the trusted domains from Alexa's top sites. Contact the author for more questions on this matter.
+
+\textcolor{blue}{\subsection{Is the dataset self-contained, or does it link to or otherwise rely on
+external resources (e.g., websites, tweets, other datasets)?
+
+The dataset is self-contained
+
+\textcolor{blue}{Any other comments?}
+No.
+
+\section{Collection Process}
+
+\textcolor{blue}{\subsection{What mechanisms or procedures were used to collect the data (e.g.,
+hardware apparatus or sensor, manual human curation, software program, software API)? How were these mechanisms or procedures validated?}}
+Data were collected through both manual human curation, custom scripts, and publicly available data. Validation occurred through multiple set logic opesations were domain names were repeatedly validated against each other. Websites were cross-referenced against Alexa's top 100,000 websites to confirm validity. Domains were further validated through manual auding throughout the EDA. Some data were manually categorized during scripting. Please see associated README.md files for more information.
+
+\textcolor{blue}{\subsection{How was the data associated with each instance acquired? Was the
+data directly observable (e.g., raw text, movie ratings), reported by subjects (e.g., survey responses), or indirectly inferred/derived from other data
+(e.g., part-of-speech tags, model-based guesses for age or language)?
+If data was reported by subjects or indirectly inferred/derived from other
+data, was the data validated/verified? If so, please describe how.}}
+The data were directly observable as either raw text, raw HTML, or information queried directly from a WHOIS server.
+
+\textcolor{blue}{\subsection{If the dataset is a sample from a larger set, what was the sampling strategy (e.g., deterministic, probabilistic with specific sampling probabilities)?}}
+Yes, the data were sampled from Alexa's top websites. Samples can certainly be done more organized as they are, partly due to a inconsistent internet connection here in northern Vermont which through a major wrench in the process. 
+
+\textcolor{blue}{\subsection{Who was involved in the data collection process (e.g., students,
+crowdworkers, contractors) and how were they compensated (e.g.,
+how much were crowdworkers paid)?}}
+The creator of the data set was the only one involved. No compensation was involved.
+
+\textcolor{blue}{\subsection{Over what timeframe was the data collected? Does this timeframe
+match the creation timeframe of the data associated with the instances
+(e.g., recent crawl of old news articles)? If not, please describe the timeframe in which the data associated with the instances was created.}}
+Data were curated between 19 and 21 October, 2020.
+
+\section{Data Preprocessing}
+
+\textcolor{blue}{\subsection{Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT
+feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remainder of the questions in this section.}}
+\begin{itemize}
+\item Normalization of text -- domain names, registrars
+\item Tokenization -- domain names
+\item Refactoring -- registrars, DNSSec
+\item Categorization of trust -- .gov TLDs. See README.md for more
+\item Removal of instances -- zip codes
+\end{itemize}
+
+
+
+\textcolor{blue}{\subsection{Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated
+future uses)? If so, please provide a link or other access point to the
+“raw” data.}}
+Yes, see README.md
+
+\textcolor{blue}{\subsection{Does this dataset collection/processing procedure
+achieve the motivation for creating the dataset
+stated in the first section of this datasheet? If not,
+what are the limitations?}}
+Yes.
+
+
+\textcolor{blue}{\subsection{Any other comments}}
+No.
+
+\section{Dataset Distribution}
+
+\textcolor{blue}{\subsection{How will the dataset be distributed? (e.g., tarball on
+website, API, GitHub; does the data have a DOI and is it
+archived redundantly?)}}
+The data set will be distributed on Kaggle. The central project repository is hosted on GitHub.
+
+
+\textcolor{blue}{\subsection{When will the dataset be released/first distributed?
+What license (if any) is it distributed under?}}
+The data set is distributed under GNU General Public License.
+
+\textcolor{blue}{\subsection{Are there any copyrights on the data?}}
+No.
+
+
+\textcolor{blue}{\subsection{Are there any fees or access/export restrictions?}}
+No.
+
+\textcolor{blue}{\subsection{Any other comments?}}
+No.
+
+\section{Dataset Maintenance}
+
+\textcolor{blue}{\subsection{Who is supporting/hosting/maintaining the
+dataset?}}
+No one (not even the author). Please contact me if you would like to maintain the dataset.
+
+\textcolor{blue}{\subsection{Will the dataset be updated? If so, how often and
+by whom?}}
+No.
+
+\textcolor{blue}{\subsection{Is there a repository to link to any/all papers/systems that use this dataset?}}
+Yes, see README.md.
+
+\textcolor{blue}{\subsection{If others want to extend/augment/build on this
+dataset, is there a mechanism for them to do so?
+If so, is there a process for tracking/assessing the
+quality of those contributions. What is the process
+for communicating/distributing these contributions
+to users?}}
+Please do so! Data can very easily be augmented using scripts available through this project's Github.
+
+\section{Legal and Ethical Considerations}
+
+\textcolor{blue}{\subsection{Were any ethical review processes conducted (e.g., by an institutional review board)? If so, please provide a description of these review
+processes, including the outcomes, as well as a link or other access point
+to any supporting documentation.}}
+\textbf{No.} This is \textit{very important}. There needs to be more thorough review for sites labeled disinformation. While the author feels confidence in the sources used and the defining framework to classify disinformation, the ethics of this classification should not be neglected.
+
+\textcolor{blue}{\subsection{Does the dataset contain data that might be considered confidential
+(e.g., data that is protected by legal privilege or by doctorpatient confidentiality, data that includes the content of individuals non-public
+communications)? If so, please provide a description.}}
+No.
+
+\textcolor{blue}{\subsection{Does the dataset contain data that, if viewed directly, might be offensive, insulting, threatening, or might otherwise cause anxiety? If so,
+please describe why}}
+Possibly. The data set contains data which describes vast networks of fake news media, some of which target individual states in ways that may leave the user unsettled. It contains many domains that, as a social media user, you have probably encountered through disgruntled family members. The topic itself is pretty hot and frequently misunderstood, and some users of popular sites categorized as \textit{disinformation} may take offense to their favorite site being given that label. Furthermore, and probably most important: \textbf{no one likes feeling like they've been hoodwinked}. You may view this data set and have a strong feeling that you've been had at least once. And you're probably right!
+
+\textcolor{blue}{\subsection{Does the dataset relate to people? If not, you may skip the remaining
+questions in this section.}}
+
+\medskip
+ 
+\bibliographystyle{unsrt}  
+\bibliography{sample}
+
+\end{document}
