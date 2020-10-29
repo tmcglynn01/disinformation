@@ -2,17 +2,19 @@
 title: "Analysis of domain data for suspected sources of disinformation"
 author: "Trevor J. McGlynn"
 date: "`r Sys.Date()`"
-output: # Specifying multiple outputs appears to favour the first
-  html_notebook: # This determines the RStuido preview format
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+  html_notebook:
     fig_caption: yes
     number_sections: yes
     toc: yes
     toc_float: yes
-link-citations: yes # make citations hyperlinks
 linkcolor: blue
 ---
 # Introduction
-The following EDA investigates sources of disinfomation on the web. It uses a collection of sites gathered from a variety of sources which classify disinformation on the web. Approximately ` of the entries labeled "fake" were acquired through scraping a NY Times dataset on fake local news sites. The datasets used in this EDA were curated from the collection of these domains, the top 20000 websites as determined by Alexa's web traffic rankings, with the remainder a selection of about another 20000 websites, which were chosen at random from websites ranked between 20000 and 80000.
+The following EDA explores the data collected and lays the ground work for the modeling to following. This is part exploratory, part auditing of the data to ensure its accuracy. We'll try to see what initial signals may be worth looking more deeply at and provide a starting point for how the eventual learned function may operate.
 
 ```{r setup, echo=FALSE, collapse=TRUE, message=FALSE}
 library(tidyverse)
@@ -74,21 +76,21 @@ fk <- filter(df, trust == 'fake')
 ```
 
 # Analysis
-The data are analyzed in the following fashion:
-* The univariate analysis looks at initial trust scores, countries represented in domains categorized as fake, top-level domains used by fake sites, their registrars, connected groups of domains (using Google Analytics codes), and an analysis of words used in the domain names
-* The bivariate analysis looks at
-* Finally,the multivariate analysis looks at
-
 ## Univariate analysis
 The following plots consider single-variable investigations into the data collected. Most of the data points investigated deal exclusively with domains that have an initial `trust score` of "fake" as the classification of these types of domains are exactly what the learned function will need to categorize. DNSSec was also analyzed, mostly for identification of false positives, and while a write up is not included, the plot can still be seen.
-### Plots
-```{r univariate-plots, message=FALSE}
+### Trust
+```{r trust, message=FALSE, echo=FALSE}
 # Initial trust
 (summ_trust <- df %>% 
   group_by(trust) %>% 
   summarise(Count = n(), Proportion = Count / nrow(df)) %>% 
   rename(`Trust rating` = 1))
+```
 
+Out of the sample of domains that were collected, `r as.character(summ_trust[1,2])` were classified "initial trust", while `r as.character(summ_trust[2,2])` were classified as "fake" (or `r as.character(round(summ_trust[[2,3]]*100,2))`% of the sample). Limitations on collection have more to do with internet connectivity in northeastern Vermont than limitations set by the project. Ideally, more data will be added as the project continues
+
+### Countries
+```{r countries, message=FALSE, echo=FALSE}
 # Stats about countries
 fk %>% 
   drop_na(country) %>% 
@@ -96,11 +98,21 @@ fk %>%
   mutate(country = fct_lump_n(country, n = 5)) %>% 
   count(country) %>% 
   rename(Country = country, Count = n) %>% 
-  ggplot(., aes(reorder(Country, -Count), Count)) + 
-  geom_bar(stat = 'identity') +
+  ggplot(., aes(reorder(Country, -Count), Count, fill = Country)) + 
+  geom_bar(stat = 'identity') + 
+  theme_ipsum() +
   theme(axis.title.x = element_blank(), axis.title.y = element_blank()) +
   labs(title = 'Fake domain registrations by country')
+```
 
+Overwhelmingly, registration records point to the United States for being the country with the most registrations of disinformation. There are a few factors to consider with this in mind:
+* A large portion of the fake domains are shell local news websites which focus on US metropolitan markets. The organization responsible for these shell publications--Metric Media--is based in the United States.
+* It is very plausible (and easy) for those registering the sites to say that they are a US-based operation, and it does not seem like the United States (or its registrars) really seem to care, or do anything about influence operations.
+* The United States is a frequent target for influence operations, partly because country leadership does not care or does not recognize the issue, and partly because influencing Americans is both very beneficial to stakeholder nations and very easy for them to do.
+* Some countries, such as Russia, prefer targeting social media, especially influential users, to drive their narratives.
+
+### TLDs
+```{r tlds, message=FALSE, echo=FALSE}
 #Stats about TLDs used
 summ_tld <- fk %>% 
     group_by(tld) %>% 
@@ -109,12 +121,18 @@ summ_tld %>%
   filter(tld != 'com') %>% 
   slice(1:20) %>% 
   # Plot by identity, country and count
-  ggplot(., aes(reorder(tld, -count), count)) + 
-  geom_bar(stat = 'identity') +
+  ggplot(., aes(reorder(tld, -count), count, fill = tld)) + 
+  geom_bar(stat = 'identity', show.legend = FALSE) +
+  theme_ipsum() +
   theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
   labs(title = 'Fake domain registrations by TLD', 
        subtitle = 'Excludes .com TLDs', x = 'Top-level domain')
+```
 
+Top-level domains were overwhelmingly by `.com` domains, making up `r (summ_tld[[1,2]]/nrow(summ_tld)) %>% round(2)`% of the sample. This is not surprising considering most domain names are registered in the US with `.com` TLDs. Worth considering, however, are the more deceptive styled domains which end `com.co` and `news.com`--these may be helpful in performing domain name analyses.
+
+### Registrars
+```{r registrars, message=FALSE, echo=FALSE}
 # Stats about registrars used
 summ_reg <- df %>% 
   filter(trust != 'fake') %>% 
@@ -126,14 +144,12 @@ summ_reg <- df %>%
     summarise(Count = n(), Proportion = Count / nrow(fk)) %>% 
     rename(Registrar = 1) %>% 
     arrange(desc(Count)) %>% slice(1:20))
+```
 
-# Stats about DNSSec usage, looking at potential false positives
-fk %>% 
-  drop_na(dnssec) %>% 
-  filter(dnssec == 'signed') %>% 
-  mutate(`Domain name` = paste(domain, tld, sep = '.')) %>% 
-  select(Rank = rank, `DNSSec status` = dnssec, `Domain name`)
+Most legitimate domains seems to use a widespread of registrars for their needs. Domains pushing influence operations, however, overwhelmingly use GoDaddy.com. The difference is pretty telling: for domains labeled "initial trust", `r as.character(round(summ_reg[[1,3]]*100, 2))`% were registered with GoDaddy; for domains labeled "fake", `r as.character(round(summ_fkreg[[1,3]],4)*100)`% were registered with GoDaddy. There may be a correlation with the popularity of a domain provider and its trustworthiness.
 
+### Google Analytics
+```{r, message=FALSE, echo=FALSE}
 # Groupings of Google Analytics codes
 (summ_ga <- gadf %>% 
   drop_na(ga_code) %>% 
@@ -143,7 +159,12 @@ fk %>%
             #ga_code = paste(code, org, ext, sep = '-'),
             Count = n()) %>% 
   filter(Count > 1) %>% arrange(desc(Count)))
+```
 
+Using the data frame above, one can see the collections of sites grouped together by their organization's GA identifier. A cursory glance of the domain clusters reveals groupings which more of less exist as topical containers for their targeted state of industry. Many of these, it appears, come from the data set of fake local news companies. Apparently when this was setup by metric media, it seems like they had a goal of up to 50 shell sites for each of the fifty states. All of these are tied to the same organization, with a unit ID for the locations or industries targeted in the operation. This analysis identified `r nrow(summ_ga)` clusters of influence operations accounting for `r round(sum(summ_ga$Count)/nrow(fk),4)*100`% of all fake domains captured.
+
+### Words used in domain name
+```{r, echo=FALSE, message=FALSE}
 # Analysis of words used in domain names
 word_analysis <- tibble(text = flatten_chr(df$dom_split))
 word_analysis <- word_analysis %>% 
@@ -153,82 +174,153 @@ summ_word <- word_analysis %>%
   anti_join(get_stopwords()) %>%                          # Remove stop words
   filter(str_length(word) > 1) %>% 
   arrange(desc(n))
+```
+```{r lollipop, echo=FALSE}
+# Lollipop plot
 summ_word %>% 
-  slice(1:20) %>% 
-  ggplot(., mapping = aes(reorder(word, -n), n)) +
-  geom_bar(stat = 'identity') +
-  theme_ipsum() +
-  theme(axis.text.x = element_text(angle = 60, hjust = 1),
-        axis.title.x = element_blank(), axis.title.y = element_blank()) +
+  arrange(desc(n), desc(word)) %>% slice(1:25) %>% 
+  ggplot(aes(x=word, y=n)) +
+  geom_segment( aes(x=word, xend=word, y=0, yend=n)) +
+  geom_point( size=5, color="red", fill=alpha("orange", 0.3), 
+              alpha=0.7, shape=21, stroke=2) +
+  theme_light() +
+  coord_flip() +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.border = element_blank(),
+    axis.ticks.y = element_blank()
+  ) +
   labs(title = 'Top 20 Words used in fake domains')
+
 rm(word_analysis)
 ```
-### Trust
-Out of the sample of domains that were collected, `r as.character(summ_trust[1,2])` were classified "initial trust", while `r as.character(summ_trust[2,2])` were classified as "fake" (or `r as.character(round(summ_trust[[2,3]]*100,2))`% of the sample). Limitations on collection have more to do with internet connectivity in northeastern Vermont than limitations set by the project. Ideally, more data will be added as the project continues
 
-### Countries
-Overwhelmingly, registration records point to the United States for being the country with the most registrations of disinformation. There are a few factors to consider with this in mind:
-* A large portion of the fake domains are shell local news websites which focus on US metropolitan markets. The organization responsible for these shell publications--Metric Media--is based in the United States.
-* It is very plausible (and easy) for those registering the sites to say that they are a US-based operation, and it does not seem like the United States (or its registrars) really seem to care, or do anything about influence operations.
-* The United States is a frequent target for influence operations, partly because country leadership does not care or does not recognize the issue, and partly because influencing Americans is both very beneficial to stakeholder nations and very easy for them to do.
-* Some countries, such as Russia, prefer targeting social media, especially influential users, to drive their narratives.
-
-### TLDs
-Top-level domains were overwhelmingly by `.com` domains, making up `r (summ_tld[[1,2]]/nrow(summ_tld)) %>% round(2)`% of the sample. This is not surprising considering most domain names are registered in the US with `.com` TLDs. Worth considering, however, are the more deceptive styled domains which end `com.co` and `news.com`--these may be helpful in performing domain name analyses.
-
-### Registrars
-Most legitimate domains seems to use a widespread of registrars for their needs. Domains pushing influence operations, however, overwhelmingly use GoDaddy.com. The difference is pretty telling: for domains labeled "initial trust", `r as.character(round(summ_reg[[1,3]]*100, 2))`% were registered with GoDaddy; for domains labeled "fake", `r as.character(round(summ_fkreg[[1,3]],4)*100)`% were registered with GoDaddy. There may be a correlation with the popularity of a domain provider and its trustworthiness.
-
-### Google Analytics
-Using the data frame above, one can see the collections of sites grouped together by their organization's GA identifier. A cursory glance of the domain clusters reveals groupings which more of less exist as topical containers for their targeted state of industry. Many of these, it appears, come from the data set of fake local news companies. Apparently when this was setup by metric media, it seems like they had a goal of up to 50 shell sites for each of the fifty states. All of these are tied to the same organization, with a unit ID for the locations or industries targeted in the operation. This analysis identified `r nrow(summ_ga)` clusters of influence operations accounting for `r round(sum(summ_ga$Count)/nrow(fk),4)*100`% of all fake domains captured.
-
-### Words used in domain name
 Perhaps the most interesting (and revealing) plot is the tokenization of words which make up the domain. The science behind this algorithm is not perfect and was a general purpose adaptation for this analysis. We will be testing some hypotheses about the words used in fake domains--the belief is that properly handling these data manipulations sheds revealing information on the nature of the operation. It is not hard to consider this one of the most revealing signs of an influence operation. The data frame proves this: these sites qualify themselves as "news" `c('news', 'times', 'daily', 'business', ...)`, use very simple English words, and appeal to geography familiar to Americans `c('china', 'american', ...)` in a way that might make the site appear more professional or local on social media.
 
 ## Bivariate analysis
-### Bivariate plots
-```{r bivariate-plots, warning=FALSE}
+```{r bivariate-plots, echo=FALSE}
 density_plot <- function(df, col) {
   col_name <- enquo(col)
   df %>% 
     ggplot(aes(x = !!col_name, group = trust, fill = trust)) +
     geom_density(adjust = 1.5, alpha = 0.4)
 }
+```
 
+### Density of domain registations over time
+```{r, warning=FALSE, echo=FALSE}
 # Registration time density by trust
 density_plot(df, creation_date) +
   scale_x_datetime(minor_breaks = '2 years') +
   labs(title = 'Density of domain registations over time', y = 'Density') +
   theme_ipsum() + theme(axis.title.x = element_blank())
+```
+Where trustworthy domains registrations have remained more or less evenly distributed across time, registrations for domains labeled fake have very clearly spiked over the course of the past four years, with increasing acceleration staring after 2010 and trending sharply upward starting around 2014. This goes in line with much of the research conducted on the issue, so there's even less potential to have concern about the data included within the sample. The downward trend stating around the turn of 2020 could be explained as 1.) Influence operations preparing for the 2020 elections, and/or 2.) lack of detection because as new domains are activated.
 
+### Density of registation update to expirations
+```{r, warning=FALSE, echo=FALSE}
 # Update to expiration density by trust
 density_plot(df, update_to_exp) +
   theme_ipsum() + theme(axis.title.x = element_blank()) +
-  scale_x_continuous(limits = c(0, 1000)) +
+  scale_x_continuous(limits = c(0, 1000), breaks = seq(0, 1000, 200)) +
   scale_y_sqrt() +
-  labs(title = 'Density of time to expiration by trust', y = 'Density') +
+  labs(title = 'Density of time to expiration by trust', 
+       y = 'Density',
+       x = 'Time between update and expiration (days)') +
   theme_ipsum()
+```
+The second plot measures the density of times between an update to a site's registration and its expiration. This time frame is influenced predominantly by the registrar; trustworthy sites will more likely have long-term management of this while fake sites registered with, say, GoDaddy.com, will typically be using a 1 year registration period. It that's so, we could expect to align the peak of registrations with the density peaks in this plot. A cursory glance at this plot seems to confirm some of the timelines.
 
+### Domain age by Alexa site ranking
+```{r, warning=FALSE, echo=FALSE}
 # Site age and ranking, by trust
-df %>% 
+fk %>% 
   ggplot(., aes(x = dom_age_days, y = rank, color = trust)) + 
-  geom_point() + theme_ipsum()
-  
-### Barplot - num nameservers by trust
+  geom_point(show.legend = FALSE) + theme_ipsum() +
+  scale_y_log10(labels = scales::comma) +
+  scale_x_continuous(labels = scales::comma) +
+  labs(title = 'Domain age by Alexa site ranking',
+       x = 'Age of domain (days)', y = 'Site ranking')
+```
+This plot seems to have a fair amount of statistical noise and, purely from an auditing perspective, confirms information known already: many sites labeled "fake" do not have domain ranking through Alexa (unless, of course, they become enormously popular), and those that do seem to have some amount of staying power. The domains in this sample are mostly more than 5 years old, but it is also known that the bulk of the domains in the sample were registered within that time.
 
+### Number of nameservers by domain trustworthiness'
+```{r, echo=FALSE}
+# num nameservers by trust
+df %>%
+  filter(num_nameservers < 50) %>% 
+  ggplot( aes(x=trust, y=num_nameservers, color=trust)) +
+    geom_boxplot() +
+    scale_fill_viridis(discrete = TRUE, alpha=0.6, option="A") +
+    theme_ipsum() +
+    theme(
+      legend.position="none",
+      plot.title = element_text(size=11)
+    ) +
+  labs(title = 'Number of nameservers by domain trustworthiness',
+       y = 'Number of name servers', x = element_blank()) +
+  coord_flip()
+```
+Number of name servers could have some indication on the reliability of a site. Again, a lot of this comes down to the registrar used by the domain, but it doesn't seem unreasonable to associate sites with >= 5 nameservers to be functioning in a legitimate capacity.
+
+## Multivariate analysis
+### Domain keyword length by domain age
+```{r, echo=FALSE}
+# keyword length, trust, domain age
+df %>% 
+  filter(keyword_length <= 6,
+         dom_age_days < 365.25 * 5) %>% # reg in the past 5 years) %>% 
+  ggplot(aes(x = keyword_length, y = dom_age_days, color = trust)) +
+  geom_count(alpha = 0.8) +
+  theme_ipsum() +
+  labs(title = 'Domain keyword length by domain age',
+       x = 'Keyword length', y = 'Domain name age')
+```
+Of domains registered in the past 5 years, domain registration by veracity seems to cluster around certain periods, while keyword length seems to have some bearing on veracity. This seems obvious as a disinformation campaign domain name might attempt to validate itself by explaining more (in the domain name itself) what its intentions are. Also worth noting, as far as a correlation of date of registration, that a single influence operation (by Metric Media) accounts for a large portion of fake domains. These coordinated campaigns are signaled by the clustering of their registrations
+
+### Domain length by domain keyword length, by trust
+```{r, echo=FALSE}
+# domain length, keyword length, trust
+df %>% 
+  filter(domain_length < 30) %>% 
+  ggplot(aes(x=domain_length, y=keyword_length, color=trust)) + 
+  geom_count(alpha = 0.6) +
+  theme_ipsum() +
+  labs(title = 'Domain length by domain keyword length, by trust',
+       x = 'Domain name length', y = 'Keyword length') +
+  coord_flip()
+```
+Looking at domain length by keyword length shows a more clear relationship between the length of a domain, its keywords, and its trustworthiness. This chart looks like a perfect opportunity for modeling!
+
+### GoDaddy.com, fake registrations
+```{r, echo=FALSE}
+### fk country, registrar, domain age
+fk %>% 
+  drop_na(country) %>% 
+  filter(country != 'REDACTED FOR PRIVACY',
+         dom_age_days < 365.25 * 5) %>% # reg in the past 5 years
+  mutate(country = fct_lump_n(country, n = 5)) %>% 
+  mutate(registrar = fct_lump_n(registrar, n = 1)) %>% 
+  ggplot( aes(x = country, y = dom_age_days, fill = country)) +
+  geom_boxplot() +
+  facet_wrap(~ registrar) +
+  theme_ipsum() +
+  labs(title = 'GoDaddy.com, fake registrations', 
+       subtitle = 'Faceted against other registrars in the last 5 years',
+       x = 'Country', y = 'Domain age')
 ```
 
-### Registation time density by trust
-### Update to expiration density by trust
-### Site age and ranking, by trust
-### Barplot - num nameservers by trust
-### Domain length by age
-### Domain name top 20 words by trust, lollipop
-## Multivariate analysis
+GoDaddy is emerging as a perfectly complacent registrar for domain fake domain registrations, disproportionate to its market share. Registrations in this chart cluster perfectly with the densities of fake registrations from above, and it might not be a reach to say that the successes in these campaigns may replicate in Canada after the US. Interestingly, when filtering for fake domains registered in the past five years, Russia fell off the map of countries represented. However, the author stresses that Russia's strategies, and their historic successes, have been in targeted agent of influence operations, for which social media is much more effective and far more exploitable than domain names.
 
 # Conclusion
+There is more to be revealed as the data enter the modeling stages. However, there do seem to be a few initial signals in the data worth noting
+* Though GoDaddy is the most popular registrar on the Web, it is disproportionately exploited for the use of propagating misinformation, especially within the past 5 years
+* The length of a domain name and the number of keywords it uses seem to have a clear bearing on the trust score of a website
+* The United States seems to be the most responsible for domain-affiliated disinformation campaigns, especially those involving fake local news organizations. Russian APTs are not being used to drive this content, most of which seems decidedly American
+* Keyword analysis may be a driving factor in the categorization of disinformation websites
+* For records management, established sites do consistently better at updating and maintaining their registrations. Furthermore, and for untrustworthy domains, their is more of a tendency for expirations to cluster around a mean--this is due to coordination of registrations, such as registering a bunch of fake local news sites all around the same time frame
+* Legitimate sites use appopriate amounts of name servers for their needs. Non-legitimate sites use (more or less) the same number across the board (provided by the registrar)
 
-```{r}
+This concludes the EDA for the curated data. Next comes modeling!
 
-```
 
