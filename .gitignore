@@ -1,6 +1,9 @@
 research/
 datasheet/
-data/RAW
+data/input
+data/datasets/test.csv
+data/datasets/training.csv
+data/datasets/validation.csv
 .Rproj.user
 .Rhistory
 .RData
@@ -8,3 +11,6 @@ segment
 disinformation.Rproj
 eda_notebook.Rmd
 domains_eda.nb.html
+.spyproject
+.ipynb_checkpoints
+.~lock.rforest1.csv#
