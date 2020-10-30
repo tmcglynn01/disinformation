@@ -1,0 +1,1581 @@
+rank,domain,tld,registrar,updated_date,creation_date,expiration_date,org,country,trust,dom_split,domain_length,keyword_length,num_nameservers,dom_age_days,dom_last_update,days_to_exp,update_to_exp
+70,google,com.br,NA,2020-04-17T00:00:00Z,1999-05-18T00:00:00Z,2021-05-18T00:00:00Z,NA,BR,initial trust,google,6,1,1,7836.490631664917,196.49063171278272,199.50936824387423,3.0187365310915197
+76,amazon,de,NA,NA,NA,NA,NA,NA,initial trust,amazon,6,1,1,NA,NA,NA,NA
+83,google,de,NA,NA,NA,NA,NA,NA,initial trust,google,6,1,1,NA,NA,NA,NA
+138,nih,gov,NA,NA,NA,NA,NA,NA,initial trust,nih,3,1,1,NA,NA,NA,NA
+152,google,com.tr,NA,NA,2001-08-23T00:00:00Z,2021-08-22T00:00:00Z,NA,NA,initial trust,google,6,1,1,7008.490631664917,NA,295.50936824387423,NA
+186,google,com.sa,NA,NA,NA,NA,NA,NA,initial trust,google,6,1,7,NA,NA,NA,NA
+199,ebay,de,NA,NA,NA,NA,NA,NA,initial trust,ebay,4,1,1,NA,NA,NA,NA
+201,uol,com.br,NA,2017-01-06T00:00:00Z,1996-04-24T00:00:00Z,2023-04-24T00:00:00Z,NA,BR,initial trust,uol,3,1,1,8955.490631664918,1393.4906317127827,905.5093682438742,-487.98126346890854
+252,mercadolivre,com.br,NA,2018-11-29T00:00:00Z,1999-05-14T00:00:00Z,2023-05-14T00:00:00Z,NA,BR,initial trust,mercadolivre,12,1,1,7840.490631664917,701.4906317127827,925.5093682438742,224.01873653109146
+254,madrasati,sa,NA,NA,NA,NA,NA,NA,initial trust,madras ati,9,2,5,NA,NA,NA,NA
+287,academia,edu,NA,NA,NA,NA,NA,NA,initial trust,academia,8,1,1,NA,NA,NA,NA
+365,shimo,im,NA,NA,NA,2021-08-16T00:59:55Z,NA,NA,initial trust,shi mo,5,2,2,NA,NA,289.5509770401705,NA
+368,ebay,kleinanzeigen.de,NA,NA,NA,NA,NA,NA,initial trust,ebay,4,1,1,NA,NA,NA,NA
+404,mit,edu,NA,NA,NA,NA,NA,NA,initial trust,mit,3,1,1,NA,NA,NA,NA
+414,state,gov,NA,NA,NA,NA,NA,NA,initial trust,state,5,1,1,NA,NA,NA,NA
+418,web,de,NA,NA,NA,NA,NA,NA,initial trust,web,3,1,1,NA,NA,NA,NA
+442,kundelik,kz,NA,NA,NA,NA,"TOO ""Kujndelik (Kundelik)"", 160340016781",NA,initial trust,kun del ik,8,3,3,NA,NA,NA,NA
+461,irs,gov,NA,NA,NA,NA,NA,NA,initial trust,irs,3,1,1,NA,NA,NA,NA
+505,ny,gov,NA,NA,NA,NA,NA,NA,initial trust,ny,2,1,1,NA,NA,NA,NA
+506,cdc,gov,NA,NA,NA,NA,NA,NA,initial trust,cdc,3,1,1,NA,NA,NA,NA
+524,europa,eu,NA,NA,NA,NA,NA,NA,initial trust,europa,6,1,2,NA,NA,NA,NA
+529,turkiye,gov.tr,NA,NA,2001-06-07T00:00:00Z,2021-06-06T00:00:00Z,NA,NA,initial trust,turkiye,7,1,1,7085.490631664917,NA,218.50936824387423,NA
+557,reclameaqui,com.br,NA,2020-06-16T00:00:00Z,2000-02-10T00:00:00Z,2024-02-10T00:00:00Z,NA,BR,initial trust,reclame aqui,11,2,1,7568.490631664917,136.49063171278272,1197.5093682438742,1061.0187365310915
+600,brainly,com.br,NA,2020-08-17T00:00:00Z,2012-08-16T00:00:00Z,2021-08-16T00:00:00Z,NA,BR,initial trust,brain ly,7,2,1,2997.4906316649167,74.49063171278272,289.50936824387423,215.01873653109152
+632,milliyet,com.tr,NA,NA,1996-10-15T00:00:00Z,2021-10-14T00:00:00Z,NA,NA,initial trust,milliyet,8,1,1,8781.490631664918,NA,348.50936824387423,NA
+643,harvard,edu,NA,NA,NA,NA,NA,NA,initial trust,harvard,7,1,1,NA,NA,NA,NA
+654,amazon,ae,NA,NA,NA,NA,NA,NA,initial trust,amazon,6,1,1,NA,NA,NA,NA
+712,ca,gov,NA,NA,NA,NA,NA,NA,initial trust,ca,2,1,1,NA,NA,NA,NA
+764,fazenda,gov.br,NA,2020-07-05T00:00:00Z,1995-08-28T00:00:00Z,NA,NA,BR,initial trust,fazenda,7,1,1,9195.490631664918,117.49063171278272,NA,NA
+766,google,ae,NA,NA,NA,NA,NA,NA,initial trust,google,6,1,1,NA,NA,NA,NA
+818,spiegel,de,NA,NA,NA,NA,NA,NA,initial trust,spiegel,7,1,1,NA,NA,NA,NA
+886,olx,com.br,NA,2017-08-02T00:00:00Z,2006-06-01T00:00:00Z,2021-06-01T00:00:00Z,NA,BR,initial trust,olx,3,1,1,5265.490631664917,1185.4906317127827,213.50936824387423,-971.9812634689085
+896,otvfoco,com.br,NA,2020-02-12T00:00:00Z,2012-12-17T00:00:00Z,2023-12-17T00:00:00Z,NA,BR,initial trust,o tv foco,7,3,1,2874.4906316649167,261.4906317127827,1142.5093682438742,881.0187365310915
+904,campograndenews,com.br,NA,2020-04-20T00:00:00Z,1999-04-16T00:00:00Z,2023-04-16T00:00:00Z,NA,BR,initial trust,campo grande news,15,3,1,7868.490631664917,193.49063171278272,897.5093682438742,704.0187365310915
+906,nur,kz,NA,NA,NA,NA,"TOO ""Internet Portal Nur"" (Internet Portal Nur)",NA,initial trust,nur,3,1,2,NA,NA,NA,NA
+970,stanford,edu,NA,NA,NA,NA,NA,NA,initial trust,stanford,8,1,1,NA,NA,NA,NA
+1000,ed,gov,NA,NA,NA,NA,NA,NA,initial trust,ed,2,1,1,NA,NA,NA,NA
+1002,okaz,com.sa,NA,NA,NA,NA,NA,NA,initial trust,ok az,4,2,3,NA,NA,NA,NA
+1017,caixa,gov.br,NA,2016-11-29T00:00:00Z,1997-08-20T00:00:00Z,NA,NA,BR,initial trust,caixa,5,1,1,8472.490631664918,1431.4906317127827,NA,NA
+1021,uscis,gov,NA,NA,NA,NA,NA,NA,initial trust,usc is,5,2,1,NA,NA,NA,NA
+1135,vg,no,NA,2020-06-10T00:00:00Z,2011-06-10T00:00:00Z,NA,NA,NA,initial trust,vg,2,1,1,3430.4906316649167,142.49063171278272,NA,NA
+1137,sabah,com.tr,NA,NA,1996-07-28T00:00:00Z,2022-07-27T00:00:00Z,NA,NA,initial trust,sabah,5,1,1,8860.490631664918,NA,634.5093682438742,NA
+1179,t,online.de,NA,NA,NA,NA,NA,NA,initial trust,t,1,1,1,NA,NA,NA,NA
+1190,chip,de,NA,NA,NA,NA,NA,NA,initial trust,chip,4,1,1,NA,NA,NA,NA
+1196,nasa,gov,NA,NA,NA,NA,NA,NA,initial trust,nasa,4,1,1,NA,NA,NA,NA
+1224,cuny,edu,NA,NA,NA,NA,NA,NA,initial trust,cuny,4,1,1,NA,NA,NA,NA
+1288,berkeley,edu,NA,NA,NA,NA,NA,NA,initial trust,berkeley,8,1,1,NA,NA,NA,NA
+1294,bild,de,NA,NA,NA,NA,NA,NA,initial trust,bild,4,1,1,NA,NA,NA,NA
+1315,absher,sa,NA,NA,NA,NA,NA,NA,initial trust,abs her,6,2,3,NA,NA,NA,NA
+1333,zdf,de,NA,NA,NA,NA,NA,NA,initial trust,zdf,3,1,1,NA,NA,NA,NA
+1341,wa,gov,NA,NA,NA,NA,NA,NA,initial trust,wa,2,1,1,NA,NA,NA,NA
+1361,cornell,edu,NA,NA,NA,NA,NA,NA,initial trust,cornell,7,1,1,NA,NA,NA,NA
+1390,meb,gov.tr,NA,NA,2001-05-11T00:00:00Z,2021-05-10T00:00:00Z,NA,NA,initial trust,meb,3,1,1,7112.490631664917,NA,191.50936824387423,NA
+1406,scielo,br,NA,2014-04-10T00:00:00Z,1998-04-07T00:00:00Z,NA,NA,BR,initial trust,s cielo,6,2,1,8242.490631664918,2395.4906317127825,NA,NA
+1409,tagesschau,de,NA,NA,NA,NA,NA,NA,initial trust,tages schau,10,2,1,NA,NA,NA,NA
+1421,dhl,de,NA,NA,NA,NA,NA,NA,initial trust,dhl,3,1,1,NA,NA,NA,NA
+1423,texas,gov,NA,NA,NA,NA,NA,NA,initial trust,texas,5,1,1,NA,NA,NA,NA
+1456,techtudo,com.br,NA,2020-06-29T00:00:00Z,2009-03-04T00:00:00Z,2024-03-04T00:00:00Z,NA,BR,initial trust,tech tudo,8,2,1,4258.490631664917,123.49063171278272,1220.5093682438742,1097.0187365310915
+1460,agenziaentrate,gov.it,NA,NA,NA,NA,NA,NA,initial trust,agenzia ent rate,14,3,1,NA,NA,NA,NA
+1481,immobilienscout24,de,NA,NA,NA,NA,NA,NA,initial trust,immobilienscout24,17,1,1,NA,NA,NA,NA
+1484,yeniakit,com.tr,NA,NA,2010-11-09T00:00:00Z,2024-11-08T00:00:00Z,NA,NA,initial trust,yeni a kit,8,3,1,3643.4906316649167,NA,1469.5093682438742,NA
+1512,abril,com.br,NA,2020-01-11T00:00:00Z,1995-05-16T00:00:00Z,2023-01-01T00:00:00Z,NA,BR,initial trust,abril,5,1,1,9299.490631664918,293.4906317127827,792.5093682438742,499.01873653109146
+1539,umn,edu,NA,NA,NA,NA,NA,NA,initial trust,um n,3,2,1,NA,NA,NA,NA
+1543,amazon,jobs,NA,2020-03-30T23:07:04Z,2005-09-15T04:00:00Z,2024-09-15T04:00:00Z,NA,NA,initial trust,amazon,6,1,8,5524.323964998251,213.52739097204199,1415.676034910541,1202.148643938499
+1592,deutsche,bank.de,NA,NA,NA,NA,NA,NA,initial trust,deutsche,8,1,1,NA,NA,NA,NA
+1631,yr,no,NA,2020-06-04T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,yr,2,1,1,7655.490631664917,148.49063171278272,NA,NA
+1636,bb,com.br,NA,2020-05-26T00:00:00Z,1998-03-04T00:00:00Z,2028-03-04T00:00:00Z,NA,BR,initial trust,bb,2,1,1,8276.490631664918,157.49063171278272,2681.509368243874,2524.0187365310912
+1670,successfactors,eu,NA,NA,NA,NA,NA,NA,initial trust,success factors,14,2,1,NA,NA,NA,NA
+1707,mobile,de,NA,NA,NA,NA,NA,NA,initial trust,mobile,6,1,1,NA,NA,NA,NA
+1740,noaa,gov,NA,NA,NA,NA,NA,NA,initial trust,noaa,4,1,1,NA,NA,NA,NA
+1741,psu,edu,NA,NA,NA,NA,NA,NA,initial trust,psu,3,1,1,NA,NA,NA,NA
+1755,purdue,edu,NA,NA,NA,NA,NA,NA,initial trust,purdue,6,1,1,NA,NA,NA,NA
+1771,correios,com.br,NA,2019-03-18T00:00:00Z,1997-10-30T00:00:00Z,2028-10-30T00:00:00Z,NA,BR,initial trust,correios,8,1,1,8401.490631664918,592.4906317127827,2921.509368243874,2329.0187365310912
+1779,jhu,edu,NA,NA,NA,NA,NA,NA,initial trust,j hu,3,2,1,NA,NA,NA,NA
+1796,amazon,com.br,NA,2020-10-21T00:00:00Z,1995-09-27T00:00:00Z,2024-09-27T00:00:00Z,NA,BR,initial trust,amazon,6,1,1,9165.490631664918,9.490631712782713,1427.5093682438742,1418.0187365310915
+1825,weather,gov,NA,NA,NA,NA,NA,NA,initial trust,weather,7,1,1,NA,NA,NA,NA
+1834,almubasher,com.sa,NA,NA,NA,NA,NA,NA,initial trust,al mubasher,10,2,3,NA,NA,NA,NA
+1859,medlineplus,gov,NA,NA,NA,NA,NA,NA,initial trust,medlineplus,11,1,1,NA,NA,NA,NA
+1896,asu,edu,NA,NA,NA,NA,NA,NA,initial trust,asu,3,1,1,NA,NA,NA,NA
+1926,ksu,edu.sa,NA,NA,NA,NA,NA,NA,initial trust,ksu,3,1,7,NA,NA,NA,NA
+1928,n,tv.de,NA,NA,NA,NA,NA,NA,initial trust,n,1,1,1,NA,NA,NA,NA
+1943,iam,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,iam,3,1,3,NA,NA,NA,NA
+1946,ucla,edu,NA,NA,NA,NA,NA,NA,initial trust,ucla,4,1,1,NA,NA,NA,NA
+1952,heise,de,NA,NA,NA,NA,NA,NA,initial trust,heise,5,1,1,NA,NA,NA,NA
+1963,zeit,de,NA,NA,NA,NA,NA,NA,initial trust,zeit,4,1,1,NA,NA,NA,NA
+1982,pinterest,de,NA,NA,NA,NA,NA,NA,initial trust,pinterest,9,1,1,NA,NA,NA,NA
+1985,fda,gov,NA,NA,NA,NA,NA,NA,initial trust,fda,3,1,1,NA,NA,NA,NA
+1999,columbia,edu,NA,NA,NA,NA,NA,NA,initial trust,columbia,8,1,1,NA,NA,NA,NA
+2030,google,kz,NA,NA,NA,NA,Google Inc.,NA,initial trust,google,6,1,2,NA,NA,NA,NA
+2034,spaggiari,eu,NA,NA,NA,NA,NA,NA,initial trust,spa gg i ari,9,4,1,NA,NA,NA,NA
+2059,cinecalidad,is,NA,NA,2018-05-25T00:00:00Z,2024-05-25T00:00:00Z,NA,NA,initial trust,cine calidad,11,2,2,889.4906316649169,NA,1302.5093682438742,NA
+2075,moe,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,moe,3,1,5,NA,NA,NA,NA
+2086,ssa,gov,NA,NA,NA,NA,NA,NA,initial trust,ss a,3,2,1,NA,NA,NA,NA
+2089,welt,de,NA,NA,NA,NA,NA,NA,initial trust,welt,4,1,1,NA,NA,NA,NA
+2106,todamateria,com.br,NA,2016-09-23T00:00:00Z,2010-08-05T00:00:00Z,2026-08-05T00:00:00Z,NA,BR,initial trust,toda materia,11,2,1,3739.4906316649167,1498.4906317127827,2104.509368243874,606.0187365310915
+2136,definicion,de,NA,NA,NA,NA,NA,NA,initial trust,def inicio n,10,3,1,NA,NA,NA,NA
+2144,google,hr,NA,2012-08-28T22:00:00Z,2011-09-20T22:00:00Z,2021-09-20T22:00:00Z,NA,NA,initial trust,google,6,1,2,3327.57396499825,2984.573965046116,325.42603491054086,-2659.1479301355753
+2162,index,hr,NA,2013-01-16T23:00:00Z,2012-09-13T22:00:00Z,2021-09-13T22:00:00Z,NA,NA,initial trust,index,5,1,2,2968.57396499825,2843.5322983794495,318.42603491054086,-2525.1062634689088
+2190,terra,com.br,NA,2019-02-03T00:00:00Z,1998-11-30T00:00:00Z,2027-11-30T00:00:00Z,NA,BR,initial trust,terra,5,1,1,8005.490631664917,635.4906317127827,2586.509368243874,1951.0187365310915
+2197,illinois,edu,NA,NA,NA,NA,NA,NA,initial trust,illinois,8,1,1,NA,NA,NA,NA
+2207,studentaid,gov,NA,NA,NA,NA,NA,NA,initial trust,student aid,10,2,1,NA,NA,NA,NA
+2213,usembassy,gov,NA,NA,NA,NA,NA,NA,initial trust,us embassy,9,2,1,NA,NA,NA,NA
+2228,nyc,gov,NA,NA,NA,NA,NA,NA,initial trust,nyc,3,1,1,NA,NA,NA,NA
+2242,nrk,no,NA,2020-10-18T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,nrk,3,1,1,7655.490631664917,12.490631712782713,NA,NA
+2266,va,gov,NA,NA,NA,NA,NA,NA,initial trust,va,2,1,1,NA,NA,NA,NA
+2275,utexas,edu,NA,NA,NA,NA,NA,NA,initial trust,u texas,6,2,1,NA,NA,NA,NA
+2303,idealo,de,NA,NA,NA,NA,NA,NA,initial trust,idealo,6,1,1,NA,NA,NA,NA
+2330,zalando,de,NA,NA,NA,NA,NA,NA,initial trust,zalando,7,1,1,NA,NA,NA,NA
+2340,illinois,gov,NA,NA,NA,NA,NA,NA,initial trust,illinois,8,1,1,NA,NA,NA,NA
+2347,usc,edu,NA,NA,NA,NA,NA,NA,initial trust,usc,3,1,1,NA,NA,NA,NA
+2355,dicio,com.br,NA,2016-09-09T00:00:00Z,2009-02-11T00:00:00Z,2026-02-11T00:00:00Z,NA,BR,initial trust,di cio,5,2,1,4279.490631664917,1512.4906317127827,1929.5093682438742,417.01873653109146
+2356,colorado,edu,NA,NA,NA,NA,NA,NA,initial trust,colorado,8,1,1,NA,NA,NA,NA
+2357,showtv,com.tr,NA,NA,1997-06-06T00:00:00Z,2021-06-05T00:00:00Z,NA,NA,initial trust,show tv,6,2,1,8547.490631664918,NA,217.50936824387423,NA
+2403,www,gov.br,NA,2020-06-21T00:00:00Z,2017-08-29T00:00:00Z,NA,NA,BR,initial trust,www,3,1,1,1158.490631664917,131.49063171278272,NA,NA
+2414,usg,edu,NA,NA,NA,NA,NA,NA,initial trust,usg,3,1,1,NA,NA,NA,NA
+2441,mydealz,de,NA,NA,NA,NA,NA,NA,initial trust,my deal z,7,3,1,NA,NA,NA,NA
+2446,sozcu,com.tr,NA,NA,2005-03-09T00:00:00Z,2024-03-08T00:00:00Z,NA,NA,initial trust,so z cu,5,3,1,5714.490631664917,NA,1224.5093682438742,NA
+2465,nyu,edu,NA,NA,NA,NA,NA,NA,initial trust,nyu,3,1,1,NA,NA,NA,NA
+2468,jusbrasil,com.br,NA,2019-02-21T00:00:00Z,2008-03-16T00:00:00Z,2028-03-16T00:00:00Z,NA,BR,initial trust,jus brasil,9,2,1,4611.490631664917,617.4906317127827,2693.509368243874,2076.0187365310912
+2470,nj,gov,NA,NA,NA,NA,NA,NA,initial trust,nj,2,1,1,NA,NA,NA,NA
+2477,golem,de,NA,NA,NA,NA,NA,NA,initial trust,golem,5,1,1,NA,NA,NA,NA
+2481,yandex,kz,NA,NA,NA,NA,"Yandex, LLC",NA,initial trust,yandex,6,1,2,NA,NA,NA,NA
+2558,vodafone,de,NA,NA,NA,NA,NA,NA,initial trust,vodafone,8,1,1,NA,NA,NA,NA
+2574,virginia,gov,NA,NA,NA,NA,NA,NA,initial trust,virginia,8,1,1,NA,NA,NA,NA
+2582,dagbladet,no,NA,2020-09-30T00:00:00Z,2018-10-02T00:00:00Z,NA,NA,NA,initial trust,dagbladet,9,1,1,759.4906316649169,30.490631712782715,NA,NA
+2588,itau,com.br,NA,2018-12-14T00:00:00Z,1995-02-01T00:00:00Z,2021-01-01T00:00:00Z,NA,BR,initial trust,it au,4,2,1,9403.490631664918,686.4906317127827,62.50936824387422,-623.9812634689085
+2598,finn,no,NA,2019-11-15T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,finn,4,1,1,7655.490631664917,350.4906317127827,NA,NA
+2606,arizona,edu,NA,NA,NA,NA,NA,NA,initial trust,arizona,7,1,1,NA,NA,NA,NA
+2614,pa,gov,NA,NA,NA,NA,NA,NA,initial trust,pa,2,1,1,NA,NA,NA,NA
+2620,inss,gov.br,NA,2020-04-20T00:00:00Z,1998-07-27T00:00:00Z,NA,NA,BR,initial trust,in ss,4,2,1,8131.490631664917,193.49063171278272,NA,NA
+2654,washington,edu,NA,NA,NA,NA,NA,NA,initial trust,washington,10,1,1,NA,NA,NA,NA
+2665,focus,de,NA,NA,NA,NA,NA,NA,initial trust,focus,5,1,1,NA,NA,NA,NA
+2681,ucf,edu,NA,NA,NA,NA,NA,NA,initial trust,ucf,3,1,1,NA,NA,NA,NA
+2738,wetteronline,de,NA,NA,NA,NA,NA,NA,initial trust,wetter online,12,2,1,NA,NA,NA,NA
+2782,bahn,de,NA,NA,NA,NA,NA,NA,initial trust,bahn,4,1,1,NA,NA,NA,NA
+2797,telekom,de,NA,NA,NA,NA,NA,NA,initial trust,telekom,7,1,1,NA,NA,NA,NA
+2812,usda,gov,NA,NA,NA,NA,NA,NA,initial trust,usda,4,1,1,NA,NA,NA,NA
+2879,clicrbs,com.br,NA,2020-08-21T00:00:00Z,2000-04-06T00:00:00Z,2023-04-06T00:00:00Z,NA,BR,initial trust,clic rbs,7,2,1,7512.490631664917,70.49063171278272,887.5093682438742,817.0187365310915
+2929,umich,edu,NA,NA,NA,NA,NA,NA,initial trust,um ich,5,2,1,NA,NA,NA,NA
+2951,atv,com.tr,NA,NA,1996-10-15T00:00:00Z,2022-10-14T00:00:00Z,NA,NA,initial trust,atv,3,1,1,8781.490631664918,NA,713.5093682438742,NA
+3005,google,dk,NA,NA,1999-01-10T00:00:00Z,2021-03-31T00:00:00Z,NA,NA,initial trust,google,6,1,4,7964.490631664917,NA,151.50936824387423,NA
+3009,ohio,gov,NA,NA,NA,NA,NA,NA,initial trust,ohio,4,1,1,NA,NA,NA,NA
+3011,duden,de,NA,NA,NA,NA,NA,NA,initial trust,duden,5,1,1,NA,NA,NA,NA
+3012,magazineluiza,com.br,NA,2020-09-29T00:00:00Z,1997-10-06T00:00:00Z,2030-10-06T00:00:00Z,NA,BR,initial trust,magazine luiza,13,2,1,8425.490631664918,31.490631712782715,3627.509368243874,3596.0187365310912
+3034,census,gov,NA,NA,NA,NA,NA,NA,initial trust,census,6,1,1,NA,NA,NA,NA
+3040,isbank,com.tr,NA,NA,1997-06-17T00:00:00Z,2021-06-16T00:00:00Z,NA,NA,initial trust,is bank,6,2,1,8536.490631664918,NA,228.50936824387423,NA
+3041,egov,kz,NA,NA,NA,NA,"Ministry of Digital Development, Innovations and Aerospace Industry of the RK",NA,initial trust,egov,4,1,3,NA,NA,NA,NA
+3068,bls,gov,NA,NA,NA,NA,NA,NA,initial trust,b ls,3,2,1,NA,NA,NA,NA
+3071,upenn,edu,NA,NA,NA,NA,NA,NA,initial trust,u penn,5,2,1,NA,NA,NA,NA
+3073,ucsd,edu,NA,NA,NA,NA,NA,NA,initial trust,ucsd,4,1,1,NA,NA,NA,NA
+3096,uh,edu,NA,NA,NA,NA,NA,NA,initial trust,uh,2,1,1,NA,NA,NA,NA
+3104,deref,web.de,NA,NA,NA,NA,NA,NA,initial trust,de ref,5,2,1,NA,NA,NA,NA
+3111,ekstrabladet,dk,NA,NA,1996-12-07T00:00:00Z,2020-12-31T00:00:00Z,NA,NA,initial trust,ekstra bladet,12,2,2,8728.490631664918,NA,61.50936824387422,NA
+3114,lidl,de,NA,NA,NA,NA,NA,NA,initial trust,lidl,4,1,1,NA,NA,NA,NA
+3119,bancobrasil,com.br,NA,2020-05-26T00:00:00Z,1996-03-14T00:00:00Z,2023-03-14T00:00:00Z,NA,BR,initial trust,banco brasil,11,2,1,8996.490631664918,157.49063171278272,864.5093682438742,707.0187365310915
+3161,msu,edu,NA,NA,NA,NA,NA,NA,initial trust,msu,3,1,1,NA,NA,NA,NA
+3163,virginia,edu,NA,NA,NA,NA,NA,NA,initial trust,virginia,8,1,1,NA,NA,NA,NA
+3165,1und1,de,NA,NA,NA,NA,NA,NA,initial trust,1 und 1,5,3,1,NA,NA,NA,NA
+3175,unc,edu,NA,NA,NA,NA,NA,NA,initial trust,unc,3,1,1,NA,NA,NA,NA
+3180,novaescola,org.br,NA,2020-05-05T00:00:00Z,2005-12-27T00:00:00Z,2023-12-27T00:00:00Z,NA,BR,initial trust,nova escola,10,2,1,5421.490631664917,178.49063171278272,1152.5093682438742,974.0187365310915
+3199,ziraatbank,com.tr,NA,NA,1997-06-11T00:00:00Z,2025-06-10T00:00:00Z,NA,NA,initial trust,ziraat bank,10,2,1,8542.490631664918,NA,1683.5093682438742,NA
+3202,thomann,de,NA,NA,NA,NA,NA,NA,initial trust,thom ann,7,2,1,NA,NA,NA,NA
+3216,michigan,gov,NA,NA,NA,NA,NA,NA,initial trust,michigan,8,1,1,NA,NA,NA,NA
+3217,letras,mus.br,NA,2016-09-06T00:00:00Z,2003-11-04T00:00:00Z,2025-11-04T00:00:00Z,NA,BR,initial trust,letras,6,1,1,6205.490631664917,1515.4906317127827,1830.5093682438742,315.01873653109146
+3240,yandex,com.tr,NA,NA,2010-03-15T00:00:00Z,2021-03-14T00:00:00Z,NA,NA,initial trust,yandex,6,1,1,3882.4906316649167,NA,134.50936824387423,NA
+3264,dpd,de,NA,NA,NA,NA,NA,NA,initial trust,dpd,3,1,1,NA,NA,NA,NA
+3279,breezy,hr,NA,2020-10-21T20:39:08Z,2015-02-22T23:00:00Z,2021-02-22T23:00:00Z,NA,NA,initial trust,breezy,6,1,4,2076.5322983315837,8.630122453523455,115.46770157720756,106.83757912368411
+3289,address,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,address,7,1,3,NA,NA,NA,NA
+3347,usa,gov,NA,NA,NA,NA,NA,NA,initial trust,usa,3,1,1,NA,NA,NA,NA
+3356,tamu,edu,NA,NA,NA,NA,NA,NA,initial trust,tamu,4,1,1,NA,NA,NA,NA
+3363,northwestern,edu,NA,NA,NA,NA,NA,NA,initial trust,northwestern,12,1,1,NA,NA,NA,NA
+3395,tv2,no,NA,2019-11-15T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,tv2,3,1,1,7655.490631664917,350.4906317127827,NA,NA
+3420,gib,gov.tr,NA,NA,2005-12-21T00:00:00Z,2021-12-20T00:00:00Z,NA,NA,initial trust,gib,3,1,1,5427.490631664917,NA,415.50936824387423,NA
+3423,wisc,edu,NA,NA,NA,NA,NA,NA,initial trust,w isc,4,2,1,NA,NA,NA,NA
+3456,umd,edu,NA,NA,NA,NA,NA,NA,initial trust,um d,3,2,1,NA,NA,NA,NA
+3459,rtl,de,NA,NA,NA,NA,NA,NA,initial trust,rtl,3,1,1,NA,NA,NA,NA
+3463,ucdavis,edu,NA,NA,NA,NA,NA,NA,initial trust,uc davis,7,2,1,NA,NA,NA,NA
+3519,uchicago,edu,NA,NA,NA,NA,NA,NA,initial trust,u chicago,8,2,1,NA,NA,NA,NA
+3520,uci,edu,NA,NA,NA,NA,NA,NA,initial trust,uci,3,1,1,NA,NA,NA,NA
+3534,cmu,edu,NA,NA,NA,NA,NA,NA,initial trust,c mu,3,2,1,NA,NA,NA,NA
+3553,anadolu,edu.tr,NA,NA,2000-09-18T00:00:00Z,2021-09-17T00:00:00Z,NA,NA,initial trust,anadolu,7,1,1,7347.490631664917,NA,321.50936824387423,NA
+3586,amazondelivers,jobs,NA,2019-05-08T16:38:18Z,2015-06-25T16:58:32Z,2024-06-25T16:58:32Z,NA,NA,initial trust,amazon delivers,14,2,8,1953.783316850102,540.7973678238939,1334.2166830586891,793.4193152347952
+3595,vccs,edu,NA,NA,NA,NA,NA,NA,initial trust,vc cs,4,2,1,NA,NA,NA,NA
+3612,ufl,edu,NA,NA,NA,NA,NA,NA,initial trust,u fl,3,2,1,NA,NA,NA,NA
+3624,loc,gov,NA,NA,NA,NA,NA,NA,initial trust,loc,3,1,1,NA,NA,NA,NA
+3655,dhs,gov,NA,NA,NA,NA,NA,NA,initial trust,dhs,3,1,1,NA,NA,NA,NA
+3667,duke,edu,NA,NA,NA,NA,NA,NA,initial trust,duke,4,1,1,NA,NA,NA,NA
+3700,moj,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,moj,3,1,3,NA,NA,NA,NA
+3724,utah,edu,NA,NA,NA,NA,NA,NA,initial trust,utah,4,1,1,NA,NA,NA,NA
+3732,jutarnji,hr,NA,2015-09-06T22:00:00Z,2011-04-13T22:00:00Z,2021-04-13T22:00:00Z,NA,NA,initial trust,jutarnji,8,1,2,3487.57396499825,1880.573965046116,165.4260349105409,-1715.147930135575
+3746,netvasco,com.br,NA,2016-09-27T00:00:00Z,2000-02-28T00:00:00Z,2026-02-28T00:00:00Z,NA,BR,initial trust,net vasco,8,2,1,7550.490631664917,1494.4906317127827,1946.5093682438742,452.01873653109146
+3750,oregonstate,edu,NA,NA,NA,NA,NA,NA,initial trust,oregon state,11,2,1,NA,NA,NA,NA
+3765,arnolds,com.br,NA,2020-09-30T00:00:00Z,2013-08-16T00:00:00Z,2021-08-16T00:00:00Z,NA,BR,initial trust,arnold s,7,2,1,2632.4906316649167,30.490631712782715,289.50936824387423,259.0187365310915
+3768,uw,edu,NA,NA,NA,NA,NA,NA,initial trust,uw,2,1,1,NA,NA,NA,NA
+3769,claveunica,gob.cl,NA,NA,NA,NA,NA,NA,initial trust,clave unica,10,2,1,NA,NA,NA,NA
+3780,otto,de,NA,NA,NA,NA,NA,NA,initial trust,otto,4,1,1,NA,NA,NA,NA
+3799,uyap,gov.tr,NA,NA,2006-10-04T00:00:00Z,2021-10-03T00:00:00Z,NA,NA,initial trust,u yap,4,2,1,5140.490631664917,NA,337.50936824387423,NA
+3802,tueren,fachhandel.de,NA,NA,NA,NA,NA,NA,initial trust,tu eren,6,2,1,NA,NA,NA,NA
+3852,byu,edu,NA,NA,NA,NA,NA,NA,initial trust,byu,3,1,1,NA,NA,NA,NA
+3873,worldoftanks,eu,NA,NA,NA,NA,NA,NA,initial trust,world of tanks,12,3,1,NA,NA,NA,NA
+3891,fox,com.tr,NA,NA,2006-12-20T00:00:00Z,2020-12-19T00:00:00Z,NA,NA,initial trust,fox,3,1,1,5063.490631664917,NA,49.50936824387422,NA
+3903,24sata,hr,NA,2015-05-26T22:00:00Z,2014-06-03T22:00:00Z,2021-06-03T22:00:00Z,NA,NA,initial trust,24sata,6,1,2,2340.57396499825,1983.573965046116,216.4260349105409,-1767.147930135575
+3913,fsu,edu,NA,NA,NA,NA,NA,NA,initial trust,fsu,3,1,1,NA,NA,NA,NA
+3920,saude,gov.br,NA,2020-03-21T00:00:00Z,1996-08-04T00:00:00Z,NA,NA,BR,initial trust,saude,5,1,1,8853.490631664918,223.49063171278272,NA,NA
+3927,bradesco,com.br,NA,2019-10-29T00:00:00Z,1995-05-22T00:00:00Z,2026-01-01T00:00:00Z,NA,BR,initial trust,bradesco,8,1,1,9293.490631664918,367.4906317127827,1888.5093682438742,1521.0187365310915
+4020,turktelekom,com.tr,NA,NA,2002-04-11T00:00:00Z,2024-04-10T00:00:00Z,NA,NA,initial trust,turk telekom,11,2,1,6777.490631664917,NA,1257.5093682438742,NA
+4053,time,is,NA,NA,2009-03-09T00:00:00Z,2021-03-09T00:00:00Z,NA,NA,initial trust,time,4,1,2,4253.490631664917,NA,129.50936824387423,NA
+4066,ct,gov,NA,NA,NA,NA,NA,NA,initial trust,ct,2,1,1,NA,NA,NA,NA
+4116,rwth,aachen.de,NA,NA,NA,NA,NA,NA,initial trust,rw th,4,2,1,NA,NA,NA,NA
+4162,your,server.de,NA,NA,NA,NA,NA,NA,initial trust,your,4,1,1,NA,NA,NA,NA
+4167,kau,edu.sa,NA,NA,NA,NA,NA,NA,initial trust,kau,3,1,3,NA,NA,NA,NA
+4210,justice,gov,NA,NA,NA,NA,NA,NA,initial trust,justice,7,1,1,NA,NA,NA,NA
+4248,kiji,is,NA,NA,2015-09-29T00:00:00Z,2021-09-29T00:00:00Z,NA,NA,initial trust,ki ji,4,2,4,1858.490631664917,NA,333.50936824387423,NA
+4286,healthcare,gov,NA,NA,NA,NA,NA,NA,initial trust,healthcare,10,1,1,NA,NA,NA,NA
+4297,ndr,de,NA,NA,NA,NA,NA,NA,initial trust,ndr,3,1,1,NA,NA,NA,NA
+4328,bilimland,kz,NA,NA,NA,NA,"TOO Bilim Media Group, 110440012812",NA,initial trust,bilim land,9,2,2,NA,NA,NA,NA
+4333,mediamarkt,de,NA,NA,NA,NA,NA,NA,initial trust,media markt,10,2,1,NA,NA,NA,NA
+4340,osu,edu,NA,NA,NA,NA,NA,NA,initial trust,osu,3,1,1,NA,NA,NA,NA
+4352,lieferando,de,NA,NA,NA,NA,NA,NA,initial trust,lie fe rando,10,3,1,NA,NA,NA,NA
+4365,mol,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,mol,3,1,3,NA,NA,NA,NA
+4397,krone,at,NA,2018-07-12T15:01:25Z,NA,NA,Krone Multimedia GesmbH & CoKG,Austria,initial trust,krone,5,1,1,NA,840.8646479164864,NA,NA
+4412,iu,edu,NA,NA,NA,NA,NA,NA,initial trust,iu,2,1,1,NA,NA,NA,NA
+4443,morgenpost,de,NA,NA,NA,NA,NA,NA,initial trust,morgenpost,10,1,1,NA,NA,NA,NA
+4470,commerzbank,de,NA,NA,NA,NA,NA,NA,initial trust,com mer z bank,11,4,1,NA,NA,NA,NA
+4484,netdoktor,de,NA,NA,NA,NA,NA,NA,initial trust,netdoktor,9,1,1,NA,NA,NA,NA
+4488,yale,edu,NA,NA,NA,NA,NA,NA,initial trust,yale,4,1,1,NA,NA,NA,NA
+4493,uscourts,gov,NA,NA,NA,NA,NA,NA,initial trust,us courts,8,2,1,NA,NA,NA,NA
+4520,check24,de,NA,NA,NA,NA,NA,NA,initial trust,check 24,7,2,1,NA,NA,NA,NA
+4527,ptt,gov.tr,NA,NA,2000-09-04T00:00:00Z,2021-09-03T00:00:00Z,NA,NA,initial trust,pt t,3,2,1,7361.490631664917,NA,307.50936824387423,NA
+4528,antonioli,eu,NA,NA,NA,NA,NA,NA,initial trust,antonio li,9,2,1,NA,NA,NA,NA
+4555,png,is,NA,NA,2019-10-29T00:00:00Z,2021-10-29T00:00:00Z,NA,NA,initial trust,png,3,1,2,367.49063166491686,NA,363.50936824387423,NA
+4589,sia,eu,NA,NA,NA,NA,NA,NA,initial trust,sia,3,1,2,NA,NA,NA,NA
+4612,bu,edu,NA,NA,NA,NA,NA,NA,initial trust,bu,2,1,1,NA,NA,NA,NA
+4618,terabyteshop,com.br,NA,2020-05-03T00:00:00Z,2006-05-18T00:00:00Z,2022-05-18T00:00:00Z,NA,BR,initial trust,tera byte shop,12,3,1,5279.490631664917,180.49063171278272,564.5093682438742,384.01873653109146
+4639,aol,de,NA,NA,NA,NA,NA,NA,initial trust,aol,3,1,1,NA,NA,NA,NA
+4653,arbeitsagentur,de,NA,NA,NA,NA,NA,NA,initial trust,arbeit s agentur,14,3,1,NA,NA,NA,NA
+4676,hbs,edu,NA,NA,NA,NA,NA,NA,initial trust,hbs,3,1,1,NA,NA,NA,NA
+4692,net,hr,NA,2019-04-17T22:00:00Z,2011-08-28T22:00:00Z,2021-08-28T22:00:00Z,NA,NA,initial trust,net,3,1,2,3350.57396499825,561.5739650461161,302.42603491054086,-259.1479301355752
+4695,americanas,com.br,NA,2020-05-18T00:00:00Z,1999-06-15T00:00:00Z,2021-06-15T00:00:00Z,NA,BR,initial trust,americanas,10,1,1,7808.490631664917,165.49063171278272,227.50936824387423,62.01873653109152
+4715,laccd,edu,NA,NA,NA,NA,NA,NA,initial trust,la ccd,5,2,1,NA,NA,NA,NA
+4741,senate,gov,NA,NA,NA,NA,NA,NA,initial trust,senate,6,1,1,NA,NA,NA,NA
+4749,rada,gov.ua,NA,NA,NA,NA,NA,NA,initial trust,rada,4,1,2,NA,NA,NA,NA
+4759,tse,jus.br,NA,2018-12-19T00:00:00Z,2008-02-29T00:00:00Z,NA,NA,BR,initial trust,tse,3,1,1,4627.490631664917,681.4906317127827,NA,NA
+4762,economia,gov.br,NA,2020-06-21T00:00:00Z,2018-12-19T00:00:00Z,NA,NA,BR,initial trust,economia,8,1,1,681.4906316649169,131.49063171278272,NA,NA
+4766,markt,de,NA,NA,NA,NA,NA,NA,initial trust,markt,5,1,1,NA,NA,NA,NA
+4774,pciconcursos,com.br,NA,2020-10-11T00:00:00Z,2000-07-04T00:00:00Z,2029-07-04T00:00:00Z,NA,BR,initial trust,pci concursos,12,2,1,7423.490631664917,19.490631712782715,3168.509368243874,3149.0187365310912
+4783,nv,gov,NA,NA,NA,NA,NA,NA,initial trust,nv,2,1,1,NA,NA,NA,NA
+4789,nps,gov,NA,NA,NA,NA,NA,NA,initial trust,nps,3,1,1,NA,NA,NA,NA
+4815,monash,edu,NA,NA,NA,NA,NA,NA,initial trust,monash,6,1,1,NA,NA,NA,NA
+4819,planalto,gov.br,NA,2019-11-18T00:00:00Z,1996-04-16T00:00:00Z,NA,NA,BR,initial trust,planalto,8,1,1,8963.490631664918,347.4906317127827,NA,NA
+4843,kabum,com.br,NA,2017-03-23T00:00:00Z,2003-03-18T00:00:00Z,2027-03-18T00:00:00Z,NA,BR,initial trust,k abum,5,2,1,6436.490631664917,1317.4906317127827,2329.509368243874,1012.0187365310915
+4846,rutgers,edu,NA,NA,NA,NA,NA,NA,initial trust,rutgers,7,1,1,NA,NA,NA,NA
+4877,hhs,gov,NA,NA,NA,NA,NA,NA,initial trust,hhs,3,1,1,NA,NA,NA,NA
+4892,gsu,edu,NA,NA,NA,NA,NA,NA,initial trust,g su,3,2,1,NA,NA,NA,NA
+4894,avon,com.br,NA,2019-10-18T00:00:00Z,1996-07-02T00:00:00Z,2022-07-02T00:00:00Z,NA,BR,initial trust,avon,4,1,1,8886.490631664918,378.4906317127827,609.5093682438742,231.01873653109146
+4901,spa,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,spa,3,1,7,NA,NA,NA,NA
+4915,cruzeirodosul,edu.br,NA,2020-10-05T00:00:00Z,2008-08-11T00:00:00Z,NA,NA,BR,initial trust,cruzeiro do sul,13,3,1,4463.490631664917,25.490631712782715,NA,NA
+4923,nd,edu,NA,NA,NA,NA,NA,NA,initial trust,nd,2,1,1,NA,NA,NA,NA
+4926,ionos,de,NA,NA,NA,NA,NA,NA,initial trust,ion os,5,2,1,NA,NA,NA,NA
+4989,usgs,gov,NA,NA,NA,NA,NA,NA,initial trust,usgs,4,1,1,NA,NA,NA,NA
+5027,stepstone,de,NA,NA,NA,NA,NA,NA,initial trust,stepstone,9,1,1,NA,NA,NA,NA
+5057,ouvirmusica,com.br,NA,2016-09-03T00:00:00Z,2005-03-10T00:00:00Z,2026-03-10T00:00:00Z,NA,BR,initial trust,ouvir musica,11,2,1,5713.490631664917,1518.4906317127827,1956.5093682438742,438.01873653109146
+5060,perfectmoney,is,NA,NA,2013-05-27T00:00:00Z,2022-05-27T00:00:00Z,NA,NA,initial trust,perfect money,12,2,4,2713.4906316649167,NA,573.5093682438742,NA
+5063,cruzeirodosulvirtual,com.br,NA,2020-09-11T00:00:00Z,2008-09-10T00:00:00Z,2022-09-10T00:00:00Z,NA,BR,initial trust,cruzeiro do sul virtual,20,4,1,4433.490631664917,49.490631712782715,679.5093682438742,630.0187365310915
+5069,concepto,de,NA,NA,NA,NA,NA,NA,initial trust,concept o,8,2,1,NA,NA,NA,NA
+5118,ig,com.br,NA,2019-04-09T00:00:00Z,1998-05-05T00:00:00Z,2021-05-05T00:00:00Z,NA,BR,initial trust,ig,2,1,1,8214.490631664918,570.4906317127827,186.50936824387423,-383.9812634689085
+5122,equatorialenergia,com.br,NA,2019-03-31T00:00:00Z,2006-01-11T00:00:00Z,2026-01-11T00:00:00Z,NA,BR,initial trust,equatorial energia,17,2,1,5406.490631664917,579.4906317127827,1898.5093682438742,1319.0187365310915
+5184,bt,dk,NA,NA,1997-11-10T00:00:00Z,2020-12-31T00:00:00Z,NA,NA,initial trust,bt,2,1,3,8390.490631664918,NA,61.50936824387422,NA
+5186,vglive,no,NA,2020-03-24T00:00:00Z,2016-04-22T00:00:00Z,NA,NA,NA,initial trust,vg live,6,2,1,1652.490631664917,220.49063171278272,NA,NA
+5266,fanatik,com.tr,NA,NA,1996-11-08T00:00:00Z,2023-11-07T00:00:00Z,NA,NA,initial trust,fanatik,7,1,1,8757.490631664918,NA,1102.5093682438742,NA
+5300,mo,gov,NA,NA,NA,NA,NA,NA,initial trust,mo,2,1,1,NA,NA,NA,NA
+5332,whitehouse,gov,NA,NA,NA,NA,NA,NA,initial trust,whitehouse,10,1,1,NA,NA,NA,NA
+5342,giga,de,NA,NA,NA,NA,NA,NA,initial trust,giga,4,1,1,NA,NA,NA,NA
+5394,rochester,edu,NA,NA,NA,NA,NA,NA,initial trust,rochester,9,1,1,NA,NA,NA,NA
+5401,nutuk,com.tr,NA,NA,2017-06-21T00:00:00Z,2025-06-20T00:00:00Z,NA,NA,initial trust,nut uk,5,2,1,1227.490631664917,NA,1693.5093682438742,NA
+5422,cli,im,NA,NA,NA,2025-04-03T00:59:49Z,NA,NA,initial trust,cli,3,1,2,NA,NA,1615.5509075957261,NA
+5427,express,de,NA,NA,NA,NA,NA,NA,initial trust,express,7,1,1,NA,NA,NA,NA
+5446,dnb,no,NA,2020-09-09T00:00:00Z,2011-09-09T00:00:00Z,NA,NA,NA,initial trust,dnb,3,1,1,3339.4906316649167,51.490631712782715,NA,NA
+5453,tn,gov,NA,NA,NA,NA,NA,NA,initial trust,tn,2,1,1,NA,NA,NA,NA
+5471,ahaber,com.tr,NA,NA,2010-08-12T00:00:00Z,2022-08-11T00:00:00Z,NA,NA,initial trust,ahaber,6,1,1,3732.4906316649167,NA,649.5093682438742,NA
+5486,skole,hr,NA,2018-12-17T23:00:00Z,1999-03-28T22:00:00Z,2019-12-16T23:00:00Z,NA,NA,initial trust,skole,5,1,2,7886.573964998251,682.5322983794493,-318.53229842279245,-1001.0645968022418
+5514,univie,ac.at,NA,2019-01-09T10:47:49Z,NA,NA,Universitaet Wien (Zentraler Informatikdienst),Austria,initial trust,uni vie,6,2,1,NA,660.0407590275976,NA,NA
+5589,e24,no,NA,2020-08-12T00:00:00Z,2004-09-10T00:00:00Z,NA,NA,NA,initial trust,e24,3,1,1,5894.490631664917,79.49063171278272,NA,NA
+5606,webmotors,com.br,NA,2019-08-21T00:00:00Z,1996-06-27T00:00:00Z,2023-06-27T00:00:00Z,NA,BR,initial trust,web motors,9,2,1,8891.490631664918,436.4906317127827,969.5093682438742,533.0187365310915
+5639,fiu,edu,NA,NA,NA,NA,NA,NA,initial trust,fi u,3,2,1,NA,NA,NA,NA
+5643,brookings,edu,NA,NA,NA,NA,NA,NA,initial trust,brookings,9,1,1,NA,NA,NA,NA
+5678,feide,no,NA,2020-03-20T00:00:00Z,2001-03-20T00:00:00Z,NA,NA,NA,initial trust,fei de,5,2,1,7164.490631664917,224.49063171278272,NA,NA
+5686,santander,com.br,NA,2019-12-24T00:00:00Z,1996-12-23T00:00:00Z,2020-12-23T00:00:00Z,NA,BR,initial trust,santander,9,1,1,8712.490631664918,311.4906317127827,53.50936824387422,-257.9812634689085
+5693,medicare,gov,NA,NA,NA,NA,NA,NA,initial trust,medicare,8,1,1,NA,NA,NA,NA
+5725,epa,gov,NA,NA,NA,NA,NA,NA,initial trust,epa,3,1,1,NA,NA,NA,NA
+5740,postbank,de,NA,NA,NA,NA,NA,NA,initial trust,post bank,8,2,1,NA,NA,NA,NA
+5771,albayan,ae,NA,NA,NA,NA,NA,NA,initial trust,al bayan,7,2,1,NA,NA,NA,NA
+5789,ucsb,edu,NA,NA,NA,NA,NA,NA,initial trust,uc sb,4,2,1,NA,NA,NA,NA
+5791,who,is,NA,NA,2002-06-12T00:00:00Z,2023-06-12T00:00:00Z,NA,NA,initial trust,who,3,1,4,6715.490631664917,NA,954.5093682438742,NA
+5798,suratkargo,com.tr,NA,NA,2003-09-29T00:00:00Z,2025-09-28T00:00:00Z,NA,NA,initial trust,surat kargo,10,2,1,6241.490631664917,NA,1793.5093682438742,NA
+5808,baixaki,com.br,NA,2020-05-16T00:00:00Z,2000-08-02T00:00:00Z,2021-08-02T00:00:00Z,NA,BR,initial trust,baixaki,7,1,1,7394.490631664917,167.49063171278272,275.50936824387423,108.01873653109152
+5814,usajobs,gov,NA,NA,NA,NA,NA,NA,initial trust,usajobs,7,1,1,NA,NA,NA,NA
+5830,csun,edu,NA,NA,NA,NA,NA,NA,initial trust,c sun,4,2,1,NA,NA,NA,NA
+5846,colorado,gov,NA,NA,NA,NA,NA,NA,initial trust,colorado,8,1,1,NA,NA,NA,NA
+5854,acesso,gov.br,NA,2020-06-08T00:00:00Z,2018-11-23T00:00:00Z,NA,NA,BR,initial trust,acesso,6,1,1,707.4906316649169,144.49063171278272,NA,NA
+5865,worldofwarships,eu,NA,NA,NA,NA,NA,NA,initial trust,world of warships,15,3,1,NA,NA,NA,NA
+5868,vt,edu,NA,NA,NA,NA,NA,NA,initial trust,vt,2,1,1,NA,NA,NA,NA
+5880,wpos,com.br,NA,2019-12-17T00:00:00Z,2009-12-15T00:00:00Z,2024-12-15T00:00:00Z,NA,BR,initial trust,wp os,4,2,1,3972.4906316649167,318.4906317127827,1506.5093682438742,1188.0187365310915
+5891,gatech,edu,NA,NA,NA,NA,NA,NA,initial trust,ga tech,6,2,1,NA,NA,NA,NA
+5899,tusciaweb,eu,NA,NA,NA,NA,NA,NA,initial trust,tus cia web,9,3,1,NA,NA,NA,NA
+5934,ucsc,edu,NA,NA,NA,NA,NA,NA,initial trust,ucsc,4,1,1,NA,NA,NA,NA
+5962,eb,mil.br,NA,2020-01-15T00:00:00Z,1995-11-14T00:00:00Z,NA,NA,BR,initial trust,eb,2,1,1,9117.490631664918,289.4906317127827,NA,NA
+5963,ust,kz,NA,NA,NA,NA,"IP Sembiev N, 951020300752",NA,initial trust,ust,3,1,3,NA,NA,NA,NA
+5971,gosi,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,go si,4,2,5,NA,NA,NA,NA
+5979,hhv,de,NA,NA,NA,NA,NA,NA,initial trust,hh v,3,2,1,NA,NA,NA,NA
+5982,colaboraread,com.br,NA,2020-05-05T00:00:00Z,2014-05-01T00:00:00Z,2021-05-01T00:00:00Z,NA,BR,initial trust,co labor a read,12,4,1,2374.4906316649167,178.49063171278272,182.50936824387423,4.01873653109152
+6041,moe,gov.ae,NA,NA,NA,NA,NA,NA,initial trust,moe,3,1,1,NA,NA,NA,NA
+6054,pitt,edu,NA,NA,NA,NA,NA,NA,initial trust,pitt,4,1,1,NA,NA,NA,NA
+6060,conrad,de,NA,NA,NA,NA,NA,NA,initial trust,conrad,6,1,1,NA,NA,NA,NA
+6089,golive,im,NA,NA,NA,2021-08-09T00:59:58Z,NA,NA,initial trust,go live,6,2,4,NA,NA,282.55101176239276,NA
+6095,milligazete,com.tr,NA,NA,1998-03-09T00:00:00Z,2021-03-08T00:00:00Z,NA,NA,initial trust,milli gazete,11,2,1,8271.490631664918,NA,128.50936824387423,NA
+6100,georgia,gov,NA,NA,NA,NA,NA,NA,initial trust,georgia,7,1,1,NA,NA,NA,NA
+6112,nc,gov,NA,NA,NA,NA,NA,NA,initial trust,nc,2,1,1,NA,NA,NA,NA
+6113,archives,gov,NA,NA,NA,NA,NA,NA,initial trust,archives,8,1,1,NA,NA,NA,NA
+6178,deutschepost,de,NA,NA,NA,NA,NA,NA,initial trust,deutsche post,12,2,1,NA,NA,NA,NA
+6197,linguee,de,NA,NA,NA,NA,NA,NA,initial trust,lingue e,7,2,1,NA,NA,NA,NA
+6210,999,md,NA,NA,NA,2024-12-05T00:00:00Z,NA,NA,initial trust,999,3,1,1,NA,NA,1496.5093682438742,NA
+6216,stc,com.sa,NA,NA,NA,NA,NA,NA,initial trust,stc,3,1,5,NA,NA,NA,NA
+6220,in,gov,NA,NA,NA,NA,NA,NA,initial trust,in,2,1,1,NA,NA,NA,NA
+6238,tu,braunschweig.de,NA,NA,NA,NA,NA,NA,initial trust,tu,2,1,1,NA,NA,NA,NA
+6245,computerbild,de,NA,NA,NA,NA,NA,NA,initial trust,computerbild,12,1,1,NA,NA,NA,NA
+6267,nist,gov,NA,NA,NA,NA,NA,NA,initial trust,nist,4,1,1,NA,NA,NA,NA
+6287,princeton,edu,NA,NA,NA,NA,NA,NA,initial trust,princeton,9,1,1,NA,NA,NA,NA
+6305,moh,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,moh,3,1,3,NA,NA,NA,NA
+6315,t24,com.tr,NA,NA,2009-06-27T00:00:00Z,2022-06-26T00:00:00Z,NA,NA,initial trust,t 24,3,2,1,4143.490631664917,NA,603.5093682438742,NA
+6324,gwu,edu,NA,NA,NA,NA,NA,NA,initial trust,gw u,3,2,1,NA,NA,NA,NA
+6338,tadawul,com.sa,NA,NA,NA,NA,NA,NA,initial trust,ta daw ul,7,3,11,NA,NA,NA,NA
+6379,njuskalo,hr,NA,2020-03-29T22:00:00Z,2008-07-21T22:00:00Z,2021-03-29T22:00:00Z,NA,NA,initial trust,nj usk alo,8,3,2,4483.573964998251,214.57396504611606,150.4260349105409,-64.14793013557517
+6410,dr,dk,NA,NA,1998-03-11T00:00:00Z,2021-03-31T00:00:00Z,NA,NA,initial trust,dr,2,1,3,8269.490631664918,NA,151.50936824387423,NA
+6413,taz,de,NA,NA,NA,NA,NA,NA,initial trust,taz,3,1,1,NA,NA,NA,NA
+6414,uopeople,edu,NA,NA,NA,NA,NA,NA,initial trust,uo people,8,2,1,NA,NA,NA,NA
+6420,pucgoias,edu.br,NA,2019-01-24T00:00:00Z,2009-10-23T00:00:00Z,NA,NA,BR,initial trust,pu cgo ias,8,3,1,4025.4906316649167,645.4906317127827,NA,NA
+6440,login,gov,NA,NA,NA,NA,NA,NA,initial trust,login,5,1,1,NA,NA,NA,NA
+6454,kanald,com.tr,NA,NA,1996-10-08T00:00:00Z,2023-10-07T00:00:00Z,NA,NA,initial trust,kanald,6,1,1,8788.490631664918,NA,1071.5093682438742,NA
+6458,hostinger,com.br,NA,2020-02-14T00:00:00Z,2011-01-07T00:00:00Z,2025-01-07T00:00:00Z,NA,BR,initial trust,hostinger,9,1,1,3584.4906316649167,259.4906317127827,1529.5093682438742,1270.0187365310915
+6526,olx,kz,NA,NA,NA,NA,OLX Global B.V.,NA,initial trust,olx,3,1,4,NA,NA,NA,NA
+6532,ufba,br,NA,2019-11-18T00:00:00Z,NA,NA,NA,BR,initial trust,uf ba,4,2,1,NA,347.4906317127827,NA,NA
+6585,au,dk,NA,NA,1996-02-02T00:00:00Z,2021-03-31T00:00:00Z,NA,NA,initial trust,au,2,1,2,9037.490631664918,NA,151.50936824387423,NA
+6610,gmu,edu,NA,NA,NA,NA,NA,NA,initial trust,gm u,3,2,1,NA,NA,NA,NA
+6646,hawaii,edu,NA,NA,NA,NA,NA,NA,initial trust,hawaii,6,1,1,NA,NA,NA,NA
+6647,ruhr,uni-bochum.de,NA,NA,NA,NA,NA,NA,initial trust,ruhr,4,1,1,NA,NA,NA,NA
+6677,ftc,gov,NA,NA,NA,NA,NA,NA,initial trust,ftc,3,1,1,NA,NA,NA,NA
+6687,oregon,gov,NA,NA,NA,NA,NA,NA,initial trust,oregon,6,1,1,NA,NA,NA,NA
+6692,fullerton,edu,NA,NA,NA,NA,NA,NA,initial trust,fullerton,9,1,1,NA,NA,NA,NA
+6711,mercadopago,com.br,NA,2018-08-14T00:00:00Z,2003-07-16T00:00:00Z,2023-07-16T00:00:00Z,NA,BR,initial trust,mercadopago,11,1,1,6316.490631664917,808.4906317127827,988.5093682438742,180.01873653109146
+6743,diplo,de,NA,NA,NA,NA,NA,NA,initial trust,diplo,5,1,1,NA,NA,NA,NA
+6800,tjsp,jus.br,NA,2015-07-06T00:00:00Z,2008-03-20T00:00:00Z,NA,NA,BR,initial trust,t jsp,4,2,1,4607.490631664917,1943.4906317127827,NA,NA
+6820,berlin,de,NA,NA,NA,NA,NA,NA,initial trust,berlin,6,1,1,NA,NA,NA,NA
+6826,imovelweb,com.br,NA,2020-01-28T00:00:00Z,1999-02-25T00:00:00Z,2021-02-25T00:00:00Z,NA,BR,initial trust,i mov el web,9,4,1,7918.490631664917,276.4906317127827,117.50936824387422,-158.98126346890848
+6827,sicredi,com.br,NA,2018-12-24T00:00:00Z,1999-09-01T00:00:00Z,2021-09-01T00:00:00Z,NA,BR,initial trust,sic red i,7,3,1,7730.490631664917,676.4906317127827,305.50936824387423,-370.9812634689085
+6841,suny,edu,NA,NA,NA,NA,NA,NA,initial trust,suny,4,1,1,NA,NA,NA,NA
+6908,google,no,NA,2020-01-27T00:00:00Z,2001-02-26T00:00:00Z,NA,NA,NA,initial trust,google,6,1,1,7186.490631664917,277.4906317127827,NA,NA
+6942,tagesspiegel,de,NA,NA,NA,NA,NA,NA,initial trust,tagesspiegel,12,1,1,NA,NA,NA,NA
+6965,lacounty,gov,NA,NA,NA,NA,NA,NA,initial trust,la county,8,2,1,NA,NA,NA,NA
+6968,daserste,de,NA,NA,NA,NA,NA,NA,initial trust,das erste,8,2,1,NA,NA,NA,NA
+6994,estadao,com.br,NA,2019-09-21T00:00:00Z,1997-08-12T00:00:00Z,2029-08-12T00:00:00Z,NA,BR,initial trust,esta dao,7,2,1,8480.490631664918,405.4906317127827,3207.509368243874,2802.0187365310912
+7020,difi,no,NA,2020-10-12T00:00:00Z,2007-10-12T00:00:00Z,NA,NA,NA,initial trust,di fi,4,2,1,4767.490631664917,18.490631712782715,NA,NA
+7027,gcu,edu,NA,NA,NA,NA,NA,NA,initial trust,g cu,3,2,1,NA,NA,NA,NA
+7032,sdsu,edu,NA,NA,NA,NA,NA,NA,initial trust,sdsu,4,1,1,NA,NA,NA,NA
+7033,daad,de,NA,NA,NA,NA,NA,NA,initial trust,da ad,4,2,1,NA,NA,NA,NA
+7040,quoka,de,NA,NA,NA,NA,NA,NA,initial trust,quo ka,5,2,1,NA,NA,NA,NA
+7054,mds,gov.br,NA,2020-05-11T00:00:00Z,2004-05-06T00:00:00Z,NA,NA,BR,initial trust,mds,3,1,1,6021.490631664917,172.49063171278272,NA,NA
+7063,panopto,eu,NA,NA,NA,NA,NA,NA,initial trust,panopto,7,1,1,NA,NA,NA,NA
+7074,sec,gov,NA,NA,NA,NA,NA,NA,initial trust,sec,3,1,1,NA,NA,NA,NA
+7092,fau,edu,NA,NA,NA,NA,NA,NA,initial trust,f au,3,2,1,NA,NA,NA,NA
+7095,house,gov,NA,NA,NA,NA,NA,NA,initial trust,house,5,1,1,NA,NA,NA,NA
+7127,sparda,hessen.de,NA,NA,NA,NA,NA,NA,initial trust,spar da,6,2,1,NA,NA,NA,NA
+7132,netshoes,com.br,NA,2020-01-24T00:00:00Z,2001-05-05T00:00:00Z,2029-05-05T00:00:00Z,NA,BR,initial trust,net shoes,8,2,1,7118.490631664917,280.4906317127827,3108.509368243874,2828.0187365310912
+7135,snhu,edu,NA,NA,NA,NA,NA,NA,initial trust,sn hu,4,2,1,NA,NA,NA,NA
+7136,stud,kz,NA,NA,NA,NA,Rauan O Iskakov,NA,initial trust,stud,4,1,3,NA,NA,NA,NA
+7166,freenet,de,NA,NA,NA,NA,NA,NA,initial trust,freenet,7,1,1,NA,NA,NA,NA
+7215,bancointer,com.br,NA,2017-06-05T00:00:00Z,2017-05-10T00:00:00Z,2022-05-10T00:00:00Z,NA,BR,initial trust,banco inter,10,2,1,1269.490631664917,1243.4906317127827,556.5093682438742,-686.9812634689085
+7216,unb,br,NA,2019-08-20T00:00:00Z,NA,NA,NA,BR,initial trust,un b,3,2,1,NA,437.4906317127827,NA,NA
+7257,dataprev,gov.br,NA,2018-12-07T00:00:00Z,1997-01-28T00:00:00Z,NA,NA,BR,initial trust,data pre v,8,3,1,8676.490631664918,693.4906317127827,NA,NA
+7258,netcombo,com.br,NA,2019-01-03T00:00:00Z,2006-04-05T00:00:00Z,2021-04-05T00:00:00Z,NA,BR,initial trust,net combo,8,2,1,5322.490631664917,666.4906317127827,156.50936824387423,-509.9812634689085
+7281,ku,dk,NA,NA,1998-03-25T00:00:00Z,2021-03-31T00:00:00Z,NA,NA,initial trust,ku,2,1,2,8255.490631664918,NA,151.50936824387423,NA
+7311,haberglobal,com.tr,NA,NA,2018-07-26T00:00:00Z,2025-07-25T00:00:00Z,NA,NA,initial trust,haber global,11,2,1,827.4906316649169,NA,1728.5093682438742,NA
+7348,umass,edu,NA,NA,NA,NA,NA,NA,initial trust,umass,5,1,1,NA,NA,NA,NA
+7364,uoc,edu,NA,NA,NA,NA,NA,NA,initial trust,u oc,3,2,1,NA,NA,NA,NA
+7382,meb,k12.tr,NA,NA,2006-12-22T00:00:00Z,2023-12-21T00:00:00Z,NA,NA,initial trust,meb,3,1,1,5061.490631664917,NA,1146.5093682438742,NA
+7387,nap,edu,NA,NA,NA,NA,NA,NA,initial trust,nap,3,1,1,NA,NA,NA,NA
+7389,buffalo,edu,NA,NA,NA,NA,NA,NA,initial trust,buffalo,7,1,1,NA,NA,NA,NA
+7430,ufjf,br,NA,2015-10-22T00:00:00Z,NA,NA,NA,BR,initial trust,uf jf,4,2,1,NA,1835.4906317127827,NA,NA
+7455,uiowa,edu,NA,NA,NA,NA,NA,NA,initial trust,u iowa,5,2,1,NA,NA,NA,NA
+7463,maryland,gov,NA,NA,NA,NA,NA,NA,initial trust,maryland,8,1,1,NA,NA,NA,NA
+7464,colostate,edu,NA,NA,NA,NA,NA,NA,initial trust,colo state,9,2,1,NA,NA,NA,NA
+7470,tim,com.br,NA,2020-09-17T00:00:00Z,1998-10-03T00:00:00Z,2022-10-03T00:00:00Z,NA,BR,initial trust,tim,3,1,1,8063.490631664917,43.490631712782715,702.5093682438742,659.0187365310915
+7480,skoob,com.br,NA,2020-02-20T00:00:00Z,2008-10-20T00:00:00Z,2024-10-20T00:00:00Z,NA,BR,initial trust,sko ob,5,2,1,4393.490631664917,253.49063171278272,1450.5093682438742,1197.0187365310915
+7502,tek,no,NA,2020-08-05T00:00:00Z,2017-08-29T00:00:00Z,NA,NA,NA,initial trust,tek,3,1,1,1158.490631664917,86.49063171278272,NA,NA
+7519,wi,gov,NA,NA,NA,NA,NA,NA,initial trust,wi,2,1,1,NA,NA,NA,NA
+7528,sc,gov,NA,NA,NA,NA,NA,NA,initial trust,sc,2,1,1,NA,NA,NA,NA
+7530,ntnu,no,NA,2019-11-15T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,nt nu,4,2,1,7655.490631664917,350.4906317127827,NA,NA
+7544,mon,gov.ua,NA,NA,NA,NA,NA,NA,initial trust,mon,3,1,2,NA,NA,NA,NA
+7551,migros,com.tr,NA,NA,1996-02-09T00:00:00Z,2021-02-08T00:00:00Z,NA,NA,initial trust,mi gros,6,2,1,9030.490631664918,NA,100.50936824387422,NA
+7555,medpex,de,NA,NA,NA,NA,NA,NA,initial trust,med pe x,6,3,1,NA,NA,NA,NA
+7584,sjsu,edu,NA,NA,NA,NA,NA,NA,initial trust,sj su,4,2,1,NA,NA,NA,NA
+7590,juejin,im,NA,NA,NA,2022-08-29T00:59:54Z,NA,NA,initial trust,ju ej in,6,3,2,NA,NA,667.5509654660965,NA
+7638,westermann,de,NA,NA,NA,NA,NA,NA,initial trust,wester mann,10,2,1,NA,NA,NA,NA
+7649,dol,gov,NA,NA,NA,NA,NA,NA,initial trust,dol,3,1,1,NA,NA,NA,NA
+7668,luc,edu,NA,NA,NA,NA,NA,NA,initial trust,luc,3,1,1,NA,NA,NA,NA
+7673,vgtv,no,NA,2020-05-12T00:00:00Z,2011-06-10T00:00:00Z,NA,NA,NA,initial trust,vgtv,4,1,1,3430.4906316649167,171.49063171278272,NA,NA
+7676,gamer,no,NA,2020-06-13T00:00:00Z,2018-07-12T00:00:00Z,NA,NA,NA,initial trust,gamer,5,1,1,841.4906316649169,139.49063171278272,NA,NA
+7690,thefutureacademy,de,NA,NA,NA,NA,NA,NA,initial trust,the future academy,16,3,1,NA,NA,NA,NA
+7693,dot,gov,NA,NA,NA,NA,NA,NA,initial trust,dot,3,1,1,NA,NA,NA,NA
+7696,winfuture,de,NA,NA,NA,NA,NA,NA,initial trust,winfuture,9,1,1,NA,NA,NA,NA
+7719,unl,edu,NA,NA,NA,NA,NA,NA,initial trust,un l,3,2,1,NA,NA,NA,NA
+7725,portalsaofrancisco,com.br,NA,2019-11-07T00:00:00Z,2007-11-06T00:00:00Z,2020-11-06T00:00:00Z,NA,BR,initial trust,portal sao francisco,18,3,1,4742.490631664917,358.4906317127827,6.509368243874223,-351.9812634689085
+7759,treasury,gov,NA,NA,NA,NA,NA,NA,initial trust,treasury,8,1,1,NA,NA,NA,NA
+7777,tjmg,jus.br,NA,2019-09-09T00:00:00Z,2008-03-06T00:00:00Z,NA,NA,BR,initial trust,tj mg,4,2,1,4621.490631664917,417.4906317127827,NA,NA
+7780,ku,edu,NA,NA,NA,NA,NA,NA,initial trust,ku,2,1,1,NA,NA,NA,NA
+7781,vecernji,hr,NA,2020-10-21T21:44:06Z,2012-02-19T23:00:00Z,2021-02-19T23:00:00Z,NA,NA,initial trust,ve cern ji,8,3,2,3175.5322983315837,8.585006712782715,112.46770157720756,103.88269486442485
+7806,transfermarkt,com.tr,NA,NA,2010-08-03T00:00:00Z,2021-08-02T00:00:00Z,NA,NA,initial trust,transfer markt,13,2,1,3741.4906316649167,NA,275.50936824387423,NA
+7895,enjoei,com.br,NA,2017-01-21T00:00:00Z,2009-04-24T00:00:00Z,2026-04-24T00:00:00Z,NA,BR,initial trust,en joe i,6,3,1,4207.490631664917,1378.4906317127827,2001.5093682438742,623.0187365310915
+7908,nutritotal,com.br,NA,2020-06-12T00:00:00Z,2000-05-09T00:00:00Z,2024-05-09T00:00:00Z,NA,BR,initial trust,nu tri total,10,3,1,7479.490631664917,140.49063171278272,1286.5093682438742,1146.0187365310915
+7911,pucminas,br,NA,2020-03-31T00:00:00Z,1996-06-02T00:00:00Z,NA,NA,BR,initial trust,p uc minas,8,3,1,8916.490631664918,213.49063171278272,NA,NA
+7937,uic,edu,NA,NA,NA,NA,NA,NA,initial trust,u ic,3,2,1,NA,NA,NA,NA
+7953,ucr,edu,NA,NA,NA,NA,NA,NA,initial trust,uc r,3,2,1,NA,NA,NA,NA
+7974,minnstate,edu,NA,NA,NA,NA,NA,NA,initial trust,minn state,9,2,1,NA,NA,NA,NA
+8038,sachsen,de,NA,NA,NA,NA,NA,NA,initial trust,sachsen,7,1,1,NA,NA,NA,NA
+8111,cpp,edu,NA,NA,NA,NA,NA,NA,initial trust,c pp,3,2,1,NA,NA,NA,NA
+8135,uni,muenchen.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+8136,dkb,de,NA,NA,NA,NA,NA,NA,initial trust,dk b,3,2,1,NA,NA,NA,NA
+8159,iastate,edu,NA,NA,NA,NA,NA,NA,initial trust,ia state,7,2,1,NA,NA,NA,NA
+8223,torrentz2,is,NA,NA,2016-08-16T00:00:00Z,2021-08-16T00:00:00Z,NA,NA,initial trust,torrentz 2,9,2,2,1536.490631664917,NA,289.50936824387423,NA
+8235,sfsu,edu,NA,NA,NA,NA,NA,NA,initial trust,sf su,4,2,1,NA,NA,NA,NA
+8256,ginfes,com.br,NA,2020-05-26T00:00:00Z,2009-05-27T00:00:00Z,2021-05-27T00:00:00Z,NA,BR,initial trust,gin fes,6,2,1,4174.490631664917,157.49063171278272,208.50936824387423,51.01873653109152
+8285,interno,gov.it,NA,NA,NA,NA,NA,NA,initial trust,interno,7,1,1,NA,NA,NA,NA
+8291,fcc,gov,NA,NA,NA,NA,NA,NA,initial trust,fcc,3,1,1,NA,NA,NA,NA
+8308,uga,edu,NA,NA,NA,NA,NA,NA,initial trust,uga,3,1,1,NA,NA,NA,NA
+8309,ardmediathek,de,NA,NA,NA,NA,NA,NA,initial trust,ard mediathek,12,2,1,NA,NA,NA,NA
+8319,e,boks.dk,NA,NA,1999-12-20T00:00:00Z,2021-12-31T00:00:00Z,NA,NA,initial trust,e,1,1,6,7620.490631664917,NA,426.50936824387423,NA
+8347,transfermarkt,de,NA,NA,NA,NA,NA,NA,initial trust,transfer markt,13,2,1,NA,NA,NA,NA
+8352,inpe,br,NA,2019-10-23T00:00:00Z,NA,NA,NA,BR,initial trust,in pe,4,2,1,NA,373.4906317127827,NA,NA
+8356,gov,hr,NA,2020-01-09T23:00:00Z,2013-02-11T23:00:00Z,2021-01-09T23:00:00Z,NA,NA,initial trust,gov,3,1,3,2817.5322983315837,294.5322983794494,71.46770157720756,-223.06459680224185
+8363,fordham,edu,NA,NA,NA,NA,NA,NA,initial trust,fordham,7,1,1,NA,NA,NA,NA
+8376,wayf,dk,NA,NA,2008-01-21T00:00:00Z,2023-01-31T00:00:00Z,NA,NA,initial trust,way f,4,2,4,4666.490631664917,NA,822.5093682438742,NA
+8384,utopia,de,NA,NA,NA,NA,NA,NA,initial trust,utopia,6,1,1,NA,NA,NA,NA
+8410,rebuy,de,NA,NA,NA,NA,NA,NA,initial trust,re buy,5,2,1,NA,NA,NA,NA
+8452,flashscore,com.tr,NA,NA,2014-08-14T00:00:00Z,2022-08-13T00:00:00Z,NA,NA,initial trust,flash score,10,2,1,2269.4906316649167,NA,651.5093682438742,NA
+8454,joyclub,de,NA,NA,NA,NA,NA,NA,initial trust,joy club,7,2,1,NA,NA,NA,NA
+8462,uoregon,edu,NA,NA,NA,NA,NA,NA,initial trust,u oregon,7,2,1,NA,NA,NA,NA
+8465,placardefutebol,com.br,NA,2020-10-06T00:00:00Z,2015-07-31T00:00:00Z,2024-07-31T00:00:00Z,NA,BR,initial trust,placard e futebol,15,3,1,1918.490631664917,24.490631712782715,1369.5093682438742,1345.0187365310915
+8485,24,ae,NA,NA,NA,NA,NA,NA,initial trust,24,2,1,1,NA,NA,NA,NA
+8509,wsu,edu,NA,NA,NA,NA,NA,NA,initial trust,w su,3,2,1,NA,NA,NA,NA
+8514,vanderbilt,edu,NA,NA,NA,NA,NA,NA,initial trust,vanderbilt,10,1,1,NA,NA,NA,NA
+8525,rio,gov.br,NA,2019-12-11T00:00:00Z,2000-07-28T00:00:00Z,NA,NA,BR,initial trust,rio,3,1,1,7399.490631664917,324.4906317127827,NA,NA
+8526,ufrn,br,NA,2017-09-01T00:00:00Z,NA,NA,NA,BR,initial trust,uf rn,4,2,1,NA,1155.4906317127827,NA,NA
+8537,utdallas,edu,NA,NA,NA,NA,NA,NA,initial trust,ut dallas,8,2,1,NA,NA,NA,NA
+8552,hostinger,ae,NA,NA,NA,NA,NA,NA,initial trust,hostinger,9,1,1,NA,NA,NA,NA
+8556,mgm,gov.tr,NA,NA,2011-11-25T00:00:00Z,2021-11-24T00:00:00Z,NA,NA,initial trust,mgm,3,1,1,3262.4906316649167,NA,389.50936824387423,NA
+8572,goszakup,gov.kz,NA,NA,NA,NA,"Ministry of Finance, Republic of Kazakhstan",NA,initial trust,go s zak up,8,4,2,NA,NA,NA,NA
+8578,cifraclub,com.br,NA,2016-09-06T00:00:00Z,2000-01-28T00:00:00Z,2026-01-28T00:00:00Z,NA,BR,initial trust,cifra club,9,2,1,7581.490631664917,1515.4906317127827,1915.5093682438742,400.01873653109146
+8599,sueddeutsche,de,NA,NA,NA,NA,NA,NA,initial trust,su ed deutsche,12,3,1,NA,NA,NA,NA
+8611,educacaoadventista,org.br,NA,2020-09-23T00:00:00Z,2005-10-02T00:00:00Z,2025-10-02T00:00:00Z,NA,BR,initial trust,educa cao adventista,18,3,1,5507.490631664917,37.490631712782715,1797.5093682438742,1760.0187365310915
+8678,belwue,de,NA,NA,NA,NA,NA,NA,initial trust,bel wu e,6,3,1,NA,NA,NA,NA
+8703,dergipark,org.tr,NA,NA,2018-08-08T00:00:00Z,2023-08-07T00:00:00Z,NA,NA,initial trust,dergi park,9,2,1,814.4906316649169,NA,1010.5093682438742,NA
+8734,niedersachsen,de,NA,NA,NA,NA,NA,NA,initial trust,niedersachsen,13,1,1,NA,NA,NA,NA
+8735,pevex,hr,NA,2020-09-13T22:00:00Z,2019-09-16T22:00:00Z,2021-09-16T22:00:00Z,NA,NA,initial trust,pe vex,5,2,2,409.57396499825023,46.57396504611605,321.42603491054086,274.85206986442483
+8740,usf,edu,NA,NA,NA,NA,NA,NA,initial trust,usf,3,1,1,NA,NA,NA,NA
+8749,zakon,kz,NA,NA,NA,NA,JurInfo Company,NA,initial trust,zakon,5,1,2,NA,NA,NA,NA
+8774,calpoly,edu,NA,NA,NA,NA,NA,NA,initial trust,cal poly,7,2,1,NA,NA,NA,NA
+8805,wustl,edu,NA,NA,NA,NA,NA,NA,initial trust,wu stl,5,2,1,NA,NA,NA,NA
+8829,bt,no,NA,2020-06-24T00:00:00Z,2012-06-14T00:00:00Z,NA,NA,NA,initial trust,bt,2,1,1,3060.4906316649167,128.49063171278272,NA,NA
+8840,descomplica,com.br,NA,2019-07-10T00:00:00Z,2007-03-16T00:00:00Z,2023-03-16T00:00:00Z,NA,BR,initial trust,des com pl ica,11,4,1,4977.490631664917,478.4906317127827,866.5093682438742,388.01873653109146
+8858,egybest,name,NA,NA,NA,NA,NA,NA,initial trust,egy best,7,2,1,NA,NA,NA,NA
+8864,zan,kz,NA,NA,NA,NA,"RGP na PHV ""Respublikanskiy centr pravovoy informacii"" MYu RK",NA,initial trust,zan,3,1,3,NA,NA,NA,NA
+8932,cia,gov,NA,NA,NA,NA,NA,NA,initial trust,cia,3,1,1,NA,NA,NA,NA
+8936,pdx,edu,NA,NA,NA,NA,NA,NA,initial trust,pdx,3,1,1,NA,NA,NA,NA
+8953,canaltech,com.br,NA,2020-10-10T00:00:00Z,2011-10-23T00:00:00Z,2025-10-23T00:00:00Z,NA,BR,initial trust,canal tech,9,2,1,3295.4906316649167,20.490631712782715,1818.5093682438742,1798.0187365310915
+8954,pontofrio,com.br,NA,2020-07-20T00:00:00Z,1995-12-18T00:00:00Z,2021-12-18T00:00:00Z,NA,BR,initial trust,ponto frio,9,2,1,9083.490631664918,102.49063171278272,413.50936824387423,311.0187365310915
+8955,boyner,com.tr,NA,NA,1999-10-27T00:00:00Z,2020-10-26T00:00:00Z,NA,NA,initial trust,boy ner,6,2,1,7674.490631664917,NA,-4.490631756125777,NA
+8998,emory,edu,NA,NA,NA,NA,NA,NA,initial trust,emory,5,1,1,NA,NA,NA,NA
+9000,estacio,br,NA,2020-09-05T00:00:00Z,1996-03-04T00:00:00Z,NA,NA,BR,initial trust,esta cio,7,2,1,9006.490631664918,55.490631712782715,NA,NA
+9006,grancursosonline,com.br,NA,2016-11-06T00:00:00Z,2012-02-14T00:00:00Z,2026-02-14T00:00:00Z,NA,BR,initial trust,gran cursos online,16,3,1,3181.4906316649167,1454.4906317127827,1932.5093682438742,478.01873653109146
+9007,politize,com.br,NA,2019-06-25T00:00:00Z,2014-07-07T00:00:00Z,2024-07-07T00:00:00Z,NA,BR,initial trust,pol it ize,8,3,1,2307.4906316649167,493.4906317127827,1345.5093682438742,852.0187365310915
+9008,webmail,seguro.com.br,NA,2017-10-27T00:00:00Z,2013-12-26T00:00:00Z,2026-12-26T00:00:00Z,NA,BR,initial trust,webmail,7,1,1,2500.4906316649167,1099.4906317127827,2247.509368243874,1148.0187365310915
+9013,otempo,com.br,NA,2020-08-27T00:00:00Z,1996-08-26T00:00:00Z,2022-08-26T00:00:00Z,NA,BR,initial trust,o tempo,6,2,1,8831.490631664918,64.49063171278272,664.5093682438742,600.0187365310915
+9037,tower,im,NA,NA,NA,2022-07-31T00:59:53Z,NA,NA,initial trust,tower,5,1,2,NA,NA,638.5509538920223,NA
+9040,temple,edu,NA,NA,NA,NA,NA,NA,initial trust,temple,6,1,1,NA,NA,NA,NA
+9069,muenchen,de,NA,NA,NA,NA,NA,NA,initial trust,muenchen,8,1,1,NA,NA,NA,NA
+9094,vakifbank,com.tr,NA,NA,1999-08-26T00:00:00Z,2023-08-25T00:00:00Z,NA,NA,initial trust,va k if bank,9,4,1,7736.490631664917,NA,1028.5093682438742,NA
+9099,propertyfinder,ae,NA,NA,NA,NA,NA,NA,initial trust,property finder,14,2,1,NA,NA,NA,NA
+9121,si,edu,NA,NA,NA,NA,NA,NA,initial trust,si,2,1,1,NA,NA,NA,NA
+9148,pcwelt,de,NA,NA,NA,NA,NA,NA,initial trust,pcwelt,6,1,1,NA,NA,NA,NA
+9153,wgu,edu,NA,NA,NA,NA,NA,NA,initial trust,w gu,3,2,1,NA,NA,NA,NA
+9163,dre,pt,NA,NA,2002-07-12T00:00:00Z,2024-11-02T23:59:00Z,NA,NA,initial trust,dre,3,1,4,6685.490631664917,NA,1464.5086737994297,NA
+9174,targobank,de,NA,NA,NA,NA,NA,NA,initial trust,tar go bank,9,3,1,NA,NA,NA,NA
+9176,energy,gov,NA,NA,NA,NA,NA,NA,initial trust,energy,6,1,1,NA,NA,NA,NA
+9247,obi,de,NA,NA,NA,NA,NA,NA,initial trust,obi,3,1,1,NA,NA,NA,NA
+9252,fotomac,com.tr,NA,NA,1999-02-12T00:00:00Z,2022-02-11T00:00:00Z,NA,NA,initial trust,foto mac,7,2,1,7931.490631664917,NA,468.50936824387423,NA
+9259,viaplay,dk,NA,NA,2008-05-06T00:00:00Z,2021-05-31T00:00:00Z,NA,NA,initial trust,via play,7,2,4,4560.490631664917,NA,212.50936824387423,NA
+9291,eneldistribuicaosp,com.br,NA,2018-10-18T00:00:00Z,2018-10-01T00:00:00Z,2023-10-01T00:00:00Z,NA,BR,initial trust,en el dis tribu ica osp,18,6,1,760.4906316649169,743.4906317127827,1065.5093682438742,322.01873653109146
+9305,bilimal,kz,NA,NA,NA,NA,"TOO ""Tsentr innovatsionnyh tehnologiy ""Orleu""",NA,initial trust,bilim al,7,2,3,NA,NA,NA,NA
+9356,hof,university.de,NA,NA,NA,NA,NA,NA,initial trust,hof,3,1,1,NA,NA,NA,NA
+9372,tv2,dk,NA,NA,1997-12-03T00:00:00Z,2020-12-31T00:00:00Z,NA,NA,initial trust,tv2,3,1,4,8367.490631664918,NA,61.50936824387422,NA
+9448,saglik,gov.tr,NA,NA,1997-03-11T00:00:00Z,2021-03-10T00:00:00Z,NA,NA,initial trust,saglik,6,1,1,8634.490631664918,NA,130.50936824387423,NA
+9467,braze,eu,NA,NA,NA,NA,NA,NA,initial trust,bra ze,5,2,1,NA,NA,NA,NA
+9469,englisch,hilfen.de,NA,NA,NA,NA,NA,NA,initial trust,englisch,8,1,1,NA,NA,NA,NA
+9497,bcb,gov.br,NA,2015-06-17T00:00:00Z,1996-01-24T00:00:00Z,NA,NA,BR,initial trust,bc b,3,2,1,9046.490631664918,1962.4906317127827,NA,NA
+9507,kennesaw,edu,NA,NA,NA,NA,NA,NA,initial trust,ken ne saw,8,3,1,NA,NA,NA,NA
+9511,casasbahia,com.br,NA,2020-09-20T00:00:00Z,1997-01-21T00:00:00Z,2028-01-21T00:00:00Z,NA,BR,initial trust,casas bahia,10,2,1,8683.490631664918,40.490631712782715,2638.509368243874,2598.0187365310912
+9542,trt,net.tr,NA,NA,1998-09-21T00:00:00Z,2021-09-20T00:00:00Z,NA,NA,initial trust,trt,3,1,1,8075.490631664917,NA,324.50936824387423,NA
+9572,ncsu,edu,NA,NA,NA,NA,NA,NA,initial trust,nc su,4,2,1,NA,NA,NA,NA
+9577,northeastern,edu,NA,NA,NA,NA,NA,NA,initial trust,northeastern,12,1,1,NA,NA,NA,NA
+9653,suamusica,com.br,NA,2018-05-12T00:00:00Z,2009-12-29T00:00:00Z,2023-12-29T00:00:00Z,NA,BR,initial trust,sua musica,9,2,1,3958.4906316649167,902.4906317127827,1154.5093682438742,252.01873653109146
+9666,valenciacollege,edu,NA,NA,NA,NA,NA,NA,initial trust,valencia college,15,2,1,NA,NA,NA,NA
+9674,dartmouth,edu,NA,NA,NA,NA,NA,NA,initial trust,dartmouth,9,1,1,NA,NA,NA,NA
+9677,claro,com.br,NA,2017-12-09T00:00:00Z,1998-12-14T00:00:00Z,2022-12-14T00:00:00Z,NA,BR,initial trust,claro,5,1,1,7991.490631664917,1056.4906317127827,774.5093682438742,-281.98126346890854
+9678,santandernet,com.br,NA,2020-05-27T00:00:00Z,1999-05-26T00:00:00Z,2021-05-26T00:00:00Z,NA,BR,initial trust,santander net,12,2,1,7828.490631664917,156.49063171278272,207.50936824387423,51.01873653109152
+9679,unip,br,NA,2019-05-23T00:00:00Z,1999-07-17T00:00:00Z,NA,NA,BR,initial trust,un ip,4,2,1,7776.490631664917,526.4906317127827,NA,NA
+9681,emlakgundemi,com.tr,NA,NA,2012-03-12T00:00:00Z,2024-03-11T00:00:00Z,NA,NA,initial trust,emlak gun demi,12,3,1,3154.4906316649167,NA,1227.5093682438742,NA
+9715,espn,com.br,NA,2018-11-05T00:00:00Z,1996-02-16T00:00:00Z,2023-02-16T00:00:00Z,NA,BR,initial trust,espn,4,1,1,9023.490631664918,725.4906317127827,838.5093682438742,113.01873653109146
+9814,votewa,gov,NA,NA,NA,NA,NA,NA,initial trust,vote wa,6,2,1,NA,NA,NA,NA
+9829,vodafone,com.tr,NA,NA,2005-11-24T00:00:00Z,2021-11-23T00:00:00Z,NA,NA,initial trust,vodafone,8,1,1,5454.490631664917,NA,388.50936824387423,NA
+9858,rki,de,NA,NA,NA,NA,NA,NA,initial trust,rk i,3,2,1,NA,NA,NA,NA
+9859,aast,edu,NA,NA,NA,NA,NA,NA,initial trust,a ast,4,2,1,NA,NA,NA,NA
+9872,merkur,de,NA,NA,NA,NA,NA,NA,initial trust,merkur,6,1,1,NA,NA,NA,NA
+9921,txstate,edu,NA,NA,NA,NA,NA,NA,initial trust,tx state,7,2,1,NA,NA,NA,NA
+9931,georgetown,edu,NA,NA,NA,NA,NA,NA,initial trust,georgetown,10,1,1,NA,NA,NA,NA
+9942,dramacool,ae,NA,NA,NA,NA,NA,NA,initial trust,drama cool,9,2,1,NA,NA,NA,NA
+9945,elektroshopwagner,de,NA,NA,NA,NA,NA,NA,initial trust,elektro shop wagner,17,3,1,NA,NA,NA,NA
+9969,resmigazete,gov.tr,NA,NA,2001-01-22T00:00:00Z,2021-01-21T00:00:00Z,NA,NA,initial trust,resmi gazete,11,2,1,7221.490631664917,NA,82.50936824387422,NA
+9972,ou,edu,NA,NA,NA,NA,NA,NA,initial trust,ou,2,1,1,NA,NA,NA,NA
+9979,unicamp,br,NA,2019-07-15T00:00:00Z,NA,NA,NA,BR,initial trust,uni camp,7,2,1,NA,473.4906317127827,NA,NA
+9981,ing,de,NA,NA,NA,NA,NA,NA,initial trust,ing,3,1,1,NA,NA,NA,NA
+9990,lojadomecanico,com.br,NA,2019-07-04T00:00:00Z,2005-08-03T00:00:00Z,2028-08-03T00:00:00Z,NA,BR,initial trust,loja dome ca nico,14,4,1,5567.490631664917,484.4906317127827,2833.509368243874,2349.0187365310912
+9991,sodexobeneficios,com.br,NA,2020-10-01T00:00:00Z,2011-10-23T00:00:00Z,2022-10-23T00:00:00Z,NA,BR,initial trust,so de xo beneficios,16,4,1,3295.4906316649167,29.490631712782715,722.5093682438742,693.0187365310915
+10030,ard,de,NA,NA,NA,NA,NA,NA,initial trust,ard,3,1,1,NA,NA,NA,NA
+10057,giz,de,NA,NA,NA,NA,NA,NA,initial trust,giz,3,1,1,NA,NA,NA,NA
+10076,clickjogos,com.br,NA,2020-05-15T00:00:00Z,2004-07-07T00:00:00Z,2021-07-07T00:00:00Z,NA,BR,initial trust,click jogos,10,2,1,5959.490631664917,168.49063171278272,249.50936824387423,81.01873653109152
+10093,albany,edu,NA,NA,NA,NA,NA,NA,initial trust,albany,6,1,1,NA,NA,NA,NA
+10139,rice,edu,NA,NA,NA,NA,NA,NA,initial trust,rice,4,1,1,NA,NA,NA,NA
+10161,primeraportal,de,NA,NA,NA,NA,NA,NA,initial trust,primera portal,13,2,1,NA,NA,NA,NA
+10173,ufsc,br,NA,2017-12-19T00:00:00Z,NA,NA,NA,BR,initial trust,u fsc,4,2,1,NA,1046.4906317127827,NA,NA
+10187,congress,gov,NA,NA,NA,NA,NA,NA,initial trust,congress,8,1,1,NA,NA,NA,NA
+10205,bauhaus,com.tr,NA,NA,1997-05-21T00:00:00Z,2024-05-20T00:00:00Z,NA,NA,initial trust,bau haus,7,2,1,8563.490631664918,NA,1297.5093682438742,NA
+10208,dampferzuflucht,de,NA,NA,NA,NA,NA,NA,initial trust,da mp fer zu flu c ht,15,7,1,NA,NA,NA,NA
+10212,waldenu,edu,NA,NA,NA,NA,NA,NA,initial trust,walden u,7,2,1,NA,NA,NA,NA
+10250,kingcounty,gov,NA,NA,NA,NA,NA,NA,initial trust,king county,10,2,1,NA,NA,NA,NA
+10256,ufmg,br,NA,1998-02-17T00:00:00Z,NA,NA,NA,BR,initial trust,u fmg,4,2,1,NA,8291.490631712782,NA,NA
+10279,leifiphysik,de,NA,NA,NA,NA,NA,NA,initial trust,leif ip hy sik,11,4,1,NA,NA,NA,NA
+10311,ub,edu,NA,NA,NA,NA,NA,NA,initial trust,ub,2,1,1,NA,NA,NA,NA
+10339,estantevirtual,com.br,NA,2019-11-12T00:00:00Z,2004-12-29T00:00:00Z,2026-12-29T00:00:00Z,NA,BR,initial trust,estante virtual,14,2,1,5784.490631664917,353.4906317127827,2250.509368243874,1897.0187365310915
+10340,lexlink,eu,NA,NA,NA,NA,NA,NA,initial trust,lex link,7,2,1,NA,NA,NA,NA
+10359,icarros,com.br,NA,2019-03-15T00:00:00Z,2000-03-30T00:00:00Z,2029-03-30T00:00:00Z,NA,BR,initial trust,icarros,7,1,1,7519.490631664917,595.4906317127827,3072.509368243874,2477.0187365310912
+10360,mte,gov.br,NA,2020-08-26T00:00:00Z,1999-02-11T00:00:00Z,NA,NA,BR,initial trust,mt e,3,2,1,7932.490631664917,65.49063171278272,NA,NA
+10361,submarino,com.br,NA,2020-07-27T00:00:00Z,1999-08-19T00:00:00Z,2021-08-19T00:00:00Z,NA,BR,initial trust,sub marino,9,2,1,7743.490631664917,95.49063171278272,292.50936824387423,197.01873653109152
+10363,delaware,gov,NA,NA,NA,NA,NA,NA,initial trust,delaware,8,1,1,NA,NA,NA,NA
+10377,oi,com.br,NA,2017-12-07T00:00:00Z,1998-12-04T00:00:00Z,2020-12-04T00:00:00Z,NA,BR,initial trust,oi,2,1,1,8001.490631664917,1058.4906317127827,34.50936824387422,-1023.9812634689085
+10399,fh,aachen.de,NA,NA,NA,NA,NA,NA,initial trust,fh,2,1,1,NA,NA,NA,NA
+10400,redtube,com.br,NA,2020-05-08T00:00:00Z,2007-05-29T00:00:00Z,2021-05-29T00:00:00Z,NA,BR,initial trust,redtube,7,1,1,4903.490631664917,175.49063171278272,210.50936824387423,35.01873653109152
+10414,uibk,ac.at,NA,2013-10-08T16:20:27Z,NA,NA,University of Innsbruck ZID,Austria,initial trust,ui bk,4,2,1,NA,2578.809763657227,NA,NA
+10416,diyanet,gov.tr,NA,NA,1997-04-05T00:00:00Z,2021-04-03T00:00:00Z,NA,NA,initial trust,diyanet,7,1,1,8609.490631664918,NA,154.50936824387423,NA
+10471,istoe,com.br,NA,2020-06-24T00:00:00Z,1997-06-23T00:00:00Z,2021-06-23T00:00:00Z,NA,BR,initial trust,is toe,5,2,1,8530.490631664918,128.49063171278272,235.50936824387423,107.01873653109152
+10474,radios,com.br,NA,2017-05-23T00:00:00Z,1997-08-12T00:00:00Z,2022-08-12T00:00:00Z,NA,BR,initial trust,radios,6,1,1,8480.490631664918,1256.4906317127827,650.5093682438742,-605.9812634689085
+10514,cyberport,de,NA,NA,NA,NA,NA,NA,initial trust,cyber port,9,2,1,NA,NA,NA,NA
+10524,dpf,gov.br,NA,2019-01-11T00:00:00Z,1996-07-16T00:00:00Z,NA,NA,BR,initial trust,dp f,3,2,1,8872.490631664918,658.4906317127827,NA,NA
+10528,gettyimages,de,NA,NA,NA,NA,NA,NA,initial trust,getty images,11,2,1,NA,NA,NA,NA
+10594,chapman,edu,NA,NA,NA,NA,NA,NA,initial trust,chapman,7,1,1,NA,NA,NA,NA
+10601,tcmb,gov.tr,NA,NA,1996-05-01T00:00:00Z,2021-04-30T00:00:00Z,NA,NA,initial trust,tcm b,4,2,1,8948.490631664918,NA,181.50936824387423,NA
+10659,zoom,com.br,NA,2020-06-03T00:00:00Z,1998-02-06T00:00:00Z,2027-02-06T00:00:00Z,NA,BR,initial trust,zoom,4,1,1,8302.490631664918,149.49063171278272,2289.509368243874,2140.0187365310912
+10678,real,de,NA,NA,NA,NA,NA,NA,initial trust,real,4,1,1,NA,NA,NA,NA
+10681,schlaukopf,de,NA,NA,NA,NA,NA,NA,initial trust,sch la uk o pf,10,5,1,NA,NA,NA,NA
+10684,fmovies,name,NA,NA,NA,NA,NA,NA,initial trust,f movies,7,2,1,NA,NA,NA,NA
+10691,smk,edu.kz,NA,NA,NA,NA,Educational Resource Center,NA,initial trust,smk,3,1,2,NA,NA,NA,NA
+10703,tengrinews,kz,NA,NA,NA,NA,TOO Effective Media Liaison,NA,initial trust,ten gri news,10,3,2,NA,NA,NA,NA
+10705,lsu,edu,NA,NA,NA,NA,NA,NA,initial trust,lsu,3,1,1,NA,NA,NA,NA
+10708,amarildas,com.br,NA,2020-10-05T00:00:00Z,2016-06-20T00:00:00Z,2021-06-20T00:00:00Z,NA,BR,initial trust,amar il das,9,3,1,1593.490631664917,25.490631712782715,232.50936824387423,207.01873653109152
+10713,atualizacursos,com.br,NA,2019-04-10T00:00:00Z,1999-12-21T00:00:00Z,2027-12-21T00:00:00Z,NA,BR,initial trust,atual iza cursos,14,3,1,7619.490631664917,569.4906317127827,2607.509368243874,2038.0187365310915
+10715,bloginformaticamicrocamp,com.br,NA,2020-06-10T00:00:00Z,2011-06-03T00:00:00Z,2021-06-03T00:00:00Z,NA,BR,initial trust,blog informatica micro camp,24,4,1,3437.4906316649167,142.49063171278272,215.50936824387423,73.01873653109152
+10721,editordetextos,com.br,NA,2020-04-29T00:00:00Z,2008-04-29T00:00:00Z,2021-04-29T00:00:00Z,NA,BR,initial trust,editor de textos,14,3,1,4567.490631664917,184.49063171278272,180.50936824387423,-3.9812634689084803
+10730,funiber,org.br,NA,2020-05-27T00:00:00Z,2002-05-13T00:00:00Z,2030-05-13T00:00:00Z,NA,BR,initial trust,fun ib er,7,3,1,6745.490631664917,156.49063171278272,3481.509368243874,3325.0187365310912
+10736,jivochat,com.br,NA,2020-07-23T00:00:00Z,2015-07-22T00:00:00Z,2021-07-22T00:00:00Z,NA,BR,initial trust,j ivo chat,8,3,1,1927.490631664917,99.49063171278272,264.50936824387423,165.01873653109152
+10740,manualdohomemmoderno,com.br,NA,2020-05-14T00:00:00Z,2012-02-22T00:00:00Z,2021-02-22T00:00:00Z,NA,BR,initial trust,manual do homem moderno,20,4,1,3173.4906316649167,169.49063171278272,114.50936824387422,-54.981263468908494
+10741,mensmarket,com.br,NA,2020-01-15T00:00:00Z,2012-02-08T00:00:00Z,2022-02-08T00:00:00Z,NA,BR,initial trust,mens market,10,2,1,3187.4906316649167,289.4906317127827,465.50936824387423,176.01873653109152
+10750,simonecosta,com.br,NA,2019-11-18T00:00:00Z,2015-11-03T00:00:00Z,2021-11-03T00:00:00Z,NA,BR,initial trust,simone costa,11,2,1,1823.490631664917,347.4906317127827,368.50936824387423,21.01873653109152
+10751,sofisica,com.br,NA,2020-01-21T00:00:00Z,2007-01-26T00:00:00Z,2021-01-26T00:00:00Z,NA,BR,initial trust,so fisica,8,2,1,5026.490631664917,283.4906317127827,87.50936824387422,-195.98126346890848
+10752,tamar,org.br,NA,2017-04-12T00:00:00Z,2000-05-02T00:00:00Z,2027-05-02T00:00:00Z,NA,BR,initial trust,tamar,5,1,1,7486.490631664917,1297.4906317127827,2374.509368243874,1077.0187365310915
+10756,ucl,br,NA,2015-02-07T00:00:00Z,1999-09-13T00:00:00Z,NA,NA,BR,initial trust,ucl,3,1,1,7718.490631664917,2092.4906317127825,NA,NA
+10757,ufabc,edu.br,NA,2019-01-04T00:00:00Z,2006-02-22T00:00:00Z,NA,NA,BR,initial trust,uf abc,5,2,1,5364.490631664917,665.4906317127827,NA,NA
+10759,unifap,br,NA,2019-07-03T00:00:00Z,1999-10-28T00:00:00Z,NA,NA,BR,initial trust,uni fap,6,2,1,7673.490631664917,485.4906317127827,NA,NA
+10760,unioeste,br,NA,2016-06-13T00:00:00Z,1996-02-14T00:00:00Z,NA,NA,BR,initial trust,uni oeste,8,2,1,9025.490631664918,1600.4906317127827,NA,NA
+10763,verboeducacional,com.br,NA,2018-10-26T00:00:00Z,2011-11-18T00:00:00Z,2020-11-18T00:00:00Z,NA,BR,initial trust,verbo educacional,16,2,1,3269.4906316649167,735.4906317127827,18.509368243874224,-716.9812634689085
+10806,ifsc,edu.br,NA,2017-09-25T00:00:00Z,2009-02-04T00:00:00Z,NA,NA,BR,initial trust,if sc,4,2,1,4286.490631664917,1131.4906317127827,NA,NA
+10808,uepa,br,NA,2018-10-01T00:00:00Z,2000-01-19T00:00:00Z,NA,NA,BR,initial trust,u epa,4,2,1,7590.490631664917,760.4906317127827,NA,NA
+10874,garantibbva,com.tr,NA,NA,2019-02-28T00:00:00Z,2021-02-27T00:00:00Z,NA,NA,initial trust,garanti bbva,11,2,1,610.4906316649169,NA,119.50936824387422,NA
+10888,wayne,edu,NA,NA,NA,NA,NA,NA,initial trust,wayne,5,1,1,NA,NA,NA,NA
+10894,nav,no,NA,2020-06-23T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,nav,3,1,1,7655.490631664917,129.49063171278272,NA,NA
+10920,ucar,edu,NA,NA,NA,NA,NA,NA,initial trust,u car,4,2,1,NA,NA,NA,NA
+10972,mindfactory,de,NA,NA,NA,NA,NA,NA,initial trust,mind factory,11,2,1,NA,NA,NA,NA
+10977,goodcard,com.br,NA,2019-08-22T00:00:00Z,1999-09-29T00:00:00Z,2021-09-29T00:00:00Z,NA,BR,initial trust,good card,8,2,1,7702.490631664917,435.4906317127827,333.50936824387423,-101.98126346890848
+10990,tugraz,at,NA,2006-07-04T09:30:59Z,NA,NA,NA,NA,initial trust,tu graz,6,2,1,NA,5232.094115509079,NA,NA
+10995,universityofcalifornia,edu,NA,NA,NA,NA,NA,NA,initial trust,university of california,22,3,1,NA,NA,NA,NA
+11024,calstatela,edu,NA,NA,NA,NA,NA,NA,initial trust,cal state la,10,3,1,NA,NA,NA,NA
+11064,wisconsin,gov,NA,NA,NA,NA,NA,NA,initial trust,wisconsin,9,1,1,NA,NA,NA,NA
+11072,uconn,edu,NA,NA,NA,NA,NA,NA,initial trust,uconn,5,1,1,NA,NA,NA,NA
+11083,wg,gesucht.de,NA,NA,NA,NA,NA,NA,initial trust,wg,2,1,1,NA,NA,NA,NA
+11104,amazon,com.tr,NA,NA,1998-02-05T00:00:00Z,2021-02-04T00:00:00Z,NA,NA,initial trust,amazon,6,1,1,8303.490631664918,NA,96.50936824387422,NA
+11135,lance,com.br,NA,2020-05-31T00:00:00Z,1996-06-13T00:00:00Z,2024-06-13T00:00:00Z,NA,BR,initial trust,lance,5,1,1,8905.490631664918,152.49063171278272,1321.5093682438742,1169.0187365310915
+11192,insead,edu,NA,NA,NA,NA,NA,NA,initial trust,insead,6,1,1,NA,NA,NA,NA
+11208,animux,de,NA,NA,NA,NA,NA,NA,initial trust,an im ux,6,3,1,NA,NA,NA,NA
+11220,mec,gov.br,NA,2020-05-05T00:00:00Z,1995-12-14T00:00:00Z,NA,NA,BR,initial trust,mec,3,1,1,9087.490631664918,178.49063171278272,NA,NA
+11231,meine,bilderbestellung.de,NA,NA,NA,NA,NA,NA,initial trust,meine,5,1,1,NA,NA,NA,NA
+11244,sgk,gov.tr,NA,NA,2006-04-20T00:00:00Z,2021-04-19T00:00:00Z,NA,NA,initial trust,sgk,3,1,1,5307.490631664917,NA,170.50936824387423,NA
+11252,miami,edu,NA,NA,NA,NA,NA,NA,initial trust,miami,5,1,1,NA,NA,NA,NA
+11253,uconline,edu,NA,NA,NA,NA,NA,NA,initial trust,uc online,8,2,1,NA,NA,NA,NA
+11288,stern,de,NA,NA,NA,NA,NA,NA,initial trust,stern,5,1,1,NA,NA,NA,NA
+11302,nubip,edu.ua,NA,NA,NA,NA,NA,NA,initial trust,nu bip,5,2,2,NA,NA,NA,NA
+11337,queropassagem,com.br,NA,2018-12-12T00:00:00Z,2011-12-24T00:00:00Z,2023-12-24T00:00:00Z,NA,BR,initial trust,quero passagem,13,2,1,3233.4906316649167,688.4906317127827,1149.5093682438742,461.01873653109146
+11344,uidaho,edu,NA,NA,NA,NA,NA,NA,initial trust,u idaho,6,2,1,NA,NA,NA,NA
+11353,austincc,edu,NA,NA,NA,NA,NA,NA,initial trust,austin cc,8,2,1,NA,NA,NA,NA
+11360,elo7,com.br,NA,2019-11-07T00:00:00Z,2007-11-08T00:00:00Z,2023-11-08T00:00:00Z,NA,BR,initial trust,elo 7,4,2,1,4740.490631664917,358.4906317127827,1103.5093682438742,745.0187365310915
+11405,ucsf,edu,NA,NA,NA,NA,NA,NA,initial trust,ucsf,4,1,1,NA,NA,NA,NA
+11415,vcu,edu,NA,NA,NA,NA,NA,NA,initial trust,v cu,3,2,1,NA,NA,NA,NA
+11433,emarat,news.ae,NA,NA,NA,NA,NA,NA,initial trust,ema rat,6,2,1,NA,NA,NA,NA
+11449,easybill,de,NA,NA,NA,NA,NA,NA,initial trust,easy bill,8,2,1,NA,NA,NA,NA
+11471,lamar,edu,NA,NA,NA,NA,NA,NA,initial trust,lamar,5,1,1,NA,NA,NA,NA
+11503,depaul,edu,NA,NA,NA,NA,NA,NA,initial trust,depaul,6,1,1,NA,NA,NA,NA
+11510,uni,giessen.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+11513,bueromarkt,ag.de,NA,NA,NA,NA,NA,NA,initial trust,bu ero markt,10,3,1,NA,NA,NA,NA
+11515,tu,bs.de,NA,NA,NA,NA,NA,NA,initial trust,tu,2,1,1,NA,NA,NA,NA
+11525,hapvida,com.br,NA,2019-04-21T00:00:00Z,1997-09-30T00:00:00Z,2021-09-30T00:00:00Z,NA,BR,initial trust,hap vida,7,2,1,8431.490631664918,558.4906317127827,334.50936824387423,-223.98126346890848
+11543,kaspi,kz,NA,NA,NA,NA,Kaspi Bank,NA,initial trust,ka spi,5,2,4,NA,NA,NA,NA
+11557,pinterest,dk,NA,NA,2011-09-30T00:00:00Z,2021-09-30T00:00:00Z,NA,NA,initial trust,pinterest,9,1,7,3318.4906316649167,NA,334.50936824387423,NA
+11610,gesetze,im-internet.de,NA,NA,NA,NA,NA,NA,initial trust,ge set ze,7,3,1,NA,NA,NA,NA
+11611,buscape,com.br,NA,2020-10-08T00:00:00Z,1999-01-29T00:00:00Z,2029-01-29T00:00:00Z,NA,BR,initial trust,bus cape,7,2,1,7945.490631664917,22.490631712782715,3012.509368243874,2990.0187365310912
+11643,soap2day,im,NA,NA,NA,2021-09-01T00:59:59Z,NA,NA,initial trust,soap 2 day,8,3,2,NA,NA,305.5510233364668,NA
+11656,vivareal,com.br,NA,2012-05-30T00:00:00Z,2008-03-02T00:00:00Z,2022-03-02T00:00:00Z,NA,BR,initial trust,viva real,8,2,1,4625.490631664917,3075.4906317127825,487.50936824387423,-2587.9812634689083
+11657,contabeis,com.br,NA,2019-02-02T00:00:00Z,2000-02-10T00:00:00Z,2024-02-10T00:00:00Z,NA,BR,initial trust,conta be is,9,3,1,7568.490631664917,636.4906317127827,1197.5093682438742,561.0187365310915
+11659,jornalcontabil,com.br,NA,2020-08-10T00:00:00Z,2010-08-24T00:00:00Z,2022-08-24T00:00:00Z,NA,BR,initial trust,jornal conta bil,14,3,1,3720.4906316649167,81.49063171278272,662.5093682438742,581.0187365310915
+11670,smc,edu,NA,NA,NA,NA,NA,NA,initial trust,smc,3,1,1,NA,NA,NA,NA
+11674,fernsehserien,de,NA,NA,NA,NA,NA,NA,initial trust,fern se hse rien,13,4,1,NA,NA,NA,NA
+11683,flhsmv,gov,NA,NA,NA,NA,NA,NA,initial trust,fl hsm v,6,3,1,NA,NA,NA,NA
+11693,unitsystems,de,NA,NA,NA,NA,NA,NA,initial trust,unit systems,11,2,1,NA,NA,NA,NA
+11736,kolesa,kz,NA,NA,NA,NA,"TOO ""Kolesa"", 970440003326",NA,initial trust,kole sa,6,2,3,NA,NA,NA,NA
+11784,echodnia,eu,NA,NA,NA,NA,NA,NA,initial trust,echo dnia,8,2,1,NA,NA,NA,NA
+11803,ifsp,edu.br,NA,2019-10-18T00:00:00Z,2009-06-03T00:00:00Z,NA,NA,BR,initial trust,if sp,4,2,1,4167.490631664917,378.4906317127827,NA,NA
+11804,senac,br,NA,2018-02-26T00:00:00Z,1996-11-19T00:00:00Z,NA,NA,BR,initial trust,sena c,5,2,1,8746.490631664918,977.4906317127827,NA,NA
+11808,tfp,is,NA,NA,2018-06-10T00:00:00Z,2021-06-10T00:00:00Z,NA,NA,initial trust,t fp,3,2,2,873.4906316649169,NA,222.50936824387423,NA
+11833,beinconnect,com.tr,NA,NA,2017-01-31T00:00:00Z,2024-01-30T00:00:00Z,NA,NA,initial trust,bein connect,11,2,1,1368.490631664917,NA,1186.5093682438742,NA
+11835,skku,edu,NA,NA,NA,NA,NA,NA,initial trust,sk ku,4,2,1,NA,NA,NA,NA
+11861,dnevnik,hr,NA,2015-07-29T22:00:00Z,2010-09-06T22:00:00Z,2021-09-06T22:00:00Z,NA,NA,initial trust,dnevnik,7,1,2,3706.57396499825,1919.573965046116,311.42603491054086,-1608.147930135575
+11892,tufts,edu,NA,NA,NA,NA,NA,NA,initial trust,tufts,5,1,1,NA,NA,NA,NA
+11894,th,koeln.de,NA,NA,NA,NA,NA,NA,initial trust,th,2,1,1,NA,NA,NA,NA
+11921,efatura,gov.tr,NA,NA,2007-08-01T00:00:00Z,2021-07-31T00:00:00Z,NA,NA,initial trust,e fatura,7,2,1,4839.490631664917,NA,273.50936824387423,NA
+11952,comdirect,de,NA,NA,NA,NA,NA,NA,initial trust,com direct,9,2,1,NA,NA,NA,NA
+11954,tokiomarine,com.br,NA,2020-05-05T00:00:00Z,2000-05-16T00:00:00Z,2021-05-16T00:00:00Z,NA,BR,initial trust,tokio marine,11,2,1,7472.490631664917,178.49063171278272,197.50936824387423,19.01873653109152
+11962,nettavisen,no,NA,2020-10-05T00:00:00Z,2013-08-06T00:00:00Z,NA,NA,NA,initial trust,nettavisen,10,1,1,2642.4906316649167,25.490631712782715,NA,NA
+11967,syr,edu,NA,NA,NA,NA,NA,NA,initial trust,s yr,3,2,1,NA,NA,NA,NA
+12017,bike,discount.de,NA,NA,NA,NA,NA,NA,initial trust,bike,4,1,1,NA,NA,NA,NA
+12030,elster,de,NA,NA,NA,NA,NA,NA,initial trust,els ter,6,2,1,NA,NA,NA,NA
+12034,aerzteblatt,de,NA,NA,NA,NA,NA,NA,initial trust,aer z te blatt,11,4,1,NA,NA,NA,NA
+12041,drexel,edu,NA,NA,NA,NA,NA,NA,initial trust,drexel,6,1,1,NA,NA,NA,NA
+12053,ikea,com.tr,NA,NA,2002-08-21T00:00:00Z,2021-08-20T00:00:00Z,NA,NA,initial trust,ikea,4,1,1,6645.490631664917,NA,293.50936824387423,NA
+12057,ofuxico,com.br,NA,2012-04-05T00:00:00Z,2000-04-28T00:00:00Z,2022-04-28T00:00:00Z,NA,BR,initial trust,o fuxico,7,2,1,7490.490631664917,3130.4906317127825,544.5093682438742,-2585.9812634689083
+12064,ica,gov.ae,NA,NA,NA,NA,NA,NA,initial trust,ica,3,1,1,NA,NA,NA,NA
+12098,stonybrook,edu,NA,NA,NA,NA,NA,NA,initial trust,stony brook,10,2,1,NA,NA,NA,NA
+12109,datasus,gov.br,NA,2016-06-06T00:00:00Z,1995-10-31T00:00:00Z,NA,NA,BR,initial trust,data sus,7,2,1,9131.490631664918,1607.4906317127827,NA,NA
+12112,uece,br,NA,2010-12-22T00:00:00Z,NA,NA,NA,BR,initial trust,ue ce,4,2,1,NA,3600.4906317127825,NA,NA
+12156,gls,group.eu,NA,NA,NA,NA,NA,NA,initial trust,gls,3,1,1,NA,NA,NA,NA
+12162,vagas,com.br,NA,2016-09-01T00:00:00Z,1998-09-09T00:00:00Z,2023-09-09T00:00:00Z,NA,BR,initial trust,vagas,5,1,1,8087.490631664917,1520.4906317127827,1043.5093682438742,-476.98126346890854
+12191,miamioh,edu,NA,NA,NA,NA,NA,NA,initial trust,miami oh,7,2,1,NA,NA,NA,NA
+12218,7pass,de,NA,NA,NA,NA,NA,NA,initial trust,7 pass,5,2,1,NA,NA,NA,NA
+12223,nvi,gov.tr,NA,NA,1997-10-13T00:00:00Z,2021-10-12T00:00:00Z,NA,NA,initial trust,nv i,3,2,1,8418.490631664918,NA,346.50936824387423,NA
+12268,acessaber,com.br,NA,2018-12-28T00:00:00Z,2012-01-18T00:00:00Z,2029-01-18T00:00:00Z,NA,BR,initial trust,aces saber,9,2,1,3208.4906316649167,672.4906317127827,3001.509368243874,2329.0187365310912
+12331,politico,eu,NA,NA,NA,NA,NA,NA,initial trust,politico,8,1,1,NA,NA,NA,NA
+12374,uky,edu,NA,NA,NA,NA,NA,NA,initial trust,uk y,3,2,1,NA,NA,NA,NA
+12435,ancient,eu,NA,NA,NA,NA,NA,NA,initial trust,ancient,7,1,1,NA,NA,NA,NA
+12445,naspa,de,NA,NA,NA,NA,NA,NA,initial trust,na spa,5,2,1,NA,NA,NA,NA
+12446,o2online,de,NA,NA,NA,NA,NA,NA,initial trust,o2 online,8,2,1,NA,NA,NA,NA
+12457,baribar,kz,NA,NA,NA,NA,ТОО “Baribar Media”,NA,initial trust,bari bar,7,2,2,NA,NA,NA,NA
+12475,defense,gov,NA,NA,NA,NA,NA,NA,initial trust,defense,7,1,1,NA,NA,NA,NA
+12536,99damage,de,NA,NA,NA,NA,NA,NA,initial trust,99 damage,8,2,1,NA,NA,NA,NA
+12537,saechsische,de,NA,NA,NA,NA,NA,NA,initial trust,sae chs is che,11,4,1,NA,NA,NA,NA
+12550,lonestar,edu,NA,NA,NA,NA,NA,NA,initial trust,lone star,8,2,1,NA,NA,NA,NA
+12569,indeed,ae,NA,NA,NA,NA,NA,NA,initial trust,indeed,6,1,1,NA,NA,NA,NA
+12592,infomoney,com.br,NA,2019-02-15T00:00:00Z,2000-02-14T00:00:00Z,2024-02-14T00:00:00Z,NA,BR,initial trust,info money,9,2,1,7564.490631664917,623.4906317127827,1201.5093682438742,578.0187365310915
+12602,liberty,edu,NA,NA,NA,NA,NA,NA,initial trust,liberty,7,1,1,NA,NA,NA,NA
+12610,komplett,no,NA,2019-11-15T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,kom pl ett,8,3,1,7655.490631664917,350.4906317127827,NA,NA
+12641,spektrum,de,NA,NA,NA,NA,NA,NA,initial trust,spektrum,8,1,1,NA,NA,NA,NA
+12663,chip,com.tr,NA,NA,1996-10-08T00:00:00Z,2023-10-07T00:00:00Z,NA,NA,initial trust,chip,4,1,1,8788.490631664918,NA,1071.5093682438742,NA
+12678,etisalat,ae,NA,NA,NA,NA,NA,NA,initial trust,et is alat,8,3,1,NA,NA,NA,NA
+12709,tipico,de,NA,NA,NA,NA,NA,NA,initial trust,tipico,6,1,1,NA,NA,NA,NA
+12734,filmstarts,de,NA,NA,NA,NA,NA,NA,initial trust,filmstarts,10,1,1,NA,NA,NA,NA
+12745,hardmob,com.br,NA,2016-11-23T00:00:00Z,2000-12-12T00:00:00Z,2026-12-12T00:00:00Z,NA,BR,initial trust,hard mob,7,2,1,7262.490631664917,1437.4906317127827,2233.509368243874,796.0187365310915
+12746,ucs,br,NA,2018-09-24T00:00:00Z,1999-04-13T00:00:00Z,NA,NA,BR,initial trust,u cs,3,2,1,7871.490631664917,767.4906317127827,NA,NA
+12769,ntv,com.tr,NA,NA,1997-02-28T00:00:00Z,2021-02-27T00:00:00Z,NA,NA,initial trust,ntv,3,1,1,8645.490631664918,NA,119.50936824387422,NA
+12772,uchet,kz,NA,NA,NA,NA,Baryshev SP,NA,initial trust,uc het,5,2,3,NA,NA,NA,NA
+12775,bilim,all.kz,NA,NA,NA,NA,"IP BALABEKOV K.B, 841225300992",NA,initial trust,bilim,5,1,2,NA,NA,NA,NA
+12805,christ,sucht-christ.de,NA,NA,NA,NA,NA,NA,initial trust,christ,6,1,1,NA,NA,NA,NA
+12807,onlinefussballmanager,de,NA,NA,NA,NA,NA,NA,initial trust,online fussball manager,21,3,1,NA,NA,NA,NA
+12808,osthessen,news.de,NA,NA,NA,NA,NA,NA,initial trust,ost hessen,9,2,1,NA,NA,NA,NA
+12809,schule,bw.de,NA,NA,NA,NA,NA,NA,initial trust,schule,6,1,1,NA,NA,NA,NA
+12810,sparkasse,gruenberg.de,NA,NA,NA,NA,NA,NA,initial trust,sparkasse,9,1,1,NA,NA,NA,NA
+12819,tportal,hr,NA,2012-04-18T22:00:00Z,2011-07-14T22:00:00Z,2021-07-14T22:00:00Z,NA,NA,initial trust,tportal,7,1,2,3395.57396499825,3116.573965046116,257.42603491054086,-2859.1479301355753
+12836,solutudo,com.br,NA,2018-03-09T00:00:00Z,2007-10-05T00:00:00Z,2022-10-05T00:00:00Z,NA,BR,initial trust,sol u tudo,8,3,1,4774.490631664917,966.4906317127827,704.5093682438742,-261.98126346890854
+12861,guess,eu,NA,NA,NA,NA,NA,NA,initial trust,guess,5,1,1,NA,NA,NA,NA
+12885,jam,software.de,NA,NA,NA,NA,NA,NA,initial trust,jam,3,1,1,NA,NA,NA,NA
+12893,otpbanka,hr,NA,2019-12-11T23:00:00Z,2005-09-22T22:00:00Z,2020-12-11T23:00:00Z,NA,NA,initial trust,o tp banka,8,3,2,5516.573964998251,323.5322983794494,42.467701577207556,-281.06459680224185
+12894,tjgo,jus.br,NA,2018-09-21T00:00:00Z,2008-02-21T00:00:00Z,NA,NA,BR,initial trust,tj go,4,2,1,4635.490631664917,770.4906317127827,NA,NA
+12895,webaula,com.br,NA,2019-11-18T00:00:00Z,2000-03-28T00:00:00Z,2021-03-28T00:00:00Z,NA,BR,initial trust,web aula,7,2,1,7521.490631664917,347.4906317127827,148.50936824387423,-198.98126346890848
+12925,raiffeisen,at,NA,2020-08-25T21:06:44Z,NA,NA,Raiffeisen e-force GmbH,Austria,initial trust,raiffeisen,10,1,1,NA,65.61095578685679,NA,NA
+12937,onvista,de,NA,NA,NA,NA,NA,NA,initial trust,onvista,7,1,1,NA,NA,NA,NA
+12959,sport1,de,NA,NA,NA,NA,NA,NA,initial trust,sport1,6,1,1,NA,NA,NA,NA
+12988,utsa,edu,NA,NA,NA,NA,NA,NA,initial trust,utsa,4,1,1,NA,NA,NA,NA
+13111,gia,edu,NA,NA,NA,NA,NA,NA,initial trust,gia,3,1,1,NA,NA,NA,NA
+13112,tum,de,NA,NA,NA,NA,NA,NA,initial trust,tum,3,1,1,NA,NA,NA,NA
+13136,shopee,com.br,NA,2020-09-17T00:00:00Z,2016-02-28T00:00:00Z,2021-02-28T00:00:00Z,NA,BR,initial trust,shop ee,6,2,1,1706.490631664917,43.490631712782715,120.50936824387422,77.0187365310915
+13149,airbnb,de,NA,NA,NA,NA,NA,NA,initial trust,airbnb,6,1,1,NA,NA,NA,NA
+13172,portoseguro,com.br,NA,2018-05-26T00:00:00Z,1998-05-28T00:00:00Z,2028-05-28T00:00:00Z,NA,BR,initial trust,porto seguro,11,2,1,8191.490631664917,888.4906317127827,2766.509368243874,1878.0187365310915
+13174,santandernetibe,com.br,NA,2020-05-12T00:00:00Z,2011-05-10T00:00:00Z,2021-05-10T00:00:00Z,NA,BR,initial trust,santander neti be,15,3,1,3461.4906316649167,171.49063171278272,191.50936824387423,20.01873653109152
+13176,slobodnadalmacija,hr,NA,2020-03-09T23:00:00Z,2020-03-09T23:00:00Z,2021-03-09T23:00:00Z,NA,NA,initial trust,slobodna dalmacija,17,2,2,234.53229833158355,234.53229837944937,130.46770157720755,-104.06459680224182
+13186,kent,edu,NA,NA,NA,NA,NA,NA,initial trust,kent,4,1,1,NA,NA,NA,NA
+13187,sam,gov,NA,NA,NA,NA,NA,NA,initial trust,sam,3,1,1,NA,NA,NA,NA
+13188,mtu,edu,NA,NA,NA,NA,NA,NA,initial trust,mtu,3,1,1,NA,NA,NA,NA
+13222,serienjunkies,de,NA,NA,NA,NA,NA,NA,initial trust,seri en junkies,13,3,1,NA,NA,NA,NA
+13249,h,da.de,NA,NA,NA,NA,NA,NA,initial trust,h,1,1,1,NA,NA,NA,NA
+13263,consorsbank,de,NA,NA,NA,NA,NA,NA,initial trust,conso rs bank,11,3,1,NA,NA,NA,NA
+13264,fh,kiel.de,NA,NA,NA,NA,NA,NA,initial trust,fh,2,1,1,NA,NA,NA,NA
+13265,hs,duesseldorf.de,NA,NA,NA,NA,NA,NA,initial trust,hs,2,1,1,NA,NA,NA,NA
+13266,medizinfuchs,de,NA,NA,NA,NA,NA,NA,initial trust,medizin fuchs,12,2,1,NA,NA,NA,NA
+13267,volksbank,dresden-bautzen.de,NA,NA,NA,NA,NA,NA,initial trust,volk s bank,9,3,1,NA,NA,NA,NA
+13289,maine,edu,NA,NA,NA,NA,NA,NA,initial trust,maine,5,1,1,NA,NA,NA,NA
+13292,uncc,edu,NA,NA,NA,NA,NA,NA,initial trust,un cc,4,2,1,NA,NA,NA,NA
+13297,railnation,de,NA,NA,NA,NA,NA,NA,initial trust,rail nation,10,2,1,NA,NA,NA,NA
+13340,hccs,edu,NA,NA,NA,NA,NA,NA,initial trust,hc cs,4,2,1,NA,NA,NA,NA
+13342,gamestar,de,NA,NA,NA,NA,NA,NA,initial trust,gamestar,8,1,1,NA,NA,NA,NA
+13345,txdmv,gov,NA,NA,NA,NA,NA,NA,initial trust,tx dmv,5,2,1,NA,NA,NA,NA
+13348,testberichte,de,NA,NA,NA,NA,NA,NA,initial trust,testberichte,12,1,1,NA,NA,NA,NA
+13351,clinicaltrials,gov,NA,NA,NA,NA,NA,NA,initial trust,clinical trials,14,2,1,NA,NA,NA,NA
+13378,campo,golf.de,NA,NA,NA,NA,NA,NA,initial trust,campo,5,1,1,NA,NA,NA,NA
+13387,bike,components.de,NA,NA,NA,NA,NA,NA,initial trust,bike,4,1,1,NA,NA,NA,NA
+13388,unm,edu,NA,NA,NA,NA,NA,NA,initial trust,un m,3,2,1,NA,NA,NA,NA
+13472,pepperdine,edu,NA,NA,NA,NA,NA,NA,initial trust,pepper dine,10,2,1,NA,NA,NA,NA
+13475,alkhaleej,ae,NA,NA,NA,NA,NA,NA,initial trust,al khaleej,9,2,1,NA,NA,NA,NA
+13513,previdencia,gov.br,NA,2018-12-07T00:00:00Z,2003-05-28T00:00:00Z,NA,NA,BR,initial trust,pre videncia,11,2,1,6365.490631664917,693.4906317127827,NA,NA
+13514,sabesp,com.br,NA,2019-12-03T00:00:00Z,1997-07-29T00:00:00Z,2024-07-29T00:00:00Z,NA,BR,initial trust,sabe sp,6,2,1,8494.490631664918,332.4906317127827,1367.5093682438742,1035.0187365310915
+13515,tjrs,jus.br,NA,2018-08-06T00:00:00Z,2008-03-20T00:00:00Z,NA,NA,BR,initial trust,tj rs,4,2,1,4607.490631664917,816.4906317127827,NA,NA
+13551,eia,gov,NA,NA,NA,NA,NA,NA,initial trust,ei a,3,2,1,NA,NA,NA,NA
+13621,rdstation,com.br,NA,2018-05-22T00:00:00Z,2011-06-06T00:00:00Z,2021-06-06T00:00:00Z,NA,BR,initial trust,rd station,9,2,1,3434.4906316649167,892.4906317127827,218.50936824387423,-673.9812634689085
+13623,hu,berlin.de,NA,NA,NA,NA,NA,NA,initial trust,hu,2,1,1,NA,NA,NA,NA
+13634,sinonimos,com.br,NA,2016-09-09T00:00:00Z,2007-07-29T00:00:00Z,2026-07-29T00:00:00Z,NA,BR,initial trust,si noni mos,9,3,1,4842.490631664917,1512.4906317127827,2097.509368243874,585.0187365310915
+13638,duesseldorf,de,NA,NA,NA,NA,NA,NA,initial trust,duesseldorf,11,1,1,NA,NA,NA,NA
+13665,bunte,de,NA,NA,NA,NA,NA,NA,initial trust,bunte,5,1,1,NA,NA,NA,NA
+13697,sba,gov,NA,NA,NA,NA,NA,NA,initial trust,sba,3,1,1,NA,NA,NA,NA
+13700,vivo,com.br,NA,2020-05-12T00:00:00Z,1999-05-11T00:00:00Z,2021-05-11T00:00:00Z,NA,BR,initial trust,vivo,4,1,1,7843.490631664917,171.49063171278272,192.50936824387423,21.01873653109152
+13769,byui,edu,NA,NA,NA,NA,NA,NA,initial trust,by ui,4,2,1,NA,NA,NA,NA
+13844,docmorris,de,NA,NA,NA,NA,NA,NA,initial trust,doc morris,9,2,1,NA,NA,NA,NA
+13845,kleiderkreisel,de,NA,NA,NA,NA,NA,NA,initial trust,kleid er kreis el,14,4,1,NA,NA,NA,NA
+13846,klett,de,NA,NA,NA,NA,NA,NA,initial trust,kl ett,5,2,1,NA,NA,NA,NA
+13847,studycheck,de,NA,NA,NA,NA,NA,NA,initial trust,study check,10,2,1,NA,NA,NA,NA
+13853,impresainungiorno,gov.it,NA,NA,NA,NA,NA,NA,initial trust,impresa in un giorno,17,4,1,NA,NA,NA,NA
+13862,windowspro,de,NA,NA,NA,NA,NA,NA,initial trust,windows pro,10,2,1,NA,NA,NA,NA
+13872,araskargo,com.tr,NA,NA,2000-01-20T00:00:00Z,2025-01-19T00:00:00Z,NA,NA,initial trust,a ras kargo,9,3,1,7589.490631664917,NA,1541.5093682438742,NA
+13873,jobnet,dk,NA,NA,1996-06-20T00:00:00Z,2021-06-30T00:00:00Z,NA,NA,initial trust,job net,6,2,2,8898.490631664918,NA,242.50936824387423,NA
+13882,dnit,gov.br,NA,2020-04-15T00:00:00Z,2002-04-10T00:00:00Z,NA,NA,BR,initial trust,dn it,4,2,1,6778.490631664917,198.49063171278272,NA,NA
+13884,juvo,com.br,NA,2019-02-06T00:00:00Z,2003-02-18T00:00:00Z,2022-02-18T00:00:00Z,NA,BR,initial trust,ju vo,4,2,1,6464.490631664917,632.4906317127827,475.50936824387423,-156.98126346890848
+13885,senai,br,NA,2020-04-15T00:00:00Z,NA,NA,NA,BR,initial trust,sena i,5,2,1,NA,198.49063171278272,NA,NA
+13886,uniube,br,NA,2017-11-13T00:00:00Z,1997-05-20T00:00:00Z,NA,NA,BR,initial trust,un iu be,6,3,1,8564.490631664918,1082.4906317127827,NA,NA
+13895,cbp,gov,NA,NA,NA,NA,NA,NA,initial trust,cb p,3,2,1,NA,NA,NA,NA
+13922,deu,edu.tr,NA,NA,1998-08-11T00:00:00Z,2021-08-10T00:00:00Z,NA,NA,initial trust,deu,3,1,1,8116.490631664917,NA,283.50936824387423,NA
+13931,uni,heidelberg.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+13943,sumdu,edu.ua,NA,NA,NA,NA,NA,NA,initial trust,sum du,5,2,4,NA,NA,NA,NA
+13945,ufg,br,NA,2019-04-23T00:00:00Z,NA,NA,NA,BR,initial trust,u fg,3,2,1,NA,556.4906317127827,NA,NA
+13956,startfenster,de,NA,NA,NA,NA,NA,NA,initial trust,start fenster,12,2,1,NA,NA,NA,NA
+14008,lovescout24,de,NA,NA,NA,NA,NA,NA,initial trust,love scout24,11,2,1,NA,NA,NA,NA
+14022,caltech,edu,NA,NA,NA,NA,NA,NA,initial trust,caltech,7,1,1,NA,NA,NA,NA
+14038,uwi,edu,NA,NA,NA,NA,NA,NA,initial trust,uw i,3,2,1,NA,NA,NA,NA
+14055,broward,edu,NA,NA,NA,NA,NA,NA,initial trust,broward,7,1,1,NA,NA,NA,NA
+14066,hinode,com.br,NA,2019-01-18T00:00:00Z,1998-02-10T00:00:00Z,2022-02-10T00:00:00Z,NA,BR,initial trust,h inode,6,2,1,8298.490631664918,651.4906317127827,467.50936824387423,-183.98126346890848
+14082,steam,time.de,NA,NA,NA,NA,NA,NA,initial trust,steam,5,1,1,NA,NA,NA,NA
+14096,pr,gov,NA,NA,NA,NA,NA,NA,initial trust,pr,2,1,1,NA,NA,NA,NA
+14097,arcor,de,NA,NA,NA,NA,NA,NA,initial trust,arc or,5,2,1,NA,NA,NA,NA
+14121,brown,edu,NA,NA,NA,NA,NA,NA,initial trust,brown,5,1,1,NA,NA,NA,NA
+14135,uni,bonn.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+14141,sc,edu,NA,NA,NA,NA,NA,NA,initial trust,sc,2,1,1,NA,NA,NA,NA
+14144,usp,br,NA,2018-06-06T00:00:00Z,NA,NA,NA,BR,initial trust,usp,3,1,1,NA,877.4906317127827,NA,NA
+14177,aaiedu,hr,NA,2020-10-04T22:00:00Z,2005-01-23T23:00:00Z,2021-10-04T22:00:00Z,NA,NA,initial trust,a ai edu,6,3,4,5758.532298331584,25.573965046116047,339.42603491054086,313.85206986442483
+14181,uni,magdeburg.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+14195,vodafonemail,de,NA,NA,NA,NA,NA,NA,initial trust,vodafone mail,12,2,1,NA,NA,NA,NA
+14267,tvnow,de,NA,NA,NA,NA,NA,NA,initial trust,tv now,5,2,1,NA,NA,NA,NA
+14276,auskunft,de,NA,NA,NA,NA,NA,NA,initial trust,aus kun ft,8,3,1,NA,NA,NA,NA
+14277,gls,pakete.de,NA,NA,NA,NA,NA,NA,initial trust,gls,3,1,1,NA,NA,NA,NA
+14278,intensivregister,de,NA,NA,NA,NA,NA,NA,initial trust,in tens iv register,16,4,1,NA,NA,NA,NA
+14295,wayfair,de,NA,NA,NA,NA,NA,NA,initial trust,wayfair,7,1,1,NA,NA,NA,NA
+14301,redeipiranga,com.br,NA,2020-02-29T00:00:00Z,2001-02-28T00:00:00Z,2023-02-28T00:00:00Z,NA,BR,initial trust,rede ip iran ga,12,4,1,7184.490631664917,244.49063171278272,850.5093682438742,606.0187365310915
+14302,spc,org.br,NA,2019-09-12T00:00:00Z,1997-09-11T00:00:00Z,2022-09-11T00:00:00Z,NA,BR,initial trust,spc,3,1,1,8450.490631664918,414.4906317127827,680.5093682438742,266.01873653109146
+14303,suvinil,com.br,NA,2019-10-10T00:00:00Z,1996-10-09T00:00:00Z,2029-10-09T00:00:00Z,NA,BR,initial trust,su vinil,7,2,1,8787.490631664918,386.4906317127827,3265.509368243874,2879.0187365310912
+14304,uniasselvi,com.br,NA,2020-10-07T00:00:00Z,2004-09-10T00:00:00Z,2023-09-10T00:00:00Z,NA,BR,initial trust,uni ass el vi,10,4,1,5894.490631664917,23.490631712782715,1044.5093682438742,1021.0187365310915
+14313,payback,de,NA,NA,NA,NA,NA,NA,initial trust,pay back,7,2,1,NA,NA,NA,NA
+14350,sharif,edu,NA,NA,NA,NA,NA,NA,initial trust,sharif,6,1,1,NA,NA,NA,NA
+14365,villanova,edu,NA,NA,NA,NA,NA,NA,initial trust,villanova,9,1,1,NA,NA,NA,NA
+14371,berliner,sparkasse.de,NA,NA,NA,NA,NA,NA,initial trust,berliner,8,1,1,NA,NA,NA,NA
+14372,goethe,de,NA,NA,NA,NA,NA,NA,initial trust,go e the,6,3,1,NA,NA,NA,NA
+14385,thieme,de,NA,NA,NA,NA,NA,NA,initial trust,thi eme,6,2,1,NA,NA,NA,NA
+14393,nsf,gov,NA,NA,NA,NA,NA,NA,initial trust,nsf,3,1,1,NA,NA,NA,NA
+14475,unilogin,dk,NA,NA,2005-08-03T00:00:00Z,2021-08-31T00:00:00Z,NA,NA,initial trust,unilogin,8,1,3,5567.490631664917,NA,304.50936824387423,NA
+14479,tankrewards,eu,NA,NA,NA,NA,NA,NA,initial trust,tank rewards,11,2,1,NA,NA,NA,NA
+14489,luca,com.tr,NA,NA,2004-11-19T00:00:00Z,2025-11-18T00:00:00Z,NA,NA,initial trust,luca,4,1,1,5824.490631664917,NA,1844.5093682438742,NA
+14495,krisha,kz,NA,NA,NA,NA,"TOO ""Kolesa"", 970440003326",NA,initial trust,krish a,6,2,3,NA,NA,NA,NA
+14497,bz,berlin.de,NA,NA,NA,NA,NA,NA,initial trust,bz,2,1,1,NA,NA,NA,NA
+14498,mytoys,de,NA,NA,NA,NA,NA,NA,initial trust,my toys,6,2,1,NA,NA,NA,NA
+14508,satu,kz,NA,NA,NA,NA,Rozetka Limited,NA,initial trust,satu,4,1,3,NA,NA,NA,NA
+14517,aucegypt,edu,NA,NA,NA,NA,NA,NA,initial trust,a uc egypt,8,3,1,NA,NA,NA,NA
+14522,dhl,geschaeftskundenportal.de,NA,NA,NA,NA,NA,NA,initial trust,dhl,3,1,1,NA,NA,NA,NA
+14523,ergolutions,de,NA,NA,NA,NA,NA,NA,initial trust,ergo lu ti ons,11,4,1,NA,NA,NA,NA
+14524,haspa,de,NA,NA,NA,NA,NA,NA,initial trust,has pa,5,2,1,NA,NA,NA,NA
+14525,mbs,de,NA,NA,NA,NA,NA,NA,initial trust,mbs,3,1,1,NA,NA,NA,NA
+14526,medimops,de,NA,NA,NA,NA,NA,NA,initial trust,med im ops,8,3,1,NA,NA,NA,NA
+14527,myhermes,de,NA,NA,NA,NA,NA,NA,initial trust,my hermes,8,2,1,NA,NA,NA,NA
+14528,netto,online.de,NA,NA,NA,NA,NA,NA,initial trust,netto,5,1,1,NA,NA,NA,NA
+14529,onleihe,de,NA,NA,NA,NA,NA,NA,initial trust,on lei he,7,3,1,NA,NA,NA,NA
+14593,phoenix,edu,NA,NA,NA,NA,NA,NA,initial trust,phoenix,7,1,1,NA,NA,NA,NA
+14596,conceptodefinicion,de,NA,NA,NA,NA,NA,NA,initial trust,concept o def inicio n,18,5,1,NA,NA,NA,NA
+14616,nemlog,in.dk,NA,NA,2008-08-26T00:00:00Z,2021-08-31T00:00:00Z,NA,NA,initial trust,nem log,6,2,2,4448.490631664917,NA,304.50936824387423,NA
+14656,narod,hr,NA,2015-05-22T22:00:00Z,2014-01-06T23:00:00Z,2021-01-06T23:00:00Z,NA,NA,initial trust,na rod,5,2,4,2488.5322983315837,1987.573965046116,68.46770157720756,-1919.1062634689083
+14667,udir,no,NA,2020-05-06T00:00:00Z,2004-02-04T00:00:00Z,NA,NA,NA,initial trust,u dir,4,2,1,6113.490631664917,177.49063171278272,NA,NA
+14672,btk,gov.tr,NA,NA,2008-11-14T00:00:00Z,2021-11-13T00:00:00Z,NA,NA,initial trust,bt k,3,2,1,4368.490631664917,NA,378.50936824387423,NA
+14675,kaznu,kz,NA,NA,NA,NA,KazNU,NA,initial trust,kaz nu,5,2,2,NA,NA,NA,NA
+14691,mn,gov,NA,NA,NA,NA,NA,NA,initial trust,mn,2,1,1,NA,NA,NA,NA
+14692,u,ae,NA,NA,NA,NA,NA,NA,initial trust,u,1,1,1,NA,NA,NA,NA
+14699,odu,edu,NA,NA,NA,NA,NA,NA,initial trust,o du,3,2,1,NA,NA,NA,NA
+14725,uni,osnabrueck.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+14782,uc,edu,NA,NA,NA,NA,NA,NA,initial trust,uc,2,1,1,NA,NA,NA,NA
+14797,getninjas,com.br,NA,2017-02-22T00:00:00Z,2011-06-13T00:00:00Z,2022-06-13T00:00:00Z,NA,BR,initial trust,get ninjas,9,2,1,3427.4906316649167,1346.4906317127827,590.5093682438742,-755.9812634689085
+14799,hdi,com.br,NA,2020-04-04T00:00:00Z,1999-04-15T00:00:00Z,2030-04-15T00:00:00Z,NA,BR,initial trust,hdi,3,1,1,7869.490631664917,209.49063171278272,3453.509368243874,3244.0187365310912
+14816,fbi,gov,NA,NA,NA,NA,NA,NA,initial trust,fbi,3,1,1,NA,NA,NA,NA
+14818,wetter,de,NA,NA,NA,NA,NA,NA,initial trust,wetter,6,1,1,NA,NA,NA,NA
+14871,archive,is,NA,NA,2012-05-16T00:00:00Z,2024-05-16T00:00:00Z,NA,NA,initial trust,archive,7,1,3,3089.4906316649167,NA,1293.5093682438742,NA
+14915,kap,org.tr,NA,NA,2016-05-04T00:00:00Z,2021-05-03T00:00:00Z,NA,NA,initial trust,kap,3,1,1,1640.490631664917,NA,184.50936824387423,NA
+14937,jku,at,NA,2006-08-07T16:55:38Z,NA,NA,Johannes Kepler Universitaet,Austria,initial trust,j ku,3,2,1,NA,5197.785330786857,NA,NA
+14983,upr,edu,NA,NA,NA,NA,NA,NA,initial trust,up r,3,2,1,NA,NA,NA,NA
+15031,marmara,edu.tr,NA,NA,1997-04-29T00:00:00Z,2021-04-28T00:00:00Z,NA,NA,initial trust,marmara,7,1,1,8585.490631664918,NA,179.50936824387423,NA
+15066,todamulher,com.br,NA,2019-09-18T00:00:00Z,2006-04-06T00:00:00Z,2028-04-06T00:00:00Z,NA,BR,initial trust,toda mulher,10,2,1,5321.490631664917,408.4906317127827,2714.509368243874,2306.0187365310912
+15085,decathlon,com.tr,NA,NA,2006-02-10T00:00:00Z,2021-02-09T00:00:00Z,NA,NA,initial trust,decathlon,9,1,1,5376.490631664917,NA,101.50936824387422,NA
+15110,autobild,de,NA,NA,NA,NA,NA,NA,initial trust,autobild,8,1,1,NA,NA,NA,NA
+15126,senado,leg.br,NA,2018-11-01T00:00:00Z,2011-12-14T00:00:00Z,NA,NA,BR,initial trust,senado,6,1,1,3243.4906316649167,729.4906317127827,NA,NA
+15127,vagalume,com.br,NA,2019-06-20T00:00:00Z,2002-03-14T00:00:00Z,2029-03-14T00:00:00Z,NA,BR,initial trust,vagalume,8,1,1,6805.490631664917,498.4906317127827,3056.509368243874,2558.0187365310912
+15149,viaplay,no,NA,2020-05-14T00:00:00Z,2008-05-14T00:00:00Z,NA,NA,NA,initial trust,via play,7,2,1,4552.490631664917,169.49063171278272,NA,NA
+15168,shoptime,com.br,NA,2020-10-13T00:00:00Z,1995-11-08T00:00:00Z,2021-11-08T00:00:00Z,NA,BR,initial trust,shop time,8,2,1,9123.490631664918,17.490631712782715,373.50936824387423,356.0187365310915
+15186,ejabberd,im,NA,NA,NA,2021-09-14T00:59:51Z,NA,NA,initial trust,e jabber d,8,3,4,NA,NA,318.55093074387423,NA
+15214,privatemoe,ae,NA,NA,NA,NA,NA,NA,initial trust,private moe,10,2,1,NA,NA,NA,NA
+15232,panini,com.br,NA,2019-07-04T00:00:00Z,1998-07-03T00:00:00Z,2021-07-03T00:00:00Z,NA,BR,initial trust,panini,6,1,1,8155.490631664917,484.4906317127827,245.50936824387423,-238.98126346890848
+15266,elogo,com.tr,NA,NA,2016-04-12T00:00:00Z,2021-04-11T00:00:00Z,NA,NA,initial trust,e logo,5,2,1,1662.490631664917,NA,162.50936824387423,NA
+15271,myheritage,de,NA,NA,NA,NA,NA,NA,initial trust,my heritage,10,2,1,NA,NA,NA,NA
+15272,aftenposten,no,NA,2019-11-15T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,aftenposten,11,1,1,7655.490631664917,350.4906317127827,NA,NA
+15273,rp,online.de,NA,NA,NA,NA,NA,NA,initial trust,rp,2,1,1,NA,NA,NA,NA
+15274,clear,com.br,NA,2017-01-31T00:00:00Z,2001-11-12T00:00:00Z,2022-11-12T00:00:00Z,NA,BR,initial trust,clear,5,1,1,6927.490631664917,1368.4906317127827,742.5093682438742,-625.9812634689085
+15283,dafiti,com.br,NA,2015-10-15T00:00:00Z,2010-12-02T00:00:00Z,2022-12-02T00:00:00Z,NA,BR,initial trust,dafiti,6,1,1,3620.4906316649167,1842.4906317127827,762.5093682438742,-1079.9812634689085
+15314,unlv,edu,NA,NA,NA,NA,NA,NA,initial trust,unlv,4,1,1,NA,NA,NA,NA
+15320,sympla,com.br,NA,2020-01-25T00:00:00Z,2011-03-11T00:00:00Z,2029-03-11T00:00:00Z,NA,BR,initial trust,sy mp la,6,3,1,3521.4906316649167,279.4906317127827,3053.509368243874,2774.0187365310912
+15322,consumerfinance,gov,NA,NA,NA,NA,NA,NA,initial trust,consumer finance,15,2,1,NA,NA,NA,NA
+15330,wmich,edu,NA,NA,NA,NA,NA,NA,initial trust,w mich,5,2,1,NA,NA,NA,NA
+15334,fairesagnole,eu,NA,NA,NA,NA,NA,NA,initial trust,faire sag no le,12,4,1,NA,NA,NA,NA
+15346,genome,gov,NA,NA,NA,NA,NA,NA,initial trust,genome,6,1,1,NA,NA,NA,NA
+15354,ozgurkocaeli,com.tr,NA,NA,1997-10-13T00:00:00Z,2021-10-12T00:00:00Z,NA,NA,initial trust,oz gur kocaeli,12,3,1,8418.490631664918,NA,346.50936824387423,NA
+15375,gdrfad,gov.ae,NA,NA,NA,NA,NA,NA,initial trust,gd rf ad,6,3,1,NA,NA,NA,NA
+15377,cms,gov,NA,NA,NA,NA,NA,NA,initial trust,cms,3,1,1,NA,NA,NA,NA
+15395,stylebook,de,NA,NA,NA,NA,NA,NA,initial trust,stylebook,9,1,1,NA,NA,NA,NA
+15404,celesc,com.br,NA,2019-02-07T00:00:00Z,1997-06-06T00:00:00Z,2022-06-06T00:00:00Z,NA,BR,initial trust,cele sc,6,2,1,8547.490631664918,631.4906317127827,583.5093682438742,-47.98126346890854
+15405,cientificalab,com.br,NA,2020-09-18T00:00:00Z,2001-09-17T00:00:00Z,2022-09-17T00:00:00Z,NA,BR,initial trust,ci enti fica lab,13,4,1,6983.490631664917,42.490631712782715,686.5093682438742,644.0187365310915
+15406,concursosnobrasil,com.br,NA,2019-04-24T00:00:00Z,2007-08-09T00:00:00Z,2028-08-09T00:00:00Z,NA,BR,initial trust,concursos no brasil,17,3,1,4831.490631664917,555.4906317127827,2839.509368243874,2284.0187365310912
+15407,gcn,net.br,NA,2020-05-21T00:00:00Z,2010-05-27T00:00:00Z,2022-05-27T00:00:00Z,NA,BR,initial trust,g cn,3,2,1,3809.4906316649167,162.49063171278272,573.5093682438742,411.01873653109146
+15408,net,com.br,NA,2017-12-21T00:00:00Z,2013-09-24T00:00:00Z,2023-09-24T00:00:00Z,NA,BR,initial trust,net,3,1,1,2593.4906316649167,1044.4906317127827,1058.5093682438742,14.018736531091463
+15410,serasa,com.br,NA,2020-07-31T00:00:00Z,1996-08-20T00:00:00Z,2021-08-20T00:00:00Z,NA,BR,initial trust,sera sa,6,2,1,8837.490631664918,91.49063171278272,293.50936824387423,202.01873653109152
+15411,ufpa,br,NA,2015-10-08T00:00:00Z,NA,NA,NA,BR,initial trust,uf pa,4,2,1,NA,1849.4906317127827,NA,NA
+15425,aldi,sued.de,NA,NA,NA,NA,NA,NA,initial trust,aldi,4,1,1,NA,NA,NA,NA
+15426,anime2you,de,NA,NA,NA,NA,NA,NA,initial trust,anime 2 you,9,3,1,NA,NA,NA,NA
+15427,buchhandlung,de,NA,NA,NA,NA,NA,NA,initial trust,buch hand lung,12,3,1,NA,NA,NA,NA
+15428,lehrerfortbildung,bw.de,NA,NA,NA,NA,NA,NA,initial trust,lehrer fort bildung,17,3,1,NA,NA,NA,NA
+15429,mkk,de,NA,NA,NA,NA,NA,NA,initial trust,m kk,3,2,1,NA,NA,NA,NA
+15431,sparkasse,solingen.de,NA,NA,NA,NA,NA,NA,initial trust,sparkasse,9,1,1,NA,NA,NA,NA
+15439,ky,gov,NA,NA,NA,NA,NA,NA,initial trust,ky,2,1,1,NA,NA,NA,NA
+15505,umbc,edu,NA,NA,NA,NA,NA,NA,initial trust,um bc,4,2,1,NA,NA,NA,NA
+15508,rojadirecta,eu,NA,NA,NA,NA,NA,NA,initial trust,rojadirecta,11,1,1,NA,NA,NA,NA
+15529,ups,com.tr,NA,NA,1997-05-09T00:00:00Z,2021-05-08T00:00:00Z,NA,NA,initial trust,ups,3,1,1,8575.490631664918,NA,189.50936824387423,NA
+15553,uni,trier.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+15617,hastanerandevu,gov.tr,NA,NA,2011-06-01T00:00:00Z,2021-05-31T00:00:00Z,NA,NA,initial trust,hasta ne rande vu,14,4,1,3439.4906316649167,NA,212.50936824387423,NA
+15679,illinoisstate,edu,NA,NA,NA,NA,NA,NA,initial trust,illinois state,13,2,1,NA,NA,NA,NA
+15727,ohio,state.edu,NA,NA,NA,NA,NA,NA,initial trust,ohio,4,1,1,NA,NA,NA,NA
+15734,ping,eu,NA,NA,NA,NA,NA,NA,initial trust,ping,4,1,1,NA,NA,NA,NA
+15762,fvap,gov,NA,NA,NA,NA,NA,NA,initial trust,f va p,4,3,1,NA,NA,NA,NA
+15765,itu,edu.tr,NA,NA,2002-12-23T00:00:00Z,2020-12-22T00:00:00Z,NA,NA,initial trust,itu,3,1,1,6521.490631664917,NA,52.50936824387422,NA
+15828,koctas,com.tr,NA,NA,1996-02-09T00:00:00Z,2021-02-08T00:00:00Z,NA,NA,initial trust,ko ct as,6,3,1,9030.490631664918,NA,100.50936824387422,NA
+15838,finanzen100,de,NA,NA,NA,NA,NA,NA,initial trust,finanzen100,11,1,1,NA,NA,NA,NA
+15905,uni,due.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+15908,maine,gov,NA,NA,NA,NA,NA,NA,initial trust,maine,5,1,1,NA,NA,NA,NA
+15930,indfodsretsprove,dk,NA,NA,2009-02-12T00:00:00Z,2021-02-28T00:00:00Z,NA,NA,initial trust,in df od sr ets prove,16,6,4,4278.490631664917,NA,120.50936824387422,NA
+15933,cancer,gov,NA,NA,NA,NA,NA,NA,initial trust,cancer,6,1,1,NA,NA,NA,NA
+15944,brasilbandalarga,com.br,NA,2020-10-08T00:00:00Z,2012-03-20T00:00:00Z,2022-03-20T00:00:00Z,NA,BR,initial trust,brasil banda larga,16,3,1,3146.4906316649167,22.490631712782715,505.50936824387423,483.0187365310915
+15945,educacaoetransformacao,com.br,NA,2020-06-19T00:00:00Z,2017-07-17T00:00:00Z,2021-07-17T00:00:00Z,NA,BR,initial trust,educa cao e transform a cao,22,6,1,1201.490631664917,133.49063171278272,259.50936824387423,126.01873653109152
+15946,educamaisbrasil,com.br,NA,2020-10-08T00:00:00Z,2011-10-23T00:00:00Z,2022-10-23T00:00:00Z,NA,BR,initial trust,educa mais brasil,15,3,1,3295.4906316649167,22.490631712782715,722.5093682438742,700.0187365310915
+15947,enel,com.br,NA,2020-06-29T00:00:00Z,2008-03-03T00:00:00Z,2029-03-03T00:00:00Z,NA,BR,initial trust,en el,4,2,1,4624.490631664917,123.49063171278272,3045.509368243874,2922.0187365310912
+15950,sempreser,com.br,NA,2020-01-07T00:00:00Z,2017-04-04T00:00:00Z,2023-04-04T00:00:00Z,NA,BR,initial trust,sempre ser,9,2,1,1305.490631664917,297.4906317127827,885.5093682438742,588.0187365310915
+15952,tjba,jus.br,NA,2016-09-13T00:00:00Z,2008-02-28T00:00:00Z,NA,NA,BR,initial trust,tj ba,4,2,1,4628.490631664917,1508.4906317127827,NA,NA
+15954,nau,edu,NA,NA,NA,NA,NA,NA,initial trust,nau,3,1,1,NA,NA,NA,NA
+15959,yapikredi,com.tr,NA,NA,1997-03-19T00:00:00Z,2021-03-18T00:00:00Z,NA,NA,initial trust,y api kredi,9,3,1,8626.490631664918,NA,138.50936824387423,NA
+15962,mef,gov.it,NA,NA,NA,NA,NA,NA,initial trust,me f,3,2,1,NA,NA,NA,NA
+16057,charite,de,NA,NA,NA,NA,NA,NA,initial trust,chari te,7,2,1,NA,NA,NA,NA
+16099,geizhals,de,NA,NA,NA,NA,NA,NA,initial trust,ge i zh als,8,4,1,NA,NA,NA,NA
+16120,bedandbreakfast,eu,NA,NA,NA,NA,NA,NA,initial trust,bed and breakfast,15,3,1,NA,NA,NA,NA
+16121,fcps,edu,NA,NA,NA,NA,NA,NA,initial trust,fc ps,4,2,1,NA,NA,NA,NA
+16124,unf,edu,NA,NA,NA,NA,NA,NA,initial trust,un f,3,2,1,NA,NA,NA,NA
+16183,binghamton,edu,NA,NA,NA,NA,NA,NA,initial trust,binghamton,10,1,1,NA,NA,NA,NA
+16198,faa,gov,NA,NA,NA,NA,NA,NA,initial trust,faa,3,1,1,NA,NA,NA,NA
+16253,spv,no,NA,2020-10-18T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,sp v,3,2,1,7655.490631664917,12.490631712782713,NA,NA
+16264,estrategiaconcursos,com.br,NA,2020-07-07T00:00:00Z,2011-04-29T00:00:00Z,2027-04-29T00:00:00Z,NA,BR,initial trust,estrategia concursos,19,2,1,3472.4906316649167,115.49063171278272,2371.509368243874,2256.0187365310912
+16265,even3,com.br,NA,2020-07-10T00:00:00Z,2013-07-02T00:00:00Z,2025-07-02T00:00:00Z,NA,BR,initial trust,even 3,5,2,1,2677.4906316649167,112.49063171278272,1705.5093682438742,1593.0187365310915
+16266,modalmais,com.br,NA,2019-05-15T00:00:00Z,2013-03-22T00:00:00Z,2026-03-22T00:00:00Z,NA,BR,initial trust,modal mais,9,2,1,2779.4906316649167,534.4906317127827,1968.5093682438742,1434.0187365310915
+16267,pdaredepitagoras,com.br,NA,2019-11-20T00:00:00Z,2013-11-06T00:00:00Z,2020-11-06T00:00:00Z,NA,BR,initial trust,pda rede pit agora s,16,5,1,2550.4906316649167,345.4906317127827,6.509368243874223,-338.9812634689085
+16269,sesisp,org.br,NA,2019-02-23T00:00:00Z,1999-05-04T00:00:00Z,2021-05-04T00:00:00Z,NA,BR,initial trust,ses isp,6,2,1,7850.490631664917,615.4906317127827,185.50936824387423,-429.9812634689085
+16275,br,de,NA,NA,NA,NA,NA,NA,initial trust,br,2,1,1,NA,NA,NA,NA
+16317,konicaminolta,eu,NA,NA,NA,NA,NA,NA,initial trust,konica minolta,13,2,1,NA,NA,NA,NA
+16331,pagopa,gov.it,NA,NA,NA,NA,NA,NA,initial trust,pago pa,6,2,1,NA,NA,NA,NA
+16387,aiims,edu,NA,NA,NA,NA,NA,NA,initial trust,aiims,5,1,1,NA,NA,NA,NA
+16411,eseis,afris.eu,NA,NA,NA,NA,NA,NA,initial trust,ese is,5,2,1,NA,NA,NA,NA
+16421,aksam,com.tr,NA,NA,1996-06-30T00:00:00Z,2024-06-29T00:00:00Z,NA,NA,initial trust,ak sam,5,2,1,8888.490631664918,NA,1337.5093682438742,NA
+16485,medunigraz,at,NA,2013-03-01T12:13:52Z,NA,NA,Medizinische Universitaet Graz,Austria,initial trust,med uni graz,10,3,1,NA,2799.9810020831533,NA,NA
+16582,kubg,edu.ua,NA,NA,NA,NA,NA,NA,initial trust,ku bg,4,2,2,NA,NA,NA,NA
+16601,point,md,NA,NA,NA,2021-02-20T00:00:00Z,NA,NA,initial trust,point,5,1,1,NA,NA,112.50936824387422,NA
+16608,tax,gov.ua,NA,NA,NA,NA,NA,NA,initial trust,tax,3,1,2,NA,NA,NA,NA
+16616,zoho,eu,NA,NA,NA,NA,NA,NA,initial trust,zoho,4,1,1,NA,NA,NA,NA
+16630,trans,eu,NA,NA,NA,NA,NA,NA,initial trust,trans,5,1,1,NA,NA,NA,NA
+16643,totheglory,im,NA,NA,NA,2022-10-04T00:59:52Z,NA,NA,initial trust,to the glory,10,3,2,NA,NA,703.5509423179483,NA
+16680,uvu,edu,NA,NA,NA,NA,NA,NA,initial trust,u vu,3,2,1,NA,NA,NA,NA
+16685,arkansas,gov,NA,NA,NA,NA,NA,NA,initial trust,arkansas,8,1,1,NA,NA,NA,NA
+16722,ipaid,de,NA,NA,NA,NA,NA,NA,initial trust,i paid,5,2,1,NA,NA,NA,NA
+16818,bitcoin,de,NA,NA,NA,NA,NA,NA,initial trust,bitcoin,7,1,1,NA,NA,NA,NA
+16819,ergotopia,de,NA,NA,NA,NA,NA,NA,initial trust,ergo to pia,9,3,1,NA,NA,NA,NA
+16820,fhws,de,NA,NA,NA,NA,NA,NA,initial trust,fh ws,4,2,1,NA,NA,NA,NA
+16821,giessener,allgemeine.de,NA,NA,NA,NA,NA,NA,initial trust,gi essen er,9,3,1,NA,NA,NA,NA
+16822,girogate,de,NA,NA,NA,NA,NA,NA,initial trust,giro gate,8,2,1,NA,NA,NA,NA
+16823,hygi,de,NA,NA,NA,NA,NA,NA,initial trust,hy gi,4,2,1,NA,NA,NA,NA
+16824,klassenarbeiten,de,NA,NA,NA,NA,NA,NA,initial trust,klassen arbeiten,15,2,1,NA,NA,NA,NA
+16846,iskur,gov.tr,NA,NA,2000-10-24T00:00:00Z,2021-10-23T00:00:00Z,NA,NA,initial trust,is kur,5,2,1,7311.490631664917,NA,357.50936824387423,NA
+16854,tz,de,NA,NA,NA,NA,NA,NA,initial trust,tz,2,1,1,NA,NA,NA,NA
+16868,bibliaonline,com.br,NA,2018-02-11T00:00:00Z,1999-03-13T00:00:00Z,2028-03-13T00:00:00Z,NA,BR,initial trust,biblia online,12,2,1,7902.490631664917,992.4906317127827,2690.509368243874,1698.0187365310915
+16875,ccsu,edu,NA,NA,NA,NA,NA,NA,initial trust,cc su,4,2,1,NA,NA,NA,NA
+16888,antena1,com.br,NA,2012-11-16T00:00:00Z,1996-12-06T00:00:00Z,2022-12-06T00:00:00Z,NA,BR,initial trust,antena 1,7,2,1,8729.490631664918,2905.4906317127825,766.5093682438742,-2138.9812634689083
+16926,clarkcountynv,gov,NA,NA,NA,NA,NA,NA,initial trust,clark county nv,13,3,1,NA,NA,NA,NA
+16940,flo,com.tr,NA,NA,2001-09-05T00:00:00Z,2022-09-04T00:00:00Z,NA,NA,initial trust,flo,3,1,1,6995.490631664917,NA,673.5093682438742,NA
+16947,clemson,edu,NA,NA,NA,NA,NA,NA,initial trust,clemson,7,1,1,NA,NA,NA,NA
+16949,1lib,eu,NA,NA,NA,NA,NA,NA,initial trust,1 lib,4,2,1,NA,NA,NA,NA
+16992,utah,gov,NA,NA,NA,NA,NA,NA,initial trust,utah,4,1,1,NA,NA,NA,NA
+17005,ufmt,br,NA,2015-05-23T00:00:00Z,NA,NA,NA,BR,initial trust,ufm t,4,2,1,NA,1987.4906317127827,NA,NA
+17008,computerbase,de,NA,NA,NA,NA,NA,NA,initial trust,computer base,12,2,1,NA,NA,NA,NA
+17011,uio,no,NA,2019-11-15T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,ui o,3,2,1,7655.490631664917,350.4906317127827,NA,NA
+17012,bonprix,de,NA,NA,NA,NA,NA,NA,initial trust,bon prix,7,2,1,NA,NA,NA,NA
+17035,ucdenver,edu,NA,NA,NA,NA,NA,NA,initial trust,uc denver,8,2,1,NA,NA,NA,NA
+17036,ttu,edu,NA,NA,NA,NA,NA,NA,initial trust,ttu,3,1,1,NA,NA,NA,NA
+17041,unt,edu,NA,NA,NA,NA,NA,NA,initial trust,un t,3,2,1,NA,NA,NA,NA
+17078,mfa,gov.ua,NA,NA,NA,NA,NA,NA,initial trust,mfa,3,1,2,NA,NA,NA,NA
+17079,uri,edu,NA,NA,NA,NA,NA,NA,initial trust,uri,3,1,1,NA,NA,NA,NA
+17242,diesiedleronline,de,NA,NA,NA,NA,NA,NA,initial trust,dies ied ler online,16,4,1,NA,NA,NA,NA
+17256,northwell,edu,NA,NA,NA,NA,NA,NA,initial trust,north well,9,2,1,NA,NA,NA,NA
+17260,incomedia,eu,NA,NA,NA,NA,NA,NA,initial trust,income dia,9,2,1,NA,NA,NA,NA
+17266,du,edu,NA,NA,NA,NA,NA,NA,initial trust,du,2,1,1,NA,NA,NA,NA
+17274,drugabuse,gov,NA,NA,NA,NA,NA,NA,initial trust,drug abuse,9,2,1,NA,NA,NA,NA
+17305,drjobs,ae,NA,NA,NA,NA,NA,NA,initial trust,dr jobs,6,2,1,NA,NA,NA,NA
+17337,mise,gov.it,NA,NA,NA,NA,NA,NA,initial trust,mise,4,1,1,NA,NA,NA,NA
+17345,cbf,com.br,NA,2018-04-12T00:00:00Z,2005-11-04T00:00:00Z,2022-11-04T00:00:00Z,NA,BR,initial trust,cb f,3,2,1,5474.490631664917,932.4906317127827,734.5093682438742,-197.98126346890854
+17346,cpb,com.br,NA,2019-11-07T00:00:00Z,1996-11-06T00:00:00Z,2024-11-06T00:00:00Z,NA,BR,initial trust,cpb,3,1,1,8759.490631664918,358.4906317127827,1467.5093682438742,1109.0187365310915
+17347,cpfl,com.br,NA,2019-04-12T00:00:00Z,1995-12-12T00:00:00Z,2026-12-12T00:00:00Z,NA,BR,initial trust,cp fl,4,2,1,9089.490631664918,567.4906317127827,2233.509368243874,1666.0187365310915
+17349,tdc,teladecinema.com.br,NA,2020-07-23T00:00:00Z,2020-07-23T00:00:00Z,2021-07-23T00:00:00Z,NA,BR,initial trust,tdc,3,1,1,99.49063166491688,99.49063171278272,265.50936824387423,166.01873653109152
+17350,trf1,jus.br,NA,2016-07-04T00:00:00Z,2008-03-13T00:00:00Z,NA,NA,BR,initial trust,tr f1,4,2,1,4614.490631664917,1579.4906317127827,NA,NA
+17352,vhsys,com.br,NA,2020-02-29T00:00:00Z,2011-03-28T00:00:00Z,2024-03-28T00:00:00Z,NA,BR,initial trust,vh sys,5,2,1,3504.4906316649167,244.49063171278272,1244.5093682438742,1000.0187365310915
+17373,gismeteo,kz,NA,NA,NA,NA,Private Person,NA,initial trust,gismeteo,8,1,2,NA,NA,NA,NA
+17388,ohio,edu,NA,NA,NA,NA,NA,NA,initial trust,ohio,4,1,1,NA,NA,NA,NA
+17393,okstate,edu,NA,NA,NA,NA,NA,NA,initial trust,ok state,7,2,1,NA,NA,NA,NA
+17400,administrator,de,NA,NA,NA,NA,NA,NA,initial trust,administrator,13,1,1,NA,NA,NA,NA
+17412,portalbank,no,NA,2020-05-31T00:00:00Z,2005-05-31T00:00:00Z,NA,NA,NA,initial trust,portal bank,10,2,1,5631.490631664917,152.49063171278272,NA,NA
+17439,niu,edu,NA,NA,NA,NA,NA,NA,initial trust,niu,3,1,1,NA,NA,NA,NA
+17454,zeropaper,com.br,NA,2019-09-24T00:00:00Z,2012-05-23T00:00:00Z,2026-05-23T00:00:00Z,NA,BR,initial trust,zero paper,9,2,1,3082.4906316649167,402.4906317127827,2030.5093682438742,1628.0187365310915
+17489,online,umwandeln.de,NA,NA,NA,NA,NA,NA,initial trust,online,6,1,1,NA,NA,NA,NA
+17490,radio,de,NA,NA,NA,NA,NA,NA,initial trust,radio,5,1,1,NA,NA,NA,NA
+17508,itamaraty,gov.br,NA,2017-04-25T00:00:00Z,1999-02-12T00:00:00Z,NA,NA,BR,initial trust,i tamara ty,9,3,1,7931.490631664917,1284.4906317127827,NA,NA
+17578,poppen,de,NA,NA,NA,NA,NA,NA,initial trust,poppen,6,1,1,NA,NA,NA,NA
+17586,bvmw,de,NA,NA,NA,NA,NA,NA,initial trust,bv mw,4,2,1,NA,NA,NA,NA
+17617,fu,berlin.de,NA,NA,NA,NA,NA,NA,initial trust,fu,2,1,1,NA,NA,NA,NA
+17622,hotmart,com.br,NA,2014-08-23T00:00:00Z,2009-03-16T00:00:00Z,2024-03-16T00:00:00Z,NA,BR,initial trust,hot mart,7,2,1,4246.490631664917,2260.4906317127825,1232.5093682438742,-1027.9812634689083
+17631,tuwien,ac.at,NA,2020-03-03T11:58:52Z,NA,NA,Technische Universitaet Wien - ZID,Austria,initial trust,tu wien,6,2,1,NA,240.99141874981976,NA,NA
+17634,maricopa,gov,NA,NA,NA,NA,NA,NA,initial trust,maricopa,8,1,1,NA,NA,NA,NA
+17667,fipe,org.br,NA,2020-01-03T00:00:00Z,2005-11-10T00:00:00Z,2024-11-10T00:00:00Z,NA,BR,initial trust,fip e,4,2,1,5468.490631664917,301.4906317127827,1471.5093682438742,1170.0187365310915
+17671,ankara,edu.tr,NA,NA,1999-04-30T00:00:00Z,2021-04-29T00:00:00Z,NA,NA,initial trust,ankara,6,1,1,7854.490631664917,NA,180.50936824387423,NA
+17687,verleihshop,de,NA,NA,NA,NA,NA,NA,initial trust,verleih shop,11,2,1,NA,NA,NA,NA
+17778,informburo,kz,NA,NA,NA,NA,"TOO ""Infopolis""",NA,initial trust,inform buro,10,2,3,NA,NA,NA,NA
+17800,audi,de,NA,NA,NA,NA,NA,NA,initial trust,audi,4,1,1,NA,NA,NA,NA
+17806,sebrae,com.br,NA,2019-02-11T00:00:00Z,1996-03-12T00:00:00Z,2027-03-12T00:00:00Z,NA,BR,initial trust,seb rae,6,2,1,8998.490631664918,627.4906317127827,2323.509368243874,1696.0187365310915
+17809,alabama,gov,NA,NA,NA,NA,NA,NA,initial trust,alabama,7,1,1,NA,NA,NA,NA
+17851,cdo,kz,NA,NA,NA,NA,"TOO ""Finist""",NA,initial trust,c do,3,2,2,NA,NA,NA,NA
+17859,uwm,edu,NA,NA,NA,NA,NA,NA,initial trust,uw m,3,2,1,NA,NA,NA,NA
+18343,pki,gov.kz,NA,NA,NA,NA,"Ministry of Digital Development, Innovations and Aerospace Industry of the RK",NA,initial trust,pk i,3,2,2,NA,NA,NA,NA
+18374,gvsu,edu,NA,NA,NA,NA,NA,NA,initial trust,gv su,4,2,1,NA,NA,NA,NA
+18386,towson,edu,NA,NA,NA,NA,NA,NA,initial trust,tow son,6,2,1,NA,NA,NA,NA
+18410,escora,dessous.de,NA,NA,NA,NA,NA,NA,initial trust,es cora,6,2,1,NA,NA,NA,NA
+18415,tele1,com.tr,NA,NA,2016-11-18T00:00:00Z,2022-11-16T00:00:00Z,NA,NA,initial trust,tele 1,5,2,1,1442.490631664917,NA,746.5093682438742,NA
+18483,yok,gov.tr,NA,NA,1997-05-26T00:00:00Z,2021-05-25T00:00:00Z,NA,NA,initial trust,y ok,3,2,1,8558.490631664918,NA,206.50936824387423,NA
+18555,cumhuriyet,com.tr,NA,NA,1996-12-01T00:00:00Z,2023-11-30T00:00:00Z,NA,NA,initial trust,cumhuriyet,10,1,1,8734.490631664918,NA,1125.5093682438742,NA
+18612,guiamais,com.br,NA,2020-03-16T00:00:00Z,1998-04-15T00:00:00Z,2021-04-15T00:00:00Z,NA,BR,initial trust,guia mais,8,2,1,8234.490631664918,228.49063171278272,166.50936824387423,-61.98126346890848
+18656,seminolestate,edu,NA,NA,NA,NA,NA,NA,initial trust,seminole state,13,2,1,NA,NA,NA,NA
+18659,nd,gov,NA,NA,NA,NA,NA,NA,initial trust,nd,2,1,1,NA,NA,NA,NA
+18664,wdr,de,NA,NA,NA,NA,NA,NA,initial trust,wdr,3,1,1,NA,NA,NA,NA
+18714,psd,tutorials.de,NA,NA,NA,NA,NA,NA,initial trust,psd,3,1,1,NA,NA,NA,NA
+18759,vipleagues,eu,NA,NA,NA,NA,NA,NA,initial trust,vip leagues,10,2,1,NA,NA,NA,NA
+18807,recreation,gov,NA,NA,NA,NA,NA,NA,initial trust,recreation,10,1,1,NA,NA,NA,NA
+18818,dmed,kz,NA,NA,NA,NA,TOO «Centr Informacionnyh Tehnologij Damu»,NA,initial trust,d med,4,2,3,NA,NA,NA,NA
+18827,phila,gov,NA,NA,NA,NA,NA,NA,initial trust,phil a,5,2,1,NA,NA,NA,NA
+18833,missouri,edu,NA,NA,NA,NA,NA,NA,initial trust,missouri,8,1,1,NA,NA,NA,NA
+18840,ohiosos,gov,NA,NA,NA,NA,NA,NA,initial trust,ohio sos,7,2,1,NA,NA,NA,NA
+18842,leismunicipais,com.br,NA,2020-10-06T00:00:00Z,2000-04-06T00:00:00Z,2022-04-06T00:00:00Z,NA,BR,initial trust,le ism un ici pais,14,5,1,7512.490631664917,24.490631712782715,522.5093682438742,498.01873653109146
+18884,prosieben,de,NA,NA,NA,NA,NA,NA,initial trust,prosieben,9,1,1,NA,NA,NA,NA
+18889,ilsos,gov,NA,NA,NA,NA,NA,NA,initial trust,il sos,5,2,1,NA,NA,NA,NA
+18895,helpster,de,NA,NA,NA,NA,NA,NA,initial trust,helps ter,8,2,1,NA,NA,NA,NA
+18900,querbeet,de,NA,NA,NA,NA,NA,NA,initial trust,quer beet,8,2,1,NA,NA,NA,NA
+18990,dezaina,com.br,NA,2020-07-04T00:00:00Z,2015-04-16T00:00:00Z,2024-04-16T00:00:00Z,NA,BR,initial trust,de zain a,7,3,1,2024.490631664917,118.49063171278272,1263.5093682438742,1145.0187365310915
+19016,tri,c.edu,NA,NA,NA,NA,NA,NA,initial trust,tri,3,1,1,NA,NA,NA,NA
+19026,dastelefonbuch,de,NA,NA,NA,NA,NA,NA,initial trust,dastelefonbuch,14,1,1,NA,NA,NA,NA
+19041,megasauna,de,NA,NA,NA,NA,NA,NA,initial trust,mega sauna,9,2,1,NA,NA,NA,NA
+19080,hult,edu,NA,NA,NA,NA,NA,NA,initial trust,hu lt,4,2,1,NA,NA,NA,NA
+19110,techbook,de,NA,NA,NA,NA,NA,NA,initial trust,tech book,8,2,1,NA,NA,NA,NA
+19118,osha,gov,NA,NA,NA,NA,NA,NA,initial trust,osha,4,1,1,NA,NA,NA,NA
+19143,bosch,de,NA,NA,NA,NA,NA,NA,initial trust,bosch,5,1,1,NA,NA,NA,NA
+19178,feinewerkzeuge,de,NA,NA,NA,NA,NA,NA,initial trust,fei newer kz eu ge,14,5,1,NA,NA,NA,NA
+19189,btc,echo.de,NA,NA,NA,NA,NA,NA,initial trust,btc,3,1,1,NA,NA,NA,NA
+19200,conjur,com.br,NA,2020-10-06T00:00:00Z,1999-04-05T00:00:00Z,2021-04-05T00:00:00Z,NA,BR,initial trust,con j ur,6,3,1,7879.490631664917,24.490631712782715,156.50936824387423,132.01873653109152
+19201,dicionarioinformal,com.br,NA,2019-07-02T00:00:00Z,2006-10-16T00:00:00Z,2021-10-16T00:00:00Z,NA,BR,initial trust,di cio na rio informal,18,5,1,5128.490631664917,486.4906317127827,350.50936824387423,-135.98126346890848
+19202,gestorescolarweb,com.br,NA,2019-02-08T00:00:00Z,2016-05-02T00:00:00Z,2025-05-02T00:00:00Z,NA,BR,initial trust,gestor escolar web,16,3,1,1642.490631664917,630.4906317127827,1644.5093682438742,1014.0187365310915
+19203,gigasena,com.br,NA,2018-02-07T00:00:00Z,2011-04-28T00:00:00Z,2027-04-28T00:00:00Z,NA,BR,initial trust,giga sena,8,2,1,3473.4906316649167,996.4906317127827,2370.509368243874,1374.0187365310915
+19204,ifrn,edu.br,NA,2020-01-24T00:00:00Z,2008-10-13T00:00:00Z,NA,NA,BR,initial trust,if rn,4,2,1,4400.490631664917,280.4906317127827,NA,NA
+19207,legisweb,com.br,NA,2019-02-15T00:00:00Z,2009-12-21T00:00:00Z,2022-12-21T00:00:00Z,NA,BR,initial trust,le gis web,8,3,1,3966.4906316649167,623.4906317127827,781.5093682438742,158.01873653109146
+19208,natura,com.br,NA,2020-02-11T00:00:00Z,1996-02-08T00:00:00Z,2021-02-08T00:00:00Z,NA,BR,initial trust,natura,6,1,1,9031.490631664918,262.4906317127827,100.50936824387422,-161.98126346890848
+19209,portaldoempreendedor,gov.br,NA,2020-08-28T00:00:00Z,2009-06-30T00:00:00Z,NA,NA,BR,initial trust,portal do em pre en de dor,20,7,1,4140.490631664917,63.490631712782715,NA,NA
+19210,sagah,com.br,NA,2019-08-12T00:00:00Z,2014-08-05T00:00:00Z,2022-08-05T00:00:00Z,NA,BR,initial trust,saga h,5,2,1,2278.4906316649167,445.4906317127827,643.5093682438742,198.01873653109146
+19212,servicos,gov.br,NA,2020-04-16T00:00:00Z,2010-05-18T00:00:00Z,NA,NA,BR,initial trust,servic os,8,2,1,3818.4906316649167,197.49063171278272,NA,NA
+19213,trt18,jus.br,NA,2019-01-12T00:00:00Z,2008-02-25T00:00:00Z,NA,NA,BR,initial trust,trt 18,5,2,1,4631.490631664917,657.4906317127827,NA,NA
+19215,uniasselvipos,com.br,NA,2020-10-07T00:00:00Z,2009-01-23T00:00:00Z,2021-01-23T00:00:00Z,NA,BR,initial trust,uni ass el vip os,13,5,1,4298.490631664917,23.490631712782715,84.50936824387422,61.018736531091506
+19216,unicesumar,edu.br,NA,2015-04-10T00:00:00Z,2013-04-15T00:00:00Z,NA,NA,BR,initial trust,uni ces umar,10,3,1,2755.4906316649167,2030.4906317127827,NA,NA
+19217,uniso,br,NA,2020-08-28T00:00:00Z,1997-12-12T00:00:00Z,NA,NA,BR,initial trust,un iso,5,2,1,8358.490631664918,63.490631712782715,NA,NA
+19509,gay,de,NA,NA,NA,NA,NA,NA,initial trust,gay,3,1,1,NA,NA,NA,NA
+19651,maka,im,NA,NA,NA,2021-02-26T00:59:58Z,NA,NA,initial trust,mak a,4,2,2,NA,NA,118.55101176239275,NA
+19947,alternate,de,NA,NA,NA,NA,NA,NA,initial trust,alternate,9,1,1,NA,NA,NA,NA
+19949,giessener,anzeiger.de,NA,NA,NA,NA,NA,NA,initial trust,gi essen er,9,3,1,NA,NA,NA,NA
+19950,kenfm,de,NA,NA,NA,NA,NA,NA,initial trust,ken fm,5,2,1,NA,NA,NA,NA
+19951,moz,de,NA,NA,NA,NA,NA,NA,initial trust,moz,3,1,1,NA,NA,NA,NA
+19952,nikon,de,NA,NA,NA,NA,NA,NA,initial trust,nikon,5,1,1,NA,NA,NA,NA
+19953,posteo,de,NA,NA,NA,NA,NA,NA,initial trust,poste o,6,2,1,NA,NA,NA,NA
+19965,chileatiende,gob.cl,NA,NA,NA,NA,NA,NA,initial trust,chile a tien de,12,4,1,NA,NA,NA,NA
+19975,mektep,edu.kz,NA,NA,NA,NA,UPRAVLENIE OBRAZOVANIYA MANGYSTAUSKOY OBLASTI,NA,initial trust,me kt ep,6,3,2,NA,NA,NA,NA
+19987,carnet,hr,NA,2019-05-14T22:00:00Z,2001-12-12T23:00:00Z,2050-11-15T23:00:00Z,NA,NA,initial trust,carnet,6,1,2,6896.532298331584,534.5739650461161,10973.467701577207,10438.89373653109
+19999,proff,no,NA,2020-03-04T00:00:00Z,2019-02-26T00:00:00Z,NA,NA,NA,initial trust,proff,5,1,1,612.4906316649169,240.49063171278272,NA,NA
+20140,yenicaggazetesi,com.tr,NA,NA,2003-09-11T00:00:00Z,2021-09-10T00:00:00Z,NA,NA,initial trust,yeni c ag gazetesi,15,4,1,6259.490631664917,NA,314.50936824387423,NA
+20436,mygreenway,eu,NA,NA,NA,NA,NA,NA,initial trust,my greenway,10,2,1,NA,NA,NA,NA
+20498,centercob,com.br,NA,2020-10-08T00:00:00Z,2005-04-28T00:00:00Z,2021-04-28T00:00:00Z,NA,BR,initial trust,center cob,9,2,1,5664.490631664917,22.490631712782715,179.50936824387423,157.01873653109152
+20670,ufpr,br,NA,2015-11-10T00:00:00Z,NA,NA,NA,BR,initial trust,uf pr,4,2,1,NA,1816.4906317127827,NA,NA
+20906,utdt,edu,NA,NA,NA,NA,NA,NA,initial trust,ut dt,4,2,1,NA,NA,NA,NA
+21153,eftps,gov,NA,NA,NA,NA,NA,NA,initial trust,eft ps,5,2,1,NA,NA,NA,NA
+21814,wam,ae,NA,NA,NA,NA,NA,NA,initial trust,wam,3,1,1,NA,NA,NA,NA
+21928,umgc,edu,NA,NA,NA,NA,NA,NA,initial trust,um gc,4,2,1,NA,NA,NA,NA
+21949,bookme,name,NA,NA,NA,NA,NA,NA,initial trust,book me,6,2,1,NA,NA,NA,NA
+22038,android,hilfe.de,NA,NA,NA,NA,NA,NA,initial trust,android,7,1,1,NA,NA,NA,NA
+22043,cod,edu,NA,NA,NA,NA,NA,NA,initial trust,cod,3,1,1,NA,NA,NA,NA
+22458,izito,com.br,NA,2019-12-05T00:00:00Z,2013-11-21T00:00:00Z,2020-11-21T00:00:00Z,NA,BR,initial trust,iz ito,5,2,1,2535.4906316649167,330.4906317127827,21.509368243874224,-308.9812634689085
+22459,jequiti,com.br,NA,2019-07-20T00:00:00Z,2005-12-05T00:00:00Z,2020-12-05T00:00:00Z,NA,BR,initial trust,je quit i,7,3,1,5443.490631664917,468.4906317127827,35.50936824387422,-432.9812634689085
+23144,1881,no,NA,2020-02-10T00:00:00Z,2011-03-10T00:00:00Z,NA,NA,NA,initial trust,1881,4,1,1,3522.4906316649167,263.4906317127827,NA,NA
+23155,umsystem,edu,NA,NA,NA,NA,NA,NA,initial trust,um system,8,2,1,NA,NA,NA,NA
+23305,ibge,gov.br,NA,2020-09-04T00:00:00Z,NA,NA,NA,BR,initial trust,ib ge,4,2,1,NA,56.490631712782715,NA,NA
+23433,montsegur,de,NA,NA,NA,NA,NA,NA,initial trust,montse gur,9,2,1,NA,NA,NA,NA
+23456,immowelt,de,NA,NA,NA,NA,NA,NA,initial trust,immowelt,8,1,1,NA,NA,NA,NA
+24000,vermont,gov,NA,NA,NA,NA,NA,NA,initial trust,vermont,7,1,1,NA,NA,NA,NA
+24018,saddleback,edu,NA,NA,NA,NA,NA,NA,initial trust,saddle back,10,2,1,NA,NA,NA,NA
+24031,ln,online.de,NA,NA,NA,NA,NA,NA,initial trust,ln,2,1,1,NA,NA,NA,NA
+24368,tsa,gov,NA,NA,NA,NA,NA,NA,initial trust,tsa,3,1,1,NA,NA,NA,NA
+24492,teachsam,de,NA,NA,NA,NA,NA,NA,initial trust,teach sam,8,2,1,NA,NA,NA,NA
+24506,openpetition,de,NA,NA,NA,NA,NA,NA,initial trust,open petition,12,2,1,NA,NA,NA,NA
+24631,sdu,edu.tr,NA,NA,2002-12-27T00:00:00Z,2021-01-01T00:00:00Z,NA,NA,initial trust,s du,3,2,1,6517.490631664917,NA,62.50936824387422,NA
+24645,sports,kz,NA,NA,NA,NA,Kudybin Nikolay Bogdanovich,NA,initial trust,sports,6,1,3,NA,NA,NA,NA
+24793,alfaconcursos,com.br,NA,2018-10-03T00:00:00Z,2011-10-23T00:00:00Z,2028-10-23T00:00:00Z,NA,BR,initial trust,alfa concursos,13,2,1,3295.4906316649167,758.4906317127827,2914.509368243874,2156.0187365310912
+24799,unitau,br,NA,2018-05-04T00:00:00Z,1996-01-19T00:00:00Z,NA,NA,BR,initial trust,unit au,6,2,1,9051.490631664918,910.4906317127827,NA,NA
+24803,whitman,edu,NA,NA,NA,NA,NA,NA,initial trust,whitman,7,1,1,NA,NA,NA,NA
+24902,ufpb,br,NA,2019-08-26T00:00:00Z,NA,NA,NA,BR,initial trust,uf pb,4,2,1,NA,431.4906317127827,NA,NA
+25013,hessenschau,de,NA,NA,NA,NA,NA,NA,initial trust,hessen schau,11,2,1,NA,NA,NA,NA
+25018,spin,de,NA,NA,NA,NA,NA,NA,initial trust,spin,4,1,1,NA,NA,NA,NA
+25363,zaubereinmaleins,de,NA,NA,NA,NA,NA,NA,initial trust,za uber ein male ins,16,5,1,NA,NA,NA,NA
+25413,zaba,hr,NA,2020-03-04T23:00:00Z,1997-05-14T22:00:00Z,2021-03-04T23:00:00Z,NA,NA,initial trust,za ba,4,2,2,8569.57396499825,239.53229837944937,125.46770157720756,-114.06459680224181
+25699,wm,edu,NA,NA,NA,NA,NA,NA,initial trust,wm,2,1,1,NA,NA,NA,NA
+25730,gtb,gov.tr,NA,NA,2012-06-06T00:00:00Z,2021-06-05T00:00:00Z,NA,NA,initial trust,gtb,3,1,1,3068.4906316649167,NA,217.50936824387423,NA
+25876,hacettepe,edu.tr,NA,NA,1998-10-02T00:00:00Z,2021-01-01T00:00:00Z,NA,NA,initial trust,hacettepe,9,1,1,8064.490631664917,NA,62.50936824387422,NA
+25884,usfca,edu,NA,NA,NA,NA,NA,NA,initial trust,us fca,5,2,1,NA,NA,NA,NA
+26174,gitter,im,NA,NA,NA,2021-11-22T00:59:52Z,NA,NA,initial trust,git ter,6,2,4,NA,NA,387.5509423179483,NA
+26256,liverpool,no,NA,2020-09-26T00:00:00Z,2014-09-26T00:00:00Z,NA,NA,NA,initial trust,liverpool,9,1,1,2226.4906316649167,34.490631712782715,NA,NA
+26293,sb,innovation.de,NA,NA,NA,NA,NA,NA,initial trust,sb,2,1,1,NA,NA,NA,NA
+26349,aldi,nord.de,NA,NA,NA,NA,NA,NA,initial trust,aldi,4,1,1,NA,NA,NA,NA
+26370,sdu,dk,NA,NA,1997-10-09T00:00:00Z,2023-12-31T00:00:00Z,NA,NA,initial trust,s du,3,2,3,8422.490631664918,NA,1156.5093682438742,NA
+26643,bochum,de,NA,NA,NA,NA,NA,NA,initial trust,bochum,6,1,1,NA,NA,NA,NA
+26656,m151bodypanels,eu,NA,NA,NA,NA,NA,NA,initial trust,m1 51 body panels,14,4,1,NA,NA,NA,NA
+26670,amu,kz,NA,NA,NA,NA,"AO ""Meditsinskiy universitet Astana""",NA,initial trust,a mu,3,2,3,NA,NA,NA,NA
+26717,swell,is,NA,NA,2019-09-06T00:00:00Z,2021-09-06T00:00:00Z,NA,NA,initial trust,swell,5,1,2,420.49063166491686,NA,310.50936824387423,NA
+26944,etimad,sa,NA,NA,NA,NA,NA,NA,initial trust,et i mad,6,3,5,NA,NA,NA,NA
+27070,ahoradecolorir,com.br,NA,2020-10-11T00:00:00Z,2016-01-24T00:00:00Z,2021-01-24T00:00:00Z,NA,BR,initial trust,ahora de colorir,14,3,1,1741.490631664917,19.490631712782715,85.50936824387422,66.0187365310915
+27077,diariodaregiao,com.br,NA,2020-06-23T00:00:00Z,1998-11-17T00:00:00Z,2020-11-17T00:00:00Z,NA,BR,initial trust,diario dare giao,14,3,1,8018.490631664917,129.49063171278272,17.509368243874224,-111.9812634689085
+27101,avacy,com.br,NA,2019-02-02T00:00:00Z,2000-02-01T00:00:00Z,2024-02-01T00:00:00Z,NA,BR,initial trust,ava cy,5,2,1,7577.490631664917,636.4906317127827,1188.5093682438742,552.0187365310915
+27111,unifacs,br,NA,2020-03-26T00:00:00Z,1998-02-26T00:00:00Z,NA,NA,BR,initial trust,un if acs,7,3,1,8282.490631664918,218.49063171278272,NA,NA
+27252,uni,regensburg.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+27528,rotwild,de,NA,NA,NA,NA,NA,NA,initial trust,rot wild,7,2,1,NA,NA,NA,NA
+27840,fram,com.br,NA,2020-05-26T00:00:00Z,1998-05-15T00:00:00Z,2023-05-15T00:00:00Z,NA,BR,initial trust,fr am,4,2,1,8204.490631664918,157.49063171278272,926.5093682438742,769.0187365310915
+27879,opovo,com.br,NA,2020-06-12T00:00:00Z,1996-04-02T00:00:00Z,2022-04-02T00:00:00Z,NA,BR,initial trust,o povo,5,2,1,8977.490631664918,140.49063171278272,518.5093682438742,378.01873653109146
+28016,gsa,gov,NA,NA,NA,NA,NA,NA,initial trust,gsa,3,1,1,NA,NA,NA,NA
+28276,ie,edu,NA,NA,NA,NA,NA,NA,initial trust,ie,2,1,1,NA,NA,NA,NA
+28300,neckermann,de,NA,NA,NA,NA,NA,NA,initial trust,neckermann,10,1,1,NA,NA,NA,NA
+28496,esocial,gov.br,NA,2020-06-08T00:00:00Z,2013-05-31T00:00:00Z,NA,NA,BR,initial trust,e social,7,2,1,2709.4906316649167,144.49063171278272,NA,NA
+28501,lojasemporio,com.br,NA,2020-10-17T00:00:00Z,2017-04-18T00:00:00Z,2025-04-18T00:00:00Z,NA,BR,initial trust,lojas emporio,12,2,1,1291.490631664917,13.490631712782713,1630.5093682438742,1617.0187365310915
+28583,calvin,edu,NA,NA,NA,NA,NA,NA,initial trust,calvin,6,1,1,NA,NA,NA,NA
+28754,wallstreet,online.de,NA,NA,NA,NA,NA,NA,initial trust,wallstreet,10,1,1,NA,NA,NA,NA
+29012,congstar,de,NA,NA,NA,NA,NA,NA,initial trust,cong star,8,2,1,NA,NA,NA,NA
+29044,twotickets,de,NA,NA,NA,NA,NA,NA,initial trust,two tickets,10,2,1,NA,NA,NA,NA
+29432,gennera,com.br,NA,2017-04-06T00:00:00Z,2006-04-27T00:00:00Z,2022-04-27T00:00:00Z,NA,BR,initial trust,gen nera,7,2,1,5300.490631664917,1303.4906317127827,543.5093682438742,-759.9812634689085
+29601,neu,edu,NA,NA,NA,NA,NA,NA,initial trust,neu,3,1,1,NA,NA,NA,NA
+30731,fesar,com.br,NA,2019-09-17T00:00:00Z,2004-09-14T00:00:00Z,2029-09-14T00:00:00Z,NA,BR,initial trust,fe sar,5,2,1,5890.490631664917,409.4906317127827,3240.509368243874,2831.0187365310912
+30735,ipmetradar,com.br,NA,2020-10-09T00:00:00Z,2018-03-29T00:00:00Z,2021-03-29T00:00:00Z,NA,BR,initial trust,ip met radar,10,3,1,946.4906316649169,21.490631712782715,149.50936824387423,128.01873653109152
+30926,buero,direkt24.de,NA,NA,NA,NA,NA,NA,initial trust,bu ero,5,2,1,NA,NA,NA,NA
+30932,dbmobil,de,NA,NA,NA,NA,NA,NA,initial trust,db mobil,7,2,1,NA,NA,NA,NA
+30936,dwd,de,NA,NA,NA,NA,NA,NA,initial trust,dwd,3,1,1,NA,NA,NA,NA
+30945,gratis,in-berlin.de,NA,NA,NA,NA,NA,NA,initial trust,gratis,6,1,1,NA,NA,NA,NA
+30949,hs,flensburg.de,NA,NA,NA,NA,NA,NA,initial trust,hs,2,1,1,NA,NA,NA,NA
+30963,manschin,laserdesign.de,NA,NA,NA,NA,NA,NA,initial trust,mans chin,8,2,1,NA,NA,NA,NA
+30964,material4print,de,NA,NA,NA,NA,NA,NA,initial trust,material 4 print,14,3,1,NA,NA,NA,NA
+30995,zootierpflege,de,NA,NA,NA,NA,NA,NA,initial trust,zoo tier pflege,13,3,1,NA,NA,NA,NA
+31120,tesourodireto,com.br,NA,2019-04-26T00:00:00Z,2003-04-25T00:00:00Z,2024-04-25T00:00:00Z,NA,BR,initial trust,tes ouro direto,13,3,1,6398.490631664917,553.4906317127827,1272.5093682438742,719.0187365310915
+31324,shu,edu,NA,NA,NA,NA,NA,NA,initial trust,shu,3,1,1,NA,NA,NA,NA
+31577,meras,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,mer as,5,2,3,NA,NA,NA,NA
+31862,fhem,de,NA,NA,NA,NA,NA,NA,initial trust,fh em,4,2,1,NA,NA,NA,NA
+31879,enu,kz,NA,NA,NA,NA,Evraziiskii nacional'nyi universitet im. L.N. Gumileva,NA,initial trust,en u,3,2,2,NA,NA,NA,NA
+32236,siconelectric,ae,NA,NA,NA,NA,NA,NA,initial trust,si con electric,13,3,1,NA,NA,NA,NA
+32264,allianznet,com.br,NA,2018-11-26T00:00:00Z,2007-09-03T00:00:00Z,2021-09-03T00:00:00Z,NA,BR,initial trust,allianz net,10,2,1,4806.490631664917,704.4906317127827,307.50936824387423,-396.9812634689085
+32307,specplast,com.br,NA,2020-05-26T00:00:00Z,2008-05-13T00:00:00Z,2021-05-13T00:00:00Z,NA,BR,initial trust,spec p last,9,3,1,4553.490631664917,157.49063171278272,194.50936824387423,37.01873653109152
+32309,trf4,jus.br,NA,2020-04-20T00:00:00Z,2008-03-06T00:00:00Z,NA,NA,BR,initial trust,trf 4,4,2,1,4621.490631664917,193.49063171278272,NA,NA
+32373,godt,no,NA,2020-08-12T00:00:00Z,2013-02-13T00:00:00Z,NA,NA,NA,initial trust,godt,4,1,1,2816.4906316649167,79.49063171278272,NA,NA
+32399,base64,image.de,NA,NA,NA,NA,NA,NA,initial trust,base 64,6,2,1,NA,NA,NA,NA
+32433,luguniv,edu.ua,NA,NA,NA,NA,NA,NA,initial trust,lug univ,7,2,2,NA,NA,NA,NA
+32502,aybu,edu.tr,NA,NA,2015-05-22T00:00:00Z,2021-05-21T00:00:00Z,NA,NA,initial trust,a y bu,4,3,1,1988.490631664917,NA,202.50936824387423,NA
+33221,19216811,uno,NA,NA,NA,NA,NA,NA,initial trust,192 168 11,8,3,1,NA,NA,NA,NA
+33280,mst,edu,NA,NA,NA,NA,NA,NA,initial trust,mst,3,1,1,NA,NA,NA,NA
+33436,autodesk,com.br,NA,2020-09-18T00:00:00Z,1998-09-23T00:00:00Z,2021-09-23T00:00:00Z,NA,BR,initial trust,autodesk,8,1,1,8073.490631664917,42.490631712782715,327.50936824387423,285.0187365310915
+33438,inep,gov.br,NA,2020-05-05T00:00:00Z,1995-06-07T00:00:00Z,NA,NA,BR,initial trust,in ep,4,2,1,9277.490631664918,178.49063171278272,NA,NA
+33465,mup,hr,NA,2020-04-06T22:00:00Z,1996-12-04T23:00:00Z,2021-04-06T22:00:00Z,NA,NA,initial trust,m up,3,2,2,8730.532298331584,206.57396504611606,158.4260349105409,-48.147930135575166
+33599,alphalete,eu,NA,NA,NA,NA,NA,NA,initial trust,alpha le te,9,3,1,NA,NA,NA,NA
+33603,autoteile,schwarz.de,NA,NA,NA,NA,NA,NA,initial trust,autoteile,9,1,1,NA,NA,NA,NA
+33606,bike24,de,NA,NA,NA,NA,NA,NA,initial trust,bike 24,6,2,1,NA,NA,NA,NA
+33639,flirtvz,de,NA,NA,NA,NA,NA,NA,initial trust,flirt v z,7,3,1,NA,NA,NA,NA
+33654,hochschulforumdigitalisierung,de,NA,NA,NA,NA,NA,NA,initial trust,hoc hs chu l forum digitali sie rung,29,8,1,NA,NA,NA,NA
+33655,hoehenrausch,de,NA,NA,NA,NA,NA,NA,initial trust,hoe hen rau sch,12,4,1,NA,NA,NA,NA
+33667,jaguar,de,NA,NA,NA,NA,NA,NA,initial trust,jaguar,6,1,1,NA,NA,NA,NA
+33684,mrs,muenchen.de,NA,NA,NA,NA,NA,NA,initial trust,mrs,3,1,1,NA,NA,NA,NA
+33688,ostsaechsische,sparkasse-dresden.de,NA,NA,NA,NA,NA,NA,initial trust,ost sae chs is che,14,5,1,NA,NA,NA,NA
+33693,physio,stollberg.de,NA,NA,NA,NA,NA,NA,initial trust,ph y si o,6,4,1,NA,NA,NA,NA
+33707,sparda,sw.de,NA,NA,NA,NA,NA,NA,initial trust,spar da,6,2,1,NA,NA,NA,NA
+33715,sskm,de,NA,NA,NA,NA,NA,NA,initial trust,ssk m,4,2,1,NA,NA,NA,NA
+33730,voba,mg.de,NA,NA,NA,NA,NA,NA,initial trust,v oba,4,2,1,NA,NA,NA,NA
+34014,iu,edu.sa,NA,NA,NA,NA,NA,NA,initial trust,iu,2,1,3,NA,NA,NA,NA
+34217,cidadelalitoral,com.br,NA,2020-05-06T00:00:00Z,2019-05-30T00:00:00Z,2023-05-30T00:00:00Z,NA,BR,initial trust,cidade la litoral,15,3,1,519.4906316649169,177.49063171278272,941.5093682438742,764.0187365310915
+34223,faculdadesmaringa,br,NA,2017-10-17T00:00:00Z,1998-02-09T00:00:00Z,NA,NA,BR,initial trust,faculdade sma ring a,17,4,1,8299.490631664918,1109.4906317127827,NA,NA
+34225,flycenterweb,com.br,NA,2020-09-02T00:00:00Z,2005-09-30T00:00:00Z,2021-09-30T00:00:00Z,NA,BR,initial trust,fly center web,12,3,1,5509.490631664917,58.490631712782715,334.50936824387423,276.0187365310915
+34247,pa4,com.br,NA,2019-09-20T00:00:00Z,2014-10-17T00:00:00Z,2021-10-17T00:00:00Z,NA,BR,initial trust,pa 4,3,2,1,2205.4906316649167,406.4906317127827,351.50936824387423,-54.98126346890848
+34257,portalwebdiligencia,com.br,NA,2020-08-19T00:00:00Z,2013-08-23T00:00:00Z,2021-08-23T00:00:00Z,NA,BR,initial trust,portal web di lig en cia,19,6,1,2625.4906316649167,72.49063171278272,296.50936824387423,224.01873653109152
+34283,valuegaia,com.br,NA,2020-06-19T00:00:00Z,2008-07-10T00:00:00Z,2022-07-10T00:00:00Z,NA,BR,initial trust,value gaia,9,2,1,4495.490631664917,133.49063171278272,617.5093682438742,484.01873653109146
+34679,1divx,uno,NA,NA,NA,NA,NA,NA,initial trust,1 divx,5,2,1,NA,NA,NA,NA
+35143,uni,bremen.de,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+35456,ivc,edu,NA,NA,NA,NA,NA,NA,initial trust,i vc,3,2,1,NA,NA,NA,NA
+35600,jodies,de,NA,NA,NA,NA,NA,NA,initial trust,jodi es,6,2,1,NA,NA,NA,NA
+35863,ri,gov,NA,NA,NA,NA,NA,NA,initial trust,ri,2,1,1,NA,NA,NA,NA
+36707,votetexas,gov,NA,NA,NA,NA,NA,NA,initial trust,vote texas,9,2,1,NA,NA,NA,NA
+36953,zoly,com.br,NA,2018-11-17T00:00:00Z,2016-12-14T00:00:00Z,2020-12-14T00:00:00Z,NA,BR,initial trust,zo ly,4,2,1,1416.490631664917,713.4906317127827,44.50936824387422,-668.9812634689085
+36994,uiuc,edu,NA,NA,NA,NA,NA,NA,initial trust,ui uc,4,2,1,NA,NA,NA,NA
+37127,lecker,de,NA,NA,NA,NA,NA,NA,initial trust,lecker,6,1,1,NA,NA,NA,NA
+37310,inside,digital.de,NA,NA,NA,NA,NA,NA,initial trust,inside,6,1,1,NA,NA,NA,NA
+37453,log,com.tr,NA,NA,2008-02-06T00:00:00Z,2024-02-05T00:00:00Z,NA,NA,initial trust,log,3,1,1,4650.490631664917,NA,1192.5093682438742,NA
+37476,home24,de,NA,NA,NA,NA,NA,NA,initial trust,home 24,6,2,1,NA,NA,NA,NA
+37763,hackthebox,eu,NA,NA,NA,NA,NA,NA,initial trust,hack the box,10,3,1,NA,NA,NA,NA
+37828,assurantclaims,com.br,NA,2020-08-25T00:00:00Z,2019-08-27T00:00:00Z,2021-08-27T00:00:00Z,NA,BR,initial trust,as su rant claims,14,4,1,430.49063166491686,66.49063171278272,300.50936824387423,234.01873653109152
+37830,autodon,com.br,NA,2017-03-20T00:00:00Z,2008-06-26T00:00:00Z,2021-06-26T00:00:00Z,NA,BR,initial trust,auto don,7,2,1,4509.490631664917,1320.4906317127827,238.50936824387423,-1081.9812634689085
+37839,brasindice,com.br,NA,2019-01-18T00:00:00Z,2000-01-18T00:00:00Z,2021-01-18T00:00:00Z,NA,BR,initial trust,bras indice,10,2,1,7591.490631664917,651.4906317127827,79.50936824387422,-571.9812634689085
+37844,carrosnaserra,com.br,NA,2019-11-12T00:00:00Z,2004-11-10T00:00:00Z,2020-11-10T00:00:00Z,NA,BR,initial trust,carros na serra,13,3,1,5833.490631664917,353.4906317127827,10.509368243874222,-342.9812634689085
+37861,ediesales,com.br,NA,2017-10-21T00:00:00Z,2007-04-26T00:00:00Z,2023-04-26T00:00:00Z,NA,BR,initial trust,edie sales,9,2,1,4936.490631664917,1105.4906317127827,907.5093682438742,-197.98126346890854
+37867,epson,com.br,NA,2020-06-03T00:00:00Z,1996-07-04T00:00:00Z,2022-07-04T00:00:00Z,NA,BR,initial trust,epson,5,1,1,8884.490631664918,149.49063171278272,611.5093682438742,462.01873653109146
+37881,invoicy,com.br,NA,2019-06-14T00:00:00Z,2013-07-12T00:00:00Z,2021-07-12T00:00:00Z,NA,BR,initial trust,in vo icy,7,3,1,2667.4906316649167,504.4906317127827,254.50936824387423,-249.98126346890848
+37891,medicinanet,com.br,NA,2020-07-08T00:00:00Z,2007-07-04T00:00:00Z,2021-07-04T00:00:00Z,NA,BR,initial trust,medicina net,11,2,1,4867.490631664917,114.49063171278272,246.50936824387423,132.01873653109152
+37894,minimundi,com.br,NA,2017-07-10T00:00:00Z,2009-08-31T00:00:00Z,2022-08-31T00:00:00Z,NA,BR,initial trust,mini mundi,9,2,1,4078.4906316649167,1208.4906317127827,669.5093682438742,-538.9812634689085
+37896,mprs,mp.br,NA,2019-08-21T00:00:00Z,2013-04-16T00:00:00Z,NA,NA,BR,initial trust,mp rs,4,2,1,2754.4906316649167,436.4906317127827,NA,NA
+37911,provafacilnaweb,com.br,NA,2019-02-06T00:00:00Z,2014-11-10T00:00:00Z,2021-11-10T00:00:00Z,NA,BR,initial trust,prova facil na web,15,4,1,2181.4906316649167,632.4906317127827,375.50936824387423,-256.9812634689085
+37930,sicoobnet,com.br,NA,2018-12-01T00:00:00Z,2003-05-08T00:00:00Z,2027-05-08T00:00:00Z,NA,BR,initial trust,si coo bnet,9,3,1,6385.490631664917,699.4906317127827,2380.509368243874,1681.0187365310915
+37934,sorille,com.br,NA,2020-09-10T00:00:00Z,2018-09-26T00:00:00Z,2021-09-26T00:00:00Z,NA,BR,initial trust,sor il le,7,3,1,765.4906316649169,50.490631712782715,330.50936824387423,280.0187365310915
+37941,textosputos,com.br,NA,2019-04-09T00:00:00Z,2017-04-19T00:00:00Z,2021-04-19T00:00:00Z,NA,BR,initial trust,textos put os,11,3,1,1290.490631664917,570.4906317127827,170.50936824387423,-399.9812634689085
+38374,mtsac,edu,NA,NA,NA,NA,NA,NA,initial trust,mt sac,5,2,1,NA,NA,NA,NA
+38642,arsu,kz,NA,NA,NA,NA,Aktyubinskiy Regionalnyy Gosudarstvennyy Universitet imeni K.Zhubanova,NA,initial trust,ars u,4,2,3,NA,NA,NA,NA
+38877,foerdermaterialien,de,NA,NA,NA,NA,NA,NA,initial trust,fo er der material i en,18,6,1,NA,NA,NA,NA
+39255,grants,gov,NA,NA,NA,NA,NA,NA,initial trust,grants,6,1,1,NA,NA,NA,NA
+39606,antikoerperchen,de,NA,NA,NA,NA,NA,NA,initial trust,antik o er per chen,15,5,1,NA,NA,NA,NA
+39618,bank11victor,de,NA,NA,NA,NA,NA,NA,initial trust,bank 11 victor,12,3,1,NA,NA,NA,NA
+39626,boerse,de,NA,NA,NA,NA,NA,NA,initial trust,boer se,6,2,1,NA,NA,NA,NA
+39639,comp,pro.de,NA,NA,NA,NA,NA,NA,initial trust,comp,4,1,1,NA,NA,NA,NA
+39652,die,raptoren.de,NA,NA,NA,NA,NA,NA,initial trust,die,3,1,1,NA,NA,NA,NA
+39682,geomin,de,NA,NA,NA,NA,NA,NA,initial trust,geo min,6,2,1,NA,NA,NA,NA
+39706,insuedthueringen,de,NA,NA,NA,NA,NA,NA,initial trust,in su ed thue ring en,16,6,1,NA,NA,NA,NA
+39735,mittelhessen,de,NA,NA,NA,NA,NA,NA,initial trust,mitt el hessen,12,3,1,NA,NA,NA,NA
+39736,moy,is,NA,NA,2019-11-08T00:00:00Z,2022-11-08T00:00:00Z,NA,NA,initial trust,moy,3,1,4,357.49063166491686,NA,738.5093682438742,NA
+39771,rvb,donauwoerth.de,NA,NA,NA,NA,NA,NA,initial trust,rv b,3,2,1,NA,NA,NA,NA
+39783,sparkasse,nordhorn.de,NA,NA,NA,NA,NA,NA,initial trust,sparkasse,9,1,1,NA,NA,NA,NA
+39787,spk,dlg-noe.de,NA,NA,NA,NA,NA,NA,initial trust,sp k,3,2,1,NA,NA,NA,NA
+39791,stadtwerke,wt.de,NA,NA,NA,NA,NA,NA,initial trust,stadtwerke,10,1,1,NA,NA,NA,NA
+39821,volksbank,koeln-bonn.de,NA,NA,NA,NA,NA,NA,initial trust,volk s bank,9,3,1,NA,NA,NA,NA
+39828,warnhoff,catering.de,NA,NA,NA,NA,NA,NA,initial trust,warn hoff,8,2,1,NA,NA,NA,NA
+40580,efootwear,eu,NA,NA,NA,NA,NA,NA,initial trust,e footwear,9,2,1,NA,NA,NA,NA
+40806,houstontx,gov,NA,NA,NA,NA,NA,NA,initial trust,houston tx,9,2,1,NA,NA,NA,NA
+41444,bpo,sage.de,NA,NA,NA,NA,NA,NA,initial trust,bpo,3,1,1,NA,NA,NA,NA
+41942,ecfr,gov,NA,NA,NA,NA,NA,NA,initial trust,e cfr,4,2,1,NA,NA,NA,NA
+41951,nhtsa,gov,NA,NA,NA,NA,NA,NA,initial trust,nhtsa,5,1,1,NA,NA,NA,NA
+42215,gsb,gov.tr,NA,NA,2011-08-25T00:00:00Z,2021-08-24T00:00:00Z,NA,NA,initial trust,g sb,3,2,1,3354.4906316649167,NA,297.50936824387423,NA
+42661,kongessloejd,dk,NA,NA,2014-02-23T00:00:00Z,2021-02-28T00:00:00Z,NA,NA,initial trust,kong es slo e jd,12,5,2,2441.4906316649167,NA,120.50936824387422,NA
+43096,tntech,edu,NA,NA,NA,NA,NA,NA,initial trust,tn tech,6,2,1,NA,NA,NA,NA
+43441,conti,de,NA,NA,NA,NA,NA,NA,initial trust,conti,5,1,1,NA,NA,NA,NA
+43495,alterdata,com.br,NA,2020-07-04T00:00:00Z,1997-07-15T00:00:00Z,2030-07-15T00:00:00Z,NA,BR,initial trust,alter data,9,2,1,8508.490631664918,118.49063171278272,3544.509368243874,3426.0187365310912
+43518,brindedobem,com.br,NA,2020-01-11T00:00:00Z,2012-03-16T00:00:00Z,2022-03-16T00:00:00Z,NA,BR,initial trust,brin de do bem,11,4,1,3150.4906316649167,293.4906317127827,501.50936824387423,208.01873653109152
+43524,clickbus,com.br,NA,2018-12-15T00:00:00Z,2011-12-22T00:00:00Z,2020-12-22T00:00:00Z,NA,BR,initial trust,click bus,8,2,1,3235.4906316649167,685.4906317127827,52.50936824387422,-632.9812634689085
+43578,impactotran,com.br,NA,2019-11-14T00:00:00Z,2010-12-14T00:00:00Z,2023-12-14T00:00:00Z,NA,BR,initial trust,impacto tran,11,2,1,3608.4906316649167,351.4906317127827,1139.5093682438742,788.0187365310915
+43596,linguee,com.br,NA,2020-06-08T00:00:00Z,2010-06-21T00:00:00Z,2021-06-21T00:00:00Z,NA,BR,initial trust,lingue e,7,2,1,3784.4906316649167,144.49063171278272,233.50936824387423,89.01873653109152
+43598,lojadocafe,com.br,NA,2020-10-13T00:00:00Z,2019-05-19T00:00:00Z,2022-05-19T00:00:00Z,NA,BR,initial trust,loja do cafe,10,3,1,530.4906316649169,17.490631712782715,565.5093682438742,548.0187365310915
+43602,mackenzie,br,NA,2012-07-27T00:00:00Z,1995-11-13T00:00:00Z,NA,NA,BR,initial trust,mackenzie,9,1,1,9118.490631664918,3017.4906317127825,NA,NA
+43619,modern,com.br,NA,2019-11-04T00:00:00Z,2010-11-18T00:00:00Z,2029-11-18T00:00:00Z,NA,BR,initial trust,modern,6,1,1,3634.4906316649167,361.4906317127827,3305.509368243874,2944.0187365310912
+43635,orquestrabpm,com.br,NA,2020-09-30T00:00:00Z,2009-11-16T00:00:00Z,2024-11-16T00:00:00Z,NA,BR,initial trust,orquestra bpm,12,2,1,4001.4906316649167,30.490631712782715,1477.5093682438742,1447.0187365310915
+43662,regiaonews,com.br,NA,2020-08-17T00:00:00Z,2008-10-21T00:00:00Z,2022-10-21T00:00:00Z,NA,BR,initial trust,regia o news,10,3,1,4392.490631664917,74.49063171278272,720.5093682438742,646.0187365310915
+43663,reidoshds,com.br,NA,2020-04-01T00:00:00Z,2013-04-24T00:00:00Z,2021-04-24T00:00:00Z,NA,BR,initial trust,rei dosh ds,9,3,1,2746.4906316649167,212.49063171278272,175.50936824387423,-36.98126346890848
+43707,ufma,br,NA,2015-08-13T00:00:00Z,NA,NA,NA,BR,initial trust,ufm a,4,2,1,NA,1905.4906317127827,NA,NA
+43710,unidas,com.br,NA,2020-10-16T00:00:00Z,1997-03-05T00:00:00Z,2024-03-05T00:00:00Z,NA,BR,initial trust,unidas,6,1,1,8640.490631664918,14.490631712782713,1221.5093682438742,1207.0187365310915
+43714,v9vitoriosa,com.br,NA,2019-06-20T00:00:00Z,2016-06-10T00:00:00Z,2022-06-10T00:00:00Z,NA,BR,initial trust,v 9 vitor ios a,11,5,1,1603.490631664917,498.4906317127827,587.5093682438742,89.01873653109146
+43722,vw,com.br,NA,2016-03-24T00:00:00Z,1997-04-10T00:00:00Z,2026-04-10T00:00:00Z,NA,BR,initial trust,vw,2,1,1,8604.490631664918,1681.4906317127827,1987.5093682438742,306.01873653109146
+44089,xxl,no,NA,2020-04-26T00:00:00Z,2000-04-26T00:00:00Z,NA,NA,NA,initial trust,xxl,3,1,1,7492.490631664917,187.49063171278272,NA,NA
+44110,sat1,de,NA,NA,NA,NA,NA,NA,initial trust,sat 1,4,2,1,NA,NA,NA,NA
+44125,bridgestone,eu,NA,NA,NA,NA,NA,NA,initial trust,bridgestone,11,1,2,NA,NA,NA,NA
+44545,defterbeyan,gov.tr,NA,NA,2017-09-13T00:00:00Z,2021-09-12T00:00:00Z,NA,NA,initial trust,def ter be yan,11,4,1,1143.490631664917,NA,316.50936824387423,NA
+44685,shelly,support.eu,NA,NA,NA,NA,NA,NA,initial trust,shelly,6,1,1,NA,NA,NA,NA
+44734,emu,edu.tr,NA,NA,2002-12-30T00:00:00Z,2020-12-29T00:00:00Z,NA,NA,initial trust,emu,3,1,1,6514.490631664917,NA,59.50936824387422,NA
+44763,poimel,name,NA,NA,NA,NA,NA,NA,initial trust,poi mel,6,2,1,NA,NA,NA,NA
+44780,slider,kz,NA,NA,NA,NA,"ТОО ""TainVert Group""",NA,initial trust,slider,6,1,3,NA,NA,NA,NA
+44873,the123movies,eu,NA,NA,NA,NA,NA,NA,initial trust,the 123 movies,12,3,1,NA,NA,NA,NA
+44953,westcoastuniversity,edu,NA,NA,NA,NA,NA,NA,initial trust,westcoast university,19,2,1,NA,NA,NA,NA
+45181,3d,druck-community.de,NA,NA,NA,NA,NA,NA,initial trust,3d,2,1,1,NA,NA,NA,NA
+45241,eursap,eu,NA,NA,NA,NA,NA,NA,initial trust,eur sap,6,2,1,NA,NA,NA,NA
+45253,waz,de,NA,NA,NA,NA,NA,NA,initial trust,waz,3,1,1,NA,NA,NA,NA
+45510,il,gov,NA,NA,NA,NA,NA,NA,initial trust,il,2,1,1,NA,NA,NA,NA
+45525,atribuna,com.br,NA,2019-12-17T00:00:00Z,1995-08-21T00:00:00Z,2021-01-01T00:00:00Z,NA,BR,initial trust,a tribuna,8,2,1,9202.490631664918,318.4906317127827,62.50936824387422,-255.98126346890848
+45795,tamucc,edu,NA,NA,NA,NA,NA,NA,initial trust,tamu cc,6,2,1,NA,NA,NA,NA
+46179,stetson,edu,NA,NA,NA,NA,NA,NA,initial trust,st et son,7,3,1,NA,NA,NA,NA
+46240,snl,no,NA,2020-07-24T00:00:00Z,2015-08-22T00:00:00Z,NA,NA,NA,initial trust,snl,3,1,1,1896.490631664917,98.49063171278272,NA,NA
+46453,inonu,edu.tr,NA,NA,1997-12-11T00:00:00Z,2021-01-01T00:00:00Z,NA,NA,initial trust,in onu,5,2,1,8359.490631664918,NA,62.50936824387422,NA
+46926,accesstra,de,NA,NA,NA,NA,NA,NA,initial trust,access tra,9,2,1,NA,NA,NA,NA
+47009,mobiflip,de,NA,NA,NA,NA,NA,NA,initial trust,mobi flip,8,2,1,NA,NA,NA,NA
+47017,sang,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,sang,4,1,3,NA,NA,NA,NA
+47233,dtcc,edu,NA,NA,NA,NA,NA,NA,initial trust,dt cc,4,2,1,NA,NA,NA,NA
+47287,porta,de,NA,NA,NA,NA,NA,NA,initial trust,porta,5,1,1,NA,NA,NA,NA
+47344,filamentworld,de,NA,NA,NA,NA,NA,NA,initial trust,fi lament world,13,3,1,NA,NA,NA,NA
+47804,eco,wheel.de,NA,NA,NA,NA,NA,NA,initial trust,eco,3,1,1,NA,NA,NA,NA
+48165,marutschke,eu,NA,NA,NA,NA,NA,NA,initial trust,mar ut sch ke,10,4,1,NA,NA,NA,NA
+48680,e,recht24.de,NA,NA,NA,NA,NA,NA,initial trust,e,1,1,1,NA,NA,NA,NA
+48729,nordbayern,de,NA,NA,NA,NA,NA,NA,initial trust,nord bayern,10,2,1,NA,NA,NA,NA
+49402,trade,gov,NA,NA,NA,NA,NA,NA,initial trust,trade,5,1,1,NA,NA,NA,NA
+49441,ifrs,edu.br,NA,2020-02-04T00:00:00Z,2009-01-13T00:00:00Z,NA,NA,BR,initial trust,if rs,4,2,1,4308.490631664917,269.4906317127827,NA,NA
+49787,diveiac,de,NA,NA,NA,NA,NA,NA,initial trust,dive i ac,7,3,1,NA,NA,NA,NA
+49857,hobby,guensel.de,NA,NA,NA,NA,NA,NA,initial trust,hobby,5,1,1,NA,NA,NA,NA
+50311,nyidanmark,dk,NA,NA,2001-09-11T00:00:00Z,2021-09-30T00:00:00Z,NA,NA,initial trust,nyi danmark,10,2,2,6989.490631664917,NA,334.50936824387423,NA
+50508,bestrecruiters,eu,NA,NA,NA,NA,NA,NA,initial trust,best recruiters,14,2,1,NA,NA,NA,NA
+50549,land,oberoesterreich.gv.at,NA,2016-04-04T15:16:19Z,NA,NA,Land Oberoesterreich,Austria,initial trust,land,4,1,1,NA,1669.854300694264,NA,NA
+50603,unsere,grundrechte.de,NA,NA,NA,NA,NA,NA,initial trust,unsere,6,1,1,NA,NA,NA,NA
+50717,bpb,de,NA,NA,NA,NA,NA,NA,initial trust,bp b,3,2,1,NA,NA,NA,NA
+51183,abendblatt,de,NA,NA,NA,NA,NA,NA,initial trust,abendblatt,10,1,1,NA,NA,NA,NA
+51195,akku,haug.de,NA,NA,NA,NA,NA,NA,initial trust,akku,4,1,1,NA,NA,NA,NA
+51196,albamoda,de,NA,NA,NA,NA,NA,NA,initial trust,alba moda,8,2,1,NA,NA,NA,NA
+51211,amreg,de,NA,NA,NA,NA,NA,NA,initial trust,am reg,5,2,1,NA,NA,NA,NA
+51216,antenneduesseldorf,de,NA,NA,NA,NA,NA,NA,initial trust,antenne duesseldorf,18,2,1,NA,NA,NA,NA
+51221,arcinsys,de,NA,NA,NA,NA,NA,NA,initial trust,arc in sys,8,3,1,NA,NA,NA,NA
+51231,babyartikel,de,NA,NA,NA,NA,NA,NA,initial trust,baby artikel,11,2,1,NA,NA,NA,NA
+51254,bfv,de,NA,NA,NA,NA,NA,NA,initial trust,bf v,3,2,1,NA,NA,NA,NA
+51256,bikersonly,shop.de,NA,NA,NA,NA,NA,NA,initial trust,bikers only,10,2,1,NA,NA,NA,NA
+51267,bmjv,de,NA,NA,NA,NA,NA,NA,initial trust,bmj v,4,2,1,NA,NA,NA,NA
+51271,bobblume,de,NA,NA,NA,NA,NA,NA,initial trust,bob blume,8,2,1,NA,NA,NA,NA
+51303,case,tester.de,NA,NA,NA,NA,NA,NA,initial trust,case,4,1,1,NA,NA,NA,NA
+51315,cm,gartendesign.de,NA,NA,NA,NA,NA,NA,initial trust,cm,2,1,1,NA,NA,NA,NA
+51340,dcjack,de,NA,NA,NA,NA,NA,NA,initial trust,dc jack,6,2,1,NA,NA,NA,NA
+51352,deutschedirigentenakademie,de,NA,NA,NA,NA,NA,NA,initial trust,deutsche diri gent en akademie,26,5,1,NA,NA,NA,NA
+51359,die,de,NA,NA,NA,NA,NA,NA,initial trust,die,3,1,1,NA,NA,NA,NA
+51363,dlrg,de,NA,NA,NA,NA,NA,NA,initial trust,dl rg,4,2,1,NA,NA,NA,NA
+51376,drk,de,NA,NA,NA,NA,NA,NA,initial trust,dr k,3,2,1,NA,NA,NA,NA
+51377,druckerpatronen,de,NA,NA,NA,NA,NA,NA,initial trust,druckerpatronen,15,1,1,NA,NA,NA,NA
+51399,elringklinger,de,NA,NA,NA,NA,NA,NA,initial trust,el ring k linger,13,4,1,NA,NA,NA,NA
+51407,envivas,de,NA,NA,NA,NA,NA,NA,initial trust,en vivas,7,2,1,NA,NA,NA,NA
+51410,erlangen,de,NA,NA,NA,NA,NA,NA,initial trust,erlangen,8,1,1,NA,NA,NA,NA
+51428,fcenergie,de,NA,NA,NA,NA,NA,NA,initial trust,fc energie,9,2,1,NA,NA,NA,NA
+51446,flixtrain,de,NA,NA,NA,NA,NA,NA,initial trust,flix train,9,2,1,NA,NA,NA,NA
+51484,go2automation,de,NA,NA,NA,NA,NA,NA,initial trust,go 2 automation,13,3,1,NA,NA,NA,NA
+51506,haus,de,NA,NA,NA,NA,NA,NA,initial trust,haus,4,1,1,NA,NA,NA,NA
+51517,heimhelden,de,NA,NA,NA,NA,NA,NA,initial trust,heim helden,10,2,1,NA,NA,NA,NA
+51518,heizoel24,de,NA,NA,NA,NA,NA,NA,initial trust,he i zo el 24,9,5,1,NA,NA,NA,NA
+51520,helles,koepfchen.de,NA,NA,NA,NA,NA,NA,initial trust,hell es,6,2,1,NA,NA,NA,NA
+51547,ihre,kfz-zulasserin.de,NA,NA,NA,NA,NA,NA,initial trust,ihre,4,1,1,NA,NA,NA,NA
+51599,korodrogerie,de,NA,NA,NA,NA,NA,NA,initial trust,k oro drogerie,12,3,1,NA,NA,NA,NA
+51603,kripahle,online.de,NA,NA,NA,NA,NA,NA,initial trust,kr ip ah le,8,4,1,NA,NA,NA,NA
+51617,lbb,de,NA,NA,NA,NA,NA,NA,initial trust,l bb,3,2,1,NA,NA,NA,NA
+51629,lindner,de,NA,NA,NA,NA,NA,NA,initial trust,lind ner,7,2,1,NA,NA,NA,NA
+51647,magclub,de,NA,NA,NA,NA,NA,NA,initial trust,mag club,7,2,1,NA,NA,NA,NA
+51653,marktkueche,de,NA,NA,NA,NA,NA,NA,initial trust,markt kue che,11,3,1,NA,NA,NA,NA
+51686,mufa,de,NA,NA,NA,NA,NA,NA,initial trust,mu fa,4,2,1,NA,NA,NA,NA
+51710,o2business,de,NA,NA,NA,NA,NA,NA,initial trust,o2 business,10,2,1,NA,NA,NA,NA
+51734,payback,panel.de,NA,NA,NA,NA,NA,NA,initial trust,pay back,7,2,1,NA,NA,NA,NA
+51747,philipmaas,de,NA,NA,NA,NA,NA,NA,initial trust,philip maas,10,2,1,NA,NA,NA,NA
+51785,quame,de,NA,NA,NA,NA,NA,NA,initial trust,qua me,5,2,1,NA,NA,NA,NA
+51786,raiba,suedhardt.de,NA,NA,NA,NA,NA,NA,initial trust,rai ba,5,2,1,NA,NA,NA,NA
+51800,reifenstyle,de,NA,NA,NA,NA,NA,NA,initial trust,reifen style,11,2,1,NA,NA,NA,NA
+51804,repone,de,NA,NA,NA,NA,NA,NA,initial trust,rep one,6,2,1,NA,NA,NA,NA
+51806,revolutionrace,de,NA,NA,NA,NA,NA,NA,initial trust,revolution race,14,2,1,NA,NA,NA,NA
+51823,satshop,heilbronn.de,NA,NA,NA,NA,NA,NA,initial trust,sat shop,7,2,1,NA,NA,NA,NA
+51831,schmitt,hermann.spdns.de,NA,NA,NA,NA,NA,NA,initial trust,schmitt,7,1,1,NA,NA,NA,NA
+51837,scoutberlin,de,NA,NA,NA,NA,NA,NA,initial trust,scout berlin,11,2,1,NA,NA,NA,NA
+51850,sizeer,de,NA,NA,NA,NA,NA,NA,initial trust,size er,6,2,1,NA,NA,NA,NA
+51877,stade,auktionen.de,NA,NA,NA,NA,NA,NA,initial trust,stade,5,1,1,NA,NA,NA,NA
+51893,studentenwerke,de,NA,NA,NA,NA,NA,NA,initial trust,studentenwerk e,14,2,1,NA,NA,NA,NA
+51897,superillu,de,NA,NA,NA,NA,NA,NA,initial trust,super illu,9,2,1,NA,NA,NA,NA
+51912,ticketpay,de,NA,NA,NA,NA,NA,NA,initial trust,ticket pay,9,2,1,NA,NA,NA,NA
+51940,unibet,de,NA,NA,NA,NA,NA,NA,initial trust,unibet,6,1,1,NA,NA,NA,NA
+51946,usc,eisvoegel.de,NA,NA,NA,NA,NA,NA,initial trust,usc,3,1,1,NA,NA,NA,NA
+51947,uwg,groebenzell.de,NA,NA,NA,NA,NA,NA,initial trust,uw g,3,2,1,NA,NA,NA,NA
+51970,vvo,online.de,NA,NA,NA,NA,NA,NA,initial trust,vv o,3,2,1,NA,NA,NA,NA
+52232,adata,kz,NA,NA,NA,NA,Товарищество с ограниченной ответственностью Аврора Холдинг,NA,initial trust,a data,5,2,3,NA,NA,NA,NA
+52392,kazmkpu,kz,NA,NA,NA,NA,"RGKP ""Kazakh State Women Pedagogical University""",NA,initial trust,kaz m kpu,7,3,3,NA,NA,NA,NA
+52532,indwes,edu,NA,NA,NA,NA,NA,NA,initial trust,ind wes,6,2,1,NA,NA,NA,NA
+52941,panda,com.sa,NA,NA,NA,NA,NA,NA,initial trust,panda,5,1,3,NA,NA,NA,NA
+53578,mtholyoke,edu,NA,NA,NA,NA,NA,NA,initial trust,mt holy oke,9,3,1,NA,NA,NA,NA
+54208,wiu,edu,NA,NA,NA,NA,NA,NA,initial trust,w iu,3,2,1,NA,NA,NA,NA
+54865,adrenaline,com.br,NA,2019-11-13T00:00:00Z,2000-05-09T00:00:00Z,2026-05-09T00:00:00Z,NA,BR,initial trust,adrenaline,10,1,1,7479.490631664917,352.4906317127827,2016.5093682438742,1664.0187365310915
+54964,zid,sa,NA,NA,NA,NA,NA,NA,initial trust,z id,3,2,3,NA,NA,NA,NA
+55129,isyatirim,com.tr,NA,NA,1998-03-30T00:00:00Z,2022-03-29T00:00:00Z,NA,NA,initial trust,is y ati rim,9,4,1,8250.490631664918,NA,514.5093682438742,NA
+55511,www,gob.cl,NA,NA,NA,NA,NA,NA,initial trust,www,3,1,1,NA,NA,NA,NA
+55969,aatb,com.br,NA,2019-05-28T00:00:00Z,2013-05-07T00:00:00Z,2021-05-07T00:00:00Z,NA,BR,initial trust,a atb,4,2,1,2733.4906316649167,521.4906317127827,188.50936824387423,-332.9812634689085
+55999,alfacal,com.br,NA,2020-09-19T00:00:00Z,2000-09-22T00:00:00Z,2022-09-22T00:00:00Z,NA,BR,initial trust,alfa cal,7,2,1,7343.490631664917,41.490631712782715,691.5093682438742,650.0187365310915
+56017,apdata,com.br,NA,2020-09-11T00:00:00Z,1998-10-05T00:00:00Z,2025-10-05T00:00:00Z,NA,BR,initial trust,ap data,6,2,1,8061.490631664917,49.490631712782715,1800.5093682438742,1751.0187365310915
+56043,bancotoyota,com.br,NA,2018-08-17T00:00:00Z,1999-03-22T00:00:00Z,2023-03-22T00:00:00Z,NA,BR,initial trust,banco toyota,11,2,1,7893.490631664917,805.4906317127827,872.5093682438742,67.01873653109146
+56052,biologo,com.br,NA,2016-10-15T00:00:00Z,2000-06-28T00:00:00Z,2026-06-28T00:00:00Z,NA,BR,initial trust,bio logo,7,2,1,7429.490631664917,1476.4906317127827,2066.509368243874,590.0187365310915
+56085,carlosmartins,com.br,NA,2020-10-15T00:00:00Z,1999-10-14T00:00:00Z,2022-10-14T00:00:00Z,NA,BR,initial trust,carlos martins,13,2,1,7687.490631664917,15.490631712782713,713.5093682438742,698.0187365310915
+56100,celpe,com.br,NA,2016-05-13T00:00:00Z,1998-05-14T00:00:00Z,2026-05-14T00:00:00Z,NA,BR,initial trust,cel pe,5,2,1,8205.490631664918,1631.4906317127827,2021.5093682438742,390.01873653109146
+56105,cesumar,br,NA,2015-04-09T00:00:00Z,1997-08-21T00:00:00Z,NA,NA,BR,initial trust,ces umar,7,2,1,8471.490631664918,2031.4906317127827,NA,NA
+56140,contako,com.br,NA,2020-07-28T00:00:00Z,2011-08-08T00:00:00Z,2022-08-08T00:00:00Z,NA,BR,initial trust,conta ko,7,2,1,3371.4906316649167,94.49063171278272,646.5093682438742,552.0187365310915
+56163,cybercook,com.br,NA,2019-09-01T00:00:00Z,1998-05-25T00:00:00Z,2021-05-25T00:00:00Z,NA,BR,initial trust,cyber cook,9,2,1,8194.490631664918,425.4906317127827,206.50936824387423,-218.98126346890848
+56167,ddestra,com.br,NA,2020-06-27T00:00:00Z,2015-05-13T00:00:00Z,2022-05-13T00:00:00Z,NA,BR,initial trust,d destra,7,2,1,1997.490631664917,125.49063171278272,559.5093682438742,434.01873653109146
+56181,directtalk,com.br,NA,2019-10-24T00:00:00Z,1999-11-18T00:00:00Z,2021-11-18T00:00:00Z,NA,BR,initial trust,direct talk,10,2,1,7652.490631664917,372.4906317127827,383.50936824387423,11.01873653109152
+56185,diversa,org.br,NA,2020-06-11T00:00:00Z,2010-06-23T00:00:00Z,2022-06-23T00:00:00Z,NA,BR,initial trust,divers a,7,2,1,3782.4906316649167,141.49063171278272,600.5093682438742,459.01873653109146
+56191,dominiopublico,gov.br,NA,2020-05-05T00:00:00Z,2004-10-28T00:00:00Z,NA,NA,BR,initial trust,dominio publico,14,2,1,5846.490631664917,178.49063171278272,NA,NA
+56218,emobile,com.br,NA,2020-02-04T00:00:00Z,2001-01-19T00:00:00Z,2021-01-19T00:00:00Z,NA,BR,initial trust,e mobile,7,2,1,7224.490631664917,269.4906317127827,80.50936824387422,-188.98126346890848
+56244,expedia,com.br,NA,2020-09-04T00:00:00Z,2003-01-29T00:00:00Z,2021-01-29T00:00:00Z,NA,BR,initial trust,expedia,7,1,1,6484.490631664917,56.490631712782715,90.50936824387422,34.018736531091506
+56254,fatecsp,br,NA,2009-03-27T00:00:00Z,1998-07-03T00:00:00Z,NA,NA,BR,initial trust,fat ec sp,7,3,1,8155.490631664917,4235.4906317127825,NA,NA
+56267,fluirviagenseeventos,com.br,NA,2020-03-26T00:00:00Z,2020-03-26T00:00:00Z,2021-03-26T00:00:00Z,NA,BR,initial trust,flu ir viagens e eventos,20,5,1,218.49063166491686,218.49063171278272,146.50936824387423,-71.98126346890848
+56276,frenet,com.br,NA,2020-10-07T00:00:00Z,2014-12-26T00:00:00Z,2020-12-26T00:00:00Z,NA,BR,initial trust,fre net,6,2,1,2135.4906316649167,23.490631712782715,56.50936824387422,33.018736531091506
+56282,gamapecas,com.br,NA,2019-04-23T00:00:00Z,2014-04-08T00:00:00Z,2021-04-08T00:00:00Z,NA,BR,initial trust,gama pe cas,9,3,1,2397.4906316649167,556.4906317127827,159.50936824387423,-396.9812634689085
+56300,grandepremium,com.br,NA,2020-08-11T00:00:00Z,2015-07-28T00:00:00Z,2022-07-28T00:00:00Z,NA,BR,initial trust,grande premium,13,2,1,1921.490631664917,80.49063171278272,635.5093682438742,555.0187365310915
+56321,hospitalprevina,com.br,NA,2018-05-16T00:00:00Z,2008-03-02T00:00:00Z,2022-03-02T00:00:00Z,NA,BR,initial trust,hospital pre vina,15,3,1,4625.490631664917,898.4906317127827,487.50936824387423,-410.9812634689085
+56326,ibict,br,NA,2020-04-25T00:00:00Z,NA,NA,NA,BR,initial trust,ibi ct,5,2,1,NA,188.49063171278272,NA,NA
+56336,infostore,com.br,NA,2014-01-22T00:00:00Z,2003-02-14T00:00:00Z,2024-02-14T00:00:00Z,NA,BR,initial trust,info store,9,2,1,6468.490631664917,2473.4906317127825,1201.5093682438742,-1271.9812634689083
+56344,isevenstore,com.br,NA,2020-05-10T00:00:00Z,2019-05-30T00:00:00Z,2022-05-30T00:00:00Z,NA,BR,initial trust,i seven store,11,3,1,519.4906316649169,173.49063171278272,576.5093682438742,403.01873653109146
+56353,jesusvoltara,com.br,NA,2019-12-20T00:00:00Z,2001-12-10T00:00:00Z,2020-12-10T00:00:00Z,NA,BR,initial trust,jesus voltar a,12,3,1,6899.490631664917,315.4906317127827,40.50936824387422,-274.9812634689085
+56359,jovempan,com.br,NA,2019-08-29T00:00:00Z,1996-08-13T00:00:00Z,2024-08-13T00:00:00Z,NA,BR,initial trust,jovem pan,8,2,1,8844.490631664918,428.4906317127827,1382.5093682438742,954.0187365310915
+56364,kasvi,com.br,NA,2019-02-23T00:00:00Z,2011-02-22T00:00:00Z,2029-02-22T00:00:00Z,NA,BR,initial trust,kas vi,5,2,1,3538.4906316649167,615.4906317127827,3036.509368243874,2421.0187365310912
+56367,laboratorionasser,com.br,NA,2020-04-02T00:00:00Z,2009-03-19T00:00:00Z,2021-03-19T00:00:00Z,NA,BR,initial trust,laboratorio nas ser,17,3,1,4243.490631664917,211.49063171278272,139.50936824387423,-71.98126346890848
+56410,masterix2,com.br,NA,2020-08-04T00:00:00Z,2007-08-15T00:00:00Z,2021-08-15T00:00:00Z,NA,BR,initial trust,master i x2,9,3,1,4825.490631664917,87.49063171278272,288.50936824387423,201.01873653109152
+56411,mastermaq,com.br,NA,2017-06-23T00:00:00Z,1996-11-18T00:00:00Z,2026-11-18T00:00:00Z,NA,BR,initial trust,mastermaq,9,1,1,8747.490631664918,1225.4906317127827,2209.509368243874,984.0187365310915
+56414,mecanicaindustrial,com.br,NA,2020-06-29T00:00:00Z,2010-06-22T00:00:00Z,2021-06-22T00:00:00Z,NA,BR,initial trust,me cani ca industrial,18,4,1,3783.4906316649167,123.49063171278272,234.50936824387423,111.01873653109152
+56427,meuamericanet,com.br,NA,2020-09-01T00:00:00Z,2019-09-04T00:00:00Z,2024-09-04T00:00:00Z,NA,BR,initial trust,meu american et,13,3,1,422.49063166491686,59.490631712782715,1404.5093682438742,1345.0187365310915
+56445,motulexpert,com.br,NA,2019-04-08T00:00:00Z,2019-04-05T00:00:00Z,2024-04-05T00:00:00Z,NA,BR,initial trust,mot ul expert,11,3,1,574.4906316649169,571.4906317127827,1252.5093682438742,681.0187365310915
+56480,olhardigital,com.br,NA,2020-10-15T00:00:00Z,2003-01-28T00:00:00Z,2026-01-28T00:00:00Z,NA,BR,initial trust,olhar digital,12,2,1,6485.490631664917,15.490631712782713,1915.5093682438742,1900.0187365310915
+56481,olimpia24horas,com.br,NA,2019-05-11T00:00:00Z,2012-05-21T00:00:00Z,2021-05-21T00:00:00Z,NA,BR,initial trust,olimpia 24 horas,14,3,1,3084.4906316649167,538.4906317127827,202.50936824387423,-335.9812634689085
+56494,p4bavaliacao,com.br,NA,2019-05-03T00:00:00Z,2017-12-22T00:00:00Z,2020-12-22T00:00:00Z,NA,BR,initial trust,p4 b avalia cao,12,4,1,1043.490631664917,546.4906317127827,52.50936824387422,-493.9812634689085
+56508,pearsonclinical,com.br,NA,2019-07-02T00:00:00Z,2012-12-10T00:00:00Z,2021-12-10T00:00:00Z,NA,BR,initial trust,pearson clinical,15,2,1,2881.4906316649167,486.4906317127827,405.50936824387423,-80.98126346890848
+56510,pelotas,com.br,NA,2019-09-17T00:00:00Z,1997-07-22T00:00:00Z,2022-07-22T00:00:00Z,NA,BR,initial trust,pelotas,7,1,1,8501.490631664918,409.4906317127827,629.5093682438742,220.01873653109146
+56524,pontomais,com.br,NA,2018-06-16T00:00:00Z,2016-06-19T00:00:00Z,2021-06-19T00:00:00Z,NA,BR,initial trust,ponto mais,9,2,1,1594.490631664917,867.4906317127827,231.50936824387423,-635.9812634689085
+56525,poplembrancinhas,com.br,NA,2020-03-24T00:00:00Z,2018-03-29T00:00:00Z,2021-03-29T00:00:00Z,NA,BR,initial trust,pop le m bran cin has,16,6,1,946.4906316649169,220.49063171278272,149.50936824387423,-70.98126346890848
+56551,projetosdelei,com.br,NA,2020-03-10T00:00:00Z,2004-02-05T00:00:00Z,2021-02-05T00:00:00Z,NA,BR,initial trust,projetos de lei,13,3,1,6112.490631664917,234.49063171278272,97.50936824387422,-136.98126346890848
+56574,remax,com.br,NA,2020-02-07T00:00:00Z,2007-02-25T00:00:00Z,2021-02-25T00:00:00Z,NA,BR,initial trust,remax,5,1,1,4996.490631664917,266.4906317127827,117.50936824387422,-148.98126346890848
+56579,resultados,com.br,NA,2019-06-14T00:00:00Z,1997-06-30T00:00:00Z,2022-06-30T00:00:00Z,NA,BR,initial trust,resultados,10,1,1,8523.490631664918,504.4906317127827,607.5093682438742,103.01873653109146
+56614,selmi,com.br,NA,2018-09-10T00:00:00Z,1999-04-23T00:00:00Z,2023-04-23T00:00:00Z,NA,BR,initial trust,sel mi,5,2,1,7861.490631664917,781.4906317127827,904.5093682438742,123.01873653109146
+56618,senhordoaz,com.br,NA,2020-06-23T00:00:00Z,2020-05-26T00:00:00Z,2021-05-26T00:00:00Z,NA,BR,initial trust,senhor do az,10,3,1,157.49063166491686,129.49063171278272,207.50936824387423,78.01873653109152
+56653,sorteonline,com.br,NA,2019-08-16T00:00:00Z,2003-01-27T00:00:00Z,2028-01-27T00:00:00Z,NA,BR,initial trust,sorte online,11,2,1,6486.490631664917,441.4906317127827,2644.509368243874,2203.0187365310912
+56654,sosergipe,com.br,NA,2020-10-22T00:00:00Z,2012-10-14T00:00:00Z,2021-10-14T00:00:00Z,NA,BR,initial trust,so sergipe,9,2,1,2938.4906316649167,8.490631712782713,348.50936824387423,340.0187365310915
+56684,temalguemassistindo,com.br,NA,2020-01-21T00:00:00Z,2017-02-22T00:00:00Z,2021-02-22T00:00:00Z,NA,BR,initial trust,tema lg u em assist indo,19,6,1,1346.490631664917,283.4906317127827,114.50936824387422,-168.98126346890848
+56715,ufcspa,edu.br,NA,2016-05-06T00:00:00Z,2008-04-02T00:00:00Z,NA,NA,BR,initial trust,ufc spa,6,2,1,4594.490631664917,1638.4906317127827,NA,NA
+56717,ulife,com.br,NA,2020-05-05T00:00:00Z,2014-08-06T00:00:00Z,2021-08-06T00:00:00Z,NA,BR,initial trust,u life,5,2,1,2277.4906316649167,178.49063171278272,279.50936824387423,101.01873653109152
+56720,unifesp,br,NA,2017-02-20T00:00:00Z,2000-04-25T00:00:00Z,NA,NA,BR,initial trust,un if esp,7,3,1,7493.490631664917,1348.4906317127827,NA,NA
+56722,unimep,br,NA,2018-07-11T00:00:00Z,1996-08-27T00:00:00Z,NA,NA,BR,initial trust,uni mep,6,2,1,8830.490631664918,842.4906317127827,NA,NA
+57087,montgomerycollege,edu,NA,NA,NA,NA,NA,NA,initial trust,montgomery college,17,2,1,NA,NA,NA,NA
+57226,une,edu,NA,NA,NA,NA,NA,NA,initial trust,une,3,1,1,NA,NA,NA,NA
+57960,tme,eu,NA,NA,NA,NA,NA,NA,initial trust,t me,3,2,1,NA,NA,NA,NA
+58705,coopbmz,com.br,NA,2020-09-02T00:00:00Z,2018-10-06T00:00:00Z,2021-10-06T00:00:00Z,NA,BR,initial trust,coop bm z,7,3,1,755.4906316649169,58.490631712782715,340.50936824387423,282.0187365310915
+58845,fdu,edu,NA,NA,NA,NA,NA,NA,initial trust,f du,3,2,1,NA,NA,NA,NA
+59587,jumbo,ae,NA,NA,NA,NA,NA,NA,initial trust,jumbo,5,1,1,NA,NA,NA,NA
+59719,hrt,hr,NA,2020-01-29T23:00:00Z,1996-05-07T22:00:00Z,2021-01-29T23:00:00Z,NA,NA,initial trust,hr t,3,2,2,8941.57396499825,274.5322983794494,91.46770157720756,-183.06459680224185
+60026,pfw,edu,NA,NA,NA,NA,NA,NA,initial trust,pf w,3,2,1,NA,NA,NA,NA
+60099,prmaskin,no,NA,2019-12-18T00:00:00Z,2001-11-14T00:00:00Z,NA,NA,NA,initial trust,pr mask in,8,3,1,6925.490631664917,317.4906317127827,NA,NA
+61219,worcester,edu,NA,NA,NA,NA,NA,NA,initial trust,worcester,9,1,1,NA,NA,NA,NA
+61865,delorean,im,NA,NA,NA,2021-08-09T00:59:58Z,NA,NA,initial trust,de lore an,8,3,2,NA,NA,282.55101176239276,NA
+63368,hiperfort,com.br,NA,2020-05-13T00:00:00Z,2011-03-14T00:00:00Z,2021-03-14T00:00:00Z,NA,BR,initial trust,hiper fort,9,2,1,3518.4906316649167,170.49063171278272,134.50936824387423,-35.98126346890848
+63521,infotecblog,com.br,NA,2019-05-28T00:00:00Z,2013-01-06T00:00:00Z,2021-01-06T00:00:00Z,NA,BR,initial trust,info tec blog,11,3,1,2854.4906316649167,521.4906317127827,67.50936824387422,-453.9812634689085
+64784,paris,december.eu,NA,NA,NA,NA,NA,NA,initial trust,paris,5,1,1,NA,NA,NA,NA
+66411,kgm,gov.tr,NA,NA,1998-05-05T00:00:00Z,2021-05-04T00:00:00Z,NA,NA,initial trust,kg m,3,2,1,8214.490631664918,NA,185.50936824387423,NA
+66898,apeejay,edu,NA,NA,NA,NA,NA,NA,initial trust,a pee jay,7,3,1,NA,NA,NA,NA
+67322,ektu,kz,NA,NA,NA,NA,"RGP na PVH Vostochno-Kazahstanskiy Gosudarstvennyy tehnicheskiy universitet im.D.Serikbaeva, 010440002379",NA,initial trust,ek tu,4,2,3,NA,NA,NA,NA
+67379,ms,gov,NA,NA,NA,NA,NA,NA,initial trust,ms,2,1,1,NA,NA,NA,NA
+67490,vetrex,eu,NA,NA,NA,NA,NA,NA,initial trust,vet rex,6,2,1,NA,NA,NA,NA
+67655,valueactive,eu,NA,NA,NA,NA,NA,NA,initial trust,value active,11,2,1,NA,NA,NA,NA
+68596,hs02,kep.tr,NA,NA,2013-01-03T00:00:00Z,2022-01-02T00:00:00Z,NA,NA,initial trust,hs 02,4,2,1,2857.4906316649167,NA,428.50936824387423,NA
+68652,pnu,edu.sa,NA,NA,NA,NA,NA,NA,initial trust,p nu,3,2,5,NA,NA,NA,NA
+68744,baseportal,de,NA,NA,NA,NA,NA,NA,initial trust,base portal,10,2,1,NA,NA,NA,NA
+68871,weber,edu,NA,NA,NA,NA,NA,NA,initial trust,weber,5,1,1,NA,NA,NA,NA
+68939,ktmforum,eu,NA,NA,NA,NA,NA,NA,initial trust,ktm forum,8,2,1,NA,NA,NA,NA
+69510,wego,ae,NA,NA,NA,NA,NA,NA,initial trust,wego,4,1,1,NA,NA,NA,NA
+69884,aku,edu.tr,NA,NA,2002-12-27T00:00:00Z,2020-12-26T00:00:00Z,NA,NA,initial trust,aku,3,1,1,6517.490631664917,NA,56.50936824387422,NA
+69950,homebank,kz,NA,NA,NA,NA,Halyk Savings Bank of Kazakhstan JSC,NA,initial trust,home bank,8,2,4,NA,NA,NA,NA
+70245,dubaitrade,ae,NA,NA,NA,NA,NA,NA,initial trust,dubai trade,10,2,1,NA,NA,NA,NA
+70611,bole,no,NA,2020-04-04T00:00:00Z,2000-04-05T00:00:00Z,NA,NA,NA,initial trust,bo le,4,2,1,7513.490631664917,209.49063171278272,NA,NA
+70625,vintervoll,no,NA,2020-10-18T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,v inter vol l,10,4,1,7655.490631664917,12.490631712782713,NA,NA
+70845,ahrq,gov,NA,NA,NA,NA,NA,NA,initial trust,a hr q,4,3,1,NA,NA,NA,NA
+71065,jeddah,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,jed da h,6,3,3,NA,NA,NA,NA
+71101,letemsvetemapplem,eu,NA,NA,NA,NA,NA,NA,initial trust,le tem svet em apple m,17,6,1,NA,NA,NA,NA
+71602,gopizzago,de,NA,NA,NA,NA,NA,NA,initial trust,go pizza go,9,3,1,NA,NA,NA,NA
+72233,southern,edu,NA,NA,NA,NA,NA,NA,initial trust,southern,8,1,1,NA,NA,NA,NA
+72535,whatson,ae,NA,NA,NA,NA,NA,NA,initial trust,what son,7,2,1,NA,NA,NA,NA
+72556,ibu,edu.tr,NA,NA,2003-01-02T00:00:00Z,2021-01-01T00:00:00Z,NA,NA,initial trust,ibu,3,1,1,6511.490631664917,NA,62.50936824387422,NA
+72889,hitit,edu.tr,NA,NA,2006-09-27T00:00:00Z,2021-09-26T00:00:00Z,NA,NA,initial trust,hit it,5,2,1,5147.490631664917,NA,330.50936824387423,NA
+73032,skinbaron,de,NA,NA,NA,NA,NA,NA,initial trust,skin baron,9,2,1,NA,NA,NA,NA
+73464,ohiolink,edu,NA,NA,NA,NA,NA,NA,initial trust,ohiolink,8,1,1,NA,NA,NA,NA
+73791,lemoyne,edu,NA,NA,NA,NA,NA,NA,initial trust,le moy ne,7,3,1,NA,NA,NA,NA
+73865,gop,edu.tr,NA,NA,1997-12-29T00:00:00Z,2020-12-28T00:00:00Z,NA,NA,initial trust,gop,3,1,1,8341.490631664918,NA,58.50936824387422,NA
+73872,meteo,info.hr,NA,2016-10-04T22:00:00Z,2013-07-14T22:00:00Z,2021-07-14T22:00:00Z,NA,NA,initial trust,meteo,5,1,2,2664.57396499825,1486.573965046116,257.42603491054086,-1229.147930135575
+74342,karabuk,edu.tr,NA,NA,2007-06-12T00:00:00Z,2021-06-11T00:00:00Z,NA,NA,initial trust,k arab uk,7,3,1,4889.490631664917,NA,223.50936824387423,NA
+74532,sanjoseca,gov,NA,NA,NA,NA,NA,NA,initial trust,san jose ca,9,3,1,NA,NA,NA,NA
+75335,jrmcoaching,com.br,NA,2017-11-29T00:00:00Z,2013-10-25T00:00:00Z,2022-10-25T00:00:00Z,NA,BR,initial trust,jr m coaching,11,3,1,2562.4906316649167,1066.4906317127827,724.5093682438742,-341.98126346890854
+75503,simonhessner,de,NA,NA,NA,NA,NA,NA,initial trust,simon hess ner,12,3,1,NA,NA,NA,NA
+75714,aydinlik,com.tr,NA,NA,1999-11-04T00:00:00Z,2024-11-03T00:00:00Z,NA,NA,initial trust,aydin l ik,8,3,1,7666.490631664917,NA,1464.5093682438742,NA
+75770,nsctotal,com.br,NA,2020-01-10T00:00:00Z,2017-08-23T00:00:00Z,2028-08-23T00:00:00Z,NA,BR,initial trust,n sc total,8,3,1,1164.490631664917,294.4906317127827,2853.509368243874,2559.0187365310912
+76338,mkse,eu,NA,NA,NA,NA,NA,NA,initial trust,mk se,4,2,1,NA,NA,NA,NA
+76512,bsmu,edu.ua,NA,NA,NA,NA,NA,NA,initial trust,bs mu,4,2,2,NA,NA,NA,NA
+76654,shop,kz,NA,NA,NA,NA,Belyi Veter KZ Ltd.,NA,initial trust,shop,4,1,4,NA,NA,NA,NA
+76954,tecmundo,com.br,NA,2020-05-16T00:00:00Z,2010-12-03T00:00:00Z,2021-12-03T00:00:00Z,NA,BR,initial trust,tecmundo,8,1,1,3619.4906316649167,167.49063171278272,398.50936824387423,231.01873653109152
+77166,chicagoelections,gov,NA,NA,NA,NA,NA,NA,initial trust,chicago elections,16,2,1,NA,NA,NA,NA
+77743,rp5,kz,NA,NA,NA,NA,Chvilyov Sergey V.,NA,initial trust,rp 5,3,2,3,NA,NA,NA,NA
+77821,dagsavisen,no,NA,2020-01-26T00:00:00Z,2014-02-25T00:00:00Z,NA,NA,NA,initial trust,da gs avisen,10,3,1,2439.4906316649167,278.4906317127827,NA,NA
+77842,prisjakt,no,NA,2020-04-24T00:00:00Z,2014-04-24T00:00:00Z,NA,NA,NA,initial trust,prisjakt,8,1,1,2381.4906316649167,189.49063171278272,NA,NA
+77847,squeeze,no,NA,2020-05-03T00:00:00Z,2018-05-03T00:00:00Z,NA,NA,NA,initial trust,squeeze,7,1,1,911.4906316649169,180.49063171278272,NA,NA
+77872,bigtorrent,eu,NA,NA,NA,NA,NA,NA,initial trust,big torrent,10,2,1,NA,NA,NA,NA
+77875,hauser,eu,NA,NA,NA,NA,NA,NA,initial trust,hauser,6,1,1,NA,NA,NA,NA
+78019,wpi,edu,NA,NA,NA,NA,NA,NA,initial trust,wp i,3,2,1,NA,NA,NA,NA
+78094,educause,edu,NA,NA,NA,NA,NA,NA,initial trust,edu cause,8,2,1,NA,NA,NA,NA
+78106,yusufsezer,com.tr,NA,NA,2016-01-23T00:00:00Z,2025-01-22T00:00:00Z,NA,NA,initial trust,yusuf sez er,10,3,1,1742.490631664917,NA,1544.5093682438742,NA
+78156,mof,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,m of,3,2,5,NA,NA,NA,NA
+78185,hccfl,edu,NA,NA,NA,NA,NA,NA,initial trust,hc cfl,5,2,1,NA,NA,NA,NA
+78194,morehouse,edu,NA,NA,NA,NA,NA,NA,initial trust,more house,9,2,1,NA,NA,NA,NA
+78223,dalmacijadanas,hr,NA,2020-08-23T22:00:00Z,2018-01-04T23:00:00Z,2021-08-23T22:00:00Z,NA,NA,initial trust,dalmacija danas,14,2,2,1029.5322983315834,67.57396504611604,297.42603491054086,229.85206986442483
+78313,cpsc,gov,NA,NA,NA,NA,NA,NA,initial trust,cp sc,4,2,1,NA,NA,NA,NA
+78955,superstep,com.tr,NA,NA,2011-10-05T00:00:00Z,2022-10-04T00:00:00Z,NA,NA,initial trust,super step,9,2,1,3313.4906316649167,NA,703.5093682438742,NA
+79180,icisleri,gov.tr,NA,NA,1998-02-25T00:00:00Z,2021-02-24T00:00:00Z,NA,NA,initial trust,ici sl eri,8,3,1,8283.490631664918,NA,116.50936824387422,NA
+79295,cisjubail,gov.sa,NA,NA,NA,NA,NA,NA,initial trust,cis ju bail,9,3,3,NA,NA,NA,NA
+79415,kentucky,gov,NA,NA,NA,NA,NA,NA,initial trust,kentucky,8,1,1,NA,NA,NA,NA
+79423,ncsbe,gov,NA,NA,NA,NA,NA,NA,initial trust,nc s be,5,3,1,NA,NA,NA,NA
+79470,sparkasse,bremen.de,NA,NA,NA,NA,NA,NA,initial trust,sparkasse,9,1,1,NA,NA,NA,NA
+80073,evkur,com.tr,NA,NA,2000-06-07T00:00:00Z,2024-06-06T00:00:00Z,NA,NA,initial trust,ev kur,5,2,1,7450.490631664917,NA,1314.5093682438742,NA
+80459,osti,gov,NA,NA,NA,NA,NA,NA,initial trust,ost i,4,2,1,NA,NA,NA,NA
+80472,bloomingdales,ae,NA,NA,NA,NA,NA,NA,initial trust,blooming dales,13,2,1,NA,NA,NA,NA
+80484,importancia,de,NA,NA,NA,NA,NA,NA,initial trust,import an cia,11,3,1,NA,NA,NA,NA
+80577,uni,edu,NA,NA,NA,NA,NA,NA,initial trust,uni,3,1,1,NA,NA,NA,NA
+80723,go2android,de,NA,NA,NA,NA,NA,NA,initial trust,go 2 android,10,3,1,NA,NA,NA,NA
+80779,fortworthtexas,gov,NA,NA,NA,NA,NA,NA,initial trust,fort worth texas,14,3,1,NA,NA,NA,NA
+81186,trivago,com.tr,NA,NA,2007-11-21T00:00:00Z,2024-11-20T00:00:00Z,NA,NA,initial trust,trivago,7,1,1,4727.490631664917,NA,1481.5093682438742,NA
+81857,mapp,sa,NA,NA,NA,NA,NA,NA,initial trust,m app,4,2,3,NA,NA,NA,NA
+82181,tcddtasimacilik,gov.tr,NA,NA,2016-06-24T00:00:00Z,2021-06-23T00:00:00Z,NA,NA,initial trust,tc dd tas imac il ik,15,6,1,1589.490631664917,NA,235.50936824387423,NA
+82576,gdpr,eu,NA,NA,NA,NA,NA,NA,initial trust,gd pr,4,2,1,NA,NA,NA,NA
+83001,converter,eu,NA,NA,NA,NA,NA,NA,initial trust,converter,9,1,1,NA,NA,NA,NA
+83809,uindy,edu,NA,NA,NA,NA,NA,NA,initial trust,u indy,5,2,1,NA,NA,NA,NA
+84254,prochile,gob.cl,NA,NA,NA,NA,NA,NA,initial trust,pro chile,8,2,1,NA,NA,NA,NA
+84385,retrade,eu,NA,NA,NA,NA,NA,NA,initial trust,re trade,7,2,1,NA,NA,NA,NA
+84405,ilga,gov,NA,NA,NA,NA,NA,NA,initial trust,ilga,4,1,1,NA,NA,NA,NA
+84416,akdeniz,edu.tr,NA,NA,2002-12-26T00:00:00Z,2020-12-25T00:00:00Z,NA,NA,initial trust,akdeniz,7,1,1,6518.490631664917,NA,55.50936824387422,NA
+84949,maryville,edu,NA,NA,NA,NA,NA,NA,initial trust,maryville,9,1,1,NA,NA,NA,NA
+85201,reisenauer,de,NA,NA,NA,NA,NA,NA,initial trust,reisen au er,10,3,1,NA,NA,NA,NA
+85347,ismmmo,org.tr,NA,NA,1998-09-14T00:00:00Z,2022-09-13T00:00:00Z,NA,NA,initial trust,ism mmo,6,2,1,8082.490631664917,NA,682.5093682438742,NA
+85408,sdbor,edu,NA,NA,NA,NA,NA,NA,initial trust,sd bor,5,2,1,NA,NA,NA,NA
+85412,yesevi,edu.tr,NA,NA,1997-10-03T00:00:00Z,2021-10-02T00:00:00Z,NA,NA,initial trust,yes evi,6,2,1,8428.490631664918,NA,336.50936824387423,NA
+85487,pgfreeads,ae,NA,NA,NA,NA,NA,NA,initial trust,pg freeads,9,2,1,NA,NA,NA,NA
+85513,delta,edu,NA,NA,NA,NA,NA,NA,initial trust,delta,5,1,1,NA,NA,NA,NA
+85849,yello,ae,NA,NA,NA,NA,NA,NA,initial trust,yello,5,1,1,NA,NA,NA,NA
+87937,prima,namjestaj.hr,NA,2020-08-04T22:00:00Z,2008-10-05T22:00:00Z,2021-08-04T22:00:00Z,NA,NA,initial trust,prima,5,1,2,4407.573964998251,86.57396504611604,278.42603491054086,191.85206986442483
+87985,dpdhl,jobs,NA,2019-11-03T15:02:27Z,2008-12-05T14:58:04Z,2020-12-05T14:58:04Z,NA,NA,initial trust,dp dhl,5,2,8,4346.866974257509,361.86393032389384,36.13302565128163,-325.7309046726122
+88478,google,md,NA,NA,NA,2021-05-02T00:00:00Z,NA,NA,initial trust,google,6,1,1,NA,NA,183.50936824387423,NA
+88990,iski,gov.tr,NA,NA,1997-06-05T00:00:00Z,2021-06-04T00:00:00Z,NA,NA,initial trust,i ski,4,2,1,8548.490631664918,NA,216.50936824387423,NA
+89238,game,game.web.tr,NA,NA,2013-02-26T00:00:00Z,2021-02-25T00:00:00Z,NA,NA,initial trust,game,4,1,1,2803.4906316649167,NA,117.50936824387422,NA
+89708,arabcoders,ae,NA,NA,NA,NA,NA,NA,initial trust,arab coders,10,2,1,NA,NA,NA,NA
+89761,nlu,edu.ua,NA,NA,NA,NA,NA,NA,initial trust,nl u,3,2,4,NA,NA,NA,NA
+89929,rapidenetwork,eu,NA,NA,NA,NA,NA,NA,initial trust,rapide network,13,2,1,NA,NA,NA,NA
+90606,npu,edu.ua,NA,NA,NA,NA,NA,NA,initial trust,np u,3,2,3,NA,NA,NA,NA
+90723,guzel,net.tr,NA,NA,2010-05-26T00:00:00Z,2025-05-25T00:00:00Z,NA,NA,initial trust,gu z el,5,3,1,3810.4906316649167,NA,1667.5093682438742,NA
+90752,dha,com.tr,NA,NA,1999-12-10T00:00:00Z,2024-12-09T00:00:00Z,NA,NA,initial trust,dh a,3,2,1,7630.490631664917,NA,1500.5093682438742,NA
+90878,sony,com.tr,NA,NA,1997-08-07T00:00:00Z,2021-08-06T00:00:00Z,NA,NA,initial trust,sony,4,1,1,8485.490631664918,NA,279.50936824387423,NA
+90891,newmexico,gov,NA,NA,NA,NA,NA,NA,initial trust,new mexico,9,2,1,NA,NA,NA,NA
+90899,estrellamountain,edu,NA,NA,NA,NA,NA,NA,initial trust,estrella mountain,16,2,1,NA,NA,NA,NA
+91160,e,history.kz,NA,NA,NA,NA,"OF ""Fond duhovnogo edinstva""",NA,initial trust,e,1,1,3,NA,NA,NA,NA
+91288,northwestu,edu,NA,NA,NA,NA,NA,NA,initial trust,northwest u,10,2,1,NA,NA,NA,NA
+91689,goo,kz,NA,NA,NA,NA,"TOO ""Finist""",NA,initial trust,goo,3,1,2,NA,NA,NA,NA
+91912,iitu,kz,NA,NA,NA,NA,International IT University,NA,initial trust,ii tu,4,2,3,NA,NA,NA,NA
+92040,olimpbet,kz,NA,NA,NA,NA,Kuzin Ivan,NA,initial trust,oli mp bet,8,3,2,NA,NA,NA,NA
+92466,franklincountyohio,gov,NA,NA,NA,NA,NA,NA,initial trust,franklin county ohio,18,3,1,NA,NA,NA,NA
+92499,monroecounty,gov,NA,NA,NA,NA,NA,NA,initial trust,monroe county,12,2,1,NA,NA,NA,NA
+93829,valstybe,eu,NA,NA,NA,NA,NA,NA,initial trust,val st y be,8,4,1,NA,NA,NA,NA
+93989,freakyville,mc.dk,NA,NA,2015-08-25T00:00:00Z,2021-08-31T00:00:00Z,NA,NA,initial trust,freaky ville,11,2,2,1893.490631664917,NA,304.50936824387423,NA
+94219,umaine,edu,NA,NA,NA,NA,NA,NA,initial trust,u maine,6,2,1,NA,NA,NA,NA
+94739,getkansasbenefits,gov,NA,NA,NA,NA,NA,NA,initial trust,get kansas benefits,17,3,1,NA,NA,NA,NA
+94870,boli,no,NA,2020-03-15T00:00:00Z,2012-04-13T00:00:00Z,NA,NA,NA,initial trust,bol i,4,2,1,3122.4906316649167,229.49063171278272,NA,NA
+94873,bygdanytt,no,NA,2020-08-25T00:00:00Z,1999-11-15T00:00:00Z,NA,NA,NA,initial trust,by gda nytt,9,3,1,7655.490631664917,66.49063171278272,NA,NA
+94877,diskusjon,no,NA,2020-07-02T00:00:00Z,2020-07-02T00:00:00Z,NA,NA,NA,initial trust,disk us jon,9,3,1,120.49063166491688,120.49063171278272,NA,NA
+94886,freshfitness,no,NA,2020-03-31T00:00:00Z,2016-03-21T00:00:00Z,NA,NA,NA,initial trust,fresh fitness,12,2,1,1684.490631664917,213.49063171278272,NA,NA
+94896,kristiania,no,NA,2020-05-19T00:00:00Z,2015-12-14T00:00:00Z,NA,NA,NA,initial trust,kristian ia,10,2,1,1782.490631664917,164.49063171278272,NA,NA
+94911,oneco,no,NA,2020-01-23T00:00:00Z,2011-02-11T00:00:00Z,NA,NA,NA,initial trust,on eco,5,2,1,3549.4906316649167,281.4906317127827,NA,NA
+94917,politiet,no,NA,2020-02-13T00:00:00Z,2014-02-13T00:00:00Z,NA,NA,NA,initial trust,poli ti et,8,3,1,2451.4906316649167,260.4906317127827,NA,NA
+95093,zkgmu,kz,NA,NA,NA,NA,Zapadno-Kazahstanskaya gosudarstvennaya medicinskaya akademiya,NA,initial trust,z kg mu,5,3,3,NA,NA,NA,NA
+95173,landbobanken,dk,NA,NA,1997-10-02T00:00:00Z,2020-12-31T00:00:00Z,NA,NA,initial trust,land bo bank en,12,4,2,8429.490631664918,NA,61.50936824387422,NA
+96569,xuk,name,NA,NA,NA,NA,NA,NA,initial trust,x uk,3,2,1,NA,NA,NA,NA
+96672,kapital,kz,NA,NA,NA,NA,"TOO ""Izdatelskij dom Kapital""",NA,initial trust,kapital,7,1,3,NA,NA,NA,NA
+96819,tesu,edu,NA,NA,NA,NA,NA,NA,initial trust,te su,4,2,1,NA,NA,NA,NA
+97600,yourfirm,de,NA,NA,NA,NA,NA,NA,initial trust,your firm,8,2,1,NA,NA,NA,NA
+97969,stcpay,com.sa,NA,NA,NA,NA,NA,NA,initial trust,stc pay,6,2,3,NA,NA,NA,NA
+98137,callbell,eu,NA,NA,NA,NA,NA,NA,initial trust,call bell,8,2,1,NA,NA,NA,NA
+98720,betpawa,ug,NA,NA,NA,NA,Nanovas Limited,Seychellerne,initial trust,bet paw a,7,3,1,NA,NA,NA,NA
+98817,wakehealth,edu,NA,NA,NA,NA,NA,NA,initial trust,wake health,10,2,1,NA,NA,NA,NA
+98836,blinn,edu,NA,NA,NA,NA,NA,NA,initial trust,b linn,5,2,1,NA,NA,NA,NA
+99249,bakeru,edu,NA,NA,NA,NA,NA,NA,initial trust,baker u,6,2,1,NA,NA,NA,NA
+99946,trovit,com.tr,NA,NA,2010-01-28T00:00:00Z,2021-01-27T00:00:00Z,NA,NA,initial trust,trovit,6,1,1,3928.4906316649167,NA,88.50936824387422,NA
+157002,thesaker,is,NA,NA,2015-01-13T00:00:00Z,2022-01-13T00:00:00Z,NA,NA,fake,the saker,8,2,4,2117.4906316649167,NA,439.50936824387423,NA
+306722,alabamavotes,gov,NA,NA,NA,NA,NA,NA,initial trust,alabama votes,12,2,1,NA,NA,NA,NA
+NA,leap2020,eu,NA,NA,NA,NA,NA,NA,fake,leap 2020,8,2,1,NA,NA,NA,NA
+NA,remove,bg (remove.bg),NA,NA,NA,NA,NA,NA,initial trust,remove,6,1,1,NA,NA,NA,NA
+NA,abv,bg (abv.bg),NA,NA,NA,NA,NA,NA,initial trust,a bv,3,2,1,NA,NA,NA,NA
+NA,sp,gov.br,NA,2020-07-23T00:00:00Z,1995-07-06T00:00:00Z,NA,NA,BR,initial trust,sp,2,1,1,9248.490631664918,99.49063171278272,NA,NA
+NA,google,bg (google.bg),NA,NA,NA,NA,NA,NA,initial trust,google,6,1,1,NA,NA,NA,NA
+NA,rj,gov.br,NA,2019-11-01T00:00:00Z,1996-01-29T00:00:00Z,NA,NA,BR,initial trust,rj,2,1,1,9041.490631664918,364.4906317127827,NA,NA
+NA,nova,bg (nova.bg),NA,NA,NA,NA,NA,NA,initial trust,nova,4,1,1,NA,NA,NA,NA
+NA,olx,bg (olx.bg),NA,NA,NA,NA,NA,NA,initial trust,olx,3,1,1,NA,NA,NA,NA
+NA,mg,gov.br,NA,2019-04-05T00:00:00Z,1995-07-27T00:00:00Z,NA,NA,BR,initial trust,mg,2,1,1,9227.490631664918,574.4906317127827,NA,NA
+NA,ce,gov.br,NA,2019-10-25T00:00:00Z,1996-05-27T00:00:00Z,NA,NA,BR,initial trust,ce,2,1,1,8922.490631664918,371.4906317127827,NA,NA
+NA,bazar,bg (bazar.bg),NA,NA,NA,NA,NA,NA,initial trust,bazar,5,1,1,NA,NA,NA,NA
+NA,vesti,bg (vesti.bg),NA,NA,NA,NA,NA,NA,initial trust,vesti,5,1,1,NA,NA,NA,NA
+NA,pr,gov.br,NA,2019-10-28T00:00:00Z,1996-03-18T00:00:00Z,NA,NA,BR,initial trust,pr,2,1,1,8992.490631664918,368.4906317127827,NA,NA
+NA,edu,tw,NA,NA,NA,NA,NA,NA,initial trust,edu,3,1,1,NA,NA,NA,NA
+NA,blitz,bg (blitz.bg),NA,NA,NA,NA,NA,NA,initial trust,blitz,5,1,1,NA,NA,NA,NA
+NA,pa,gov.br,NA,2019-11-29T00:00:00Z,1997-06-02T00:00:00Z,NA,NA,BR,initial trust,pa,2,1,1,8551.490631664918,336.4906317127827,NA,NA
+NA,pe,gov.br,NA,2020-05-07T00:00:00Z,1996-07-10T00:00:00Z,NA,NA,BR,initial trust,pe,2,1,1,8878.490631664918,176.49063171278272,NA,NA
+NA,petel,bg (petel.bg),NA,NA,NA,NA,NA,NA,initial trust,pet el,5,2,1,NA,NA,NA,NA
+NA,rs,gov.br,NA,2018-03-05T00:00:00Z,1996-09-06T00:00:00Z,NA,NA,BR,initial trust,rs,2,1,1,8820.490631664918,970.4906317127827,NA,NA
+NA,winbet,bg (winbet.bg),NA,NA,NA,NA,NA,NA,initial trust,win bet,6,2,1,NA,NA,NA,NA
+NA,shkolo,bg (shkolo.bg),NA,NA,NA,NA,NA,NA,initial trust,sh kol o,6,3,1,NA,NA,NA,NA
+NA,sc,gov.br,NA,2018-02-21T00:00:00Z,NA,NA,NA,BR,initial trust,sc,2,1,1,NA,982.4906317127827,NA,NA
+NA,24chasa,bg (24chasa.bg),NA,NA,NA,NA,NA,NA,initial trust,24 chas a,7,3,1,NA,NA,NA,NA
+NA,btvplus,bg (btvplus.bg),NA,NA,NA,NA,NA,NA,initial trust,b tv plus,7,3,1,NA,NA,NA,NA
+NA,ap,gov.br,NA,2016-03-10T00:00:00Z,1998-10-21T00:00:00Z,NA,NA,BR,initial trust,ap,2,1,1,8045.490631664917,1695.4906317127827,NA,NA
+NA,kanal3,bg (kanal3.bg),NA,NA,NA,NA,NA,NA,initial trust,kanal 3,6,2,1,NA,NA,NA,NA
+NA,xadoshop,bg (xadoshop.bg),NA,NA,NA,NA,NA,NA,initial trust,xa do shop,8,3,1,NA,NA,NA,NA
+NA,skantek,bg (skantek.bg),NA,NA,NA,NA,NA,NA,initial trust,sk an tek,7,3,1,NA,NA,NA,NA
+NA,a1,bg (a1.bg),NA,NA,NA,NA,NA,NA,initial trust,a1,2,1,1,NA,NA,NA,NA
+NA,rbb,bg (rbb.bg),NA,NA,NA,NA,NA,NA,initial trust,rbb,3,1,1,NA,NA,NA,NA
+NA,ba,gov.br,NA,2020-02-06T00:00:00Z,1995-12-27T00:00:00Z,NA,NA,BR,initial trust,ba,2,1,1,9074.490631664918,267.4906317127827,NA,NA
+NA,gabrovonews,bg (gabrovonews.bg),NA,NA,NA,NA,NA,NA,initial trust,ga br ovo news,11,4,1,NA,NA,NA,NA
+NA,smartclassroom,bg (smartclassroom.bg),NA,NA,NA,NA,NA,NA,initial trust,smart classroom,14,2,1,NA,NA,NA,NA
+NA,laptop,bg (laptop.bg),NA,NA,NA,NA,NA,NA,initial trust,laptop,6,1,1,NA,NA,NA,NA
+NA,dnevnik,bg (dnevnik.bg),NA,NA,NA,NA,NA,NA,initial trust,dnevnik,7,1,1,NA,NA,NA,NA
