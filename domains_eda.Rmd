@@ -11,6 +11,8 @@ output:
     number_sections: yes
     toc: yes
     toc_float: yes
+  word_document:
+    toc: yes
 linkcolor: blue
 ---
 # Introduction
@@ -318,8 +320,8 @@ There is more to be revealed as the data enter the modeling stages. However, the
 * The length of a domain name and the number of keywords it uses seem to have a clear bearing on the trust score of a website
 * The United States seems to be the most responsible for domain-affiliated disinformation campaigns, especially those involving fake local news organizations. Russian APTs are not being used to drive this content, most of which seems decidedly American
 * Keyword analysis may be a driving factor in the categorization of disinformation websites
-* For records management, established sites do consistently better at updating and maintaining their registrations. Furthermore, and for untrustworthy domains, their is more of a tendency for expirations to cluster around a mean--this is due to coordination of registrations, such as registering a bunch of fake local news sites all around the same time frame
-* Legitimate sites use appopriate amounts of name servers for their needs. Non-legitimate sites use (more or less) the same number across the board (provided by the registrar)
+* For records management, established sites do consistently better at updating and maintaining their registrations. Furthermore, and for untrustworthy domains, their is more of a tendency for expiration to cluster around a mean--this is due to coordination of registrations, such as registering a bunch of fake local news sites all around the same time frame
+* Legitimate sites use appropriate amounts of name servers for their needs. Non-legitimate sites use (more or less) the same number across the board (provided by the registrar)
 
 This concludes the EDA for the curated data. Next comes modeling!
 
